@@ -12,6 +12,7 @@
 
 <nav>
 	<li><a href="/">home</a></li>
+	<li><a href="/overview">overview</a></li>
 	<!-- {#each data.summaries as { slug, title }}
 		<li><a href="/{slug}">{title}</a></li>
 	{/each} -->

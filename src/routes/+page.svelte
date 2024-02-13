@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	export let data;
 </script>
 
@@ -9,6 +10,6 @@
 
 <ul>
 	{#each data.summaries as { slug, title }}
-		<li><a href="/{slug}">{title}</a></li>
+		<li><a href="{base}/{slug}">{title}</a></li>
 	{/each}
 </ul>
