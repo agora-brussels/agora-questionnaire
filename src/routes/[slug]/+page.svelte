@@ -8,12 +8,12 @@
 
 	let answer: string = $answers[slug];
 
-	function yes() {
-		answer = 'yes';
-	}
-	function no() {
-		answer = 'no';
-	}
+	// function yes() {
+	// 	answer = 'yes';
+	// }
+	// function no() {
+	// 	answer = 'no';
+	// }
 
 	// This reactive statement udpates when answer changes
 	$: answers.update((answers) => {
@@ -25,10 +25,17 @@
 <h1>{data.question.title}</h1>
 <div>{@html data.question.content}</div>
 
-<label>
+{#each ['yes', 'unsure', 'no'] as option}
+	<label>
+		<input type="radio" name="answer" value={option} bind:group={answer} />
+		{option}
+	</label>
+{/each}
+
+<!-- <label>
 	<button on:click={yes}> Yes </button>
 	<button on:click={no}> No </button>
-</label>
+</label> -->
 
 <p>Current answer: {answer}</p>
 

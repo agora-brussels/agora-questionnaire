@@ -1,6 +1,6 @@
 import { questions } from '$lib/data.js';
 
-import type { LayoutServerLoad } from './$types';
+import type { LayoutLoad } from './$types';
 
 export const load = (async () => {
 	return {
@@ -9,4 +9,7 @@ export const load = (async () => {
 			title: post.title
 		}))
 	};
-}) satisfies LayoutServerLoad;
+}) satisfies LayoutLoad;
+
+export const prerender = true;
+export const trailingSlash = 'always';

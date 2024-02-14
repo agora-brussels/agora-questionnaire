@@ -4,6 +4,7 @@ import { writable } from 'svelte/store';
 // Initialise store
 const answers = writable<any>({});
 
+// Run this code only on client, not e.g. during ssr or pre-rendering
 if (browser) {
 	// Load previously saved answers from localStorage
 	const storedAnswers = localStorage.getItem('answers');
