@@ -1,12 +1,12 @@
-import { questions } from '$lib/data.js';
+import participants from '$lib/participants.json';
 
 import type { LayoutLoad } from './$types';
 
 export const load = (async () => {
 	return {
-		summaries: questions.map((post) => ({
-			slug: post.slug,
-			title: post.title
+		themes: participants.themes.map((theme) => ({
+			slug: theme.slug,
+			title: theme.title
 		}))
 	};
 }) satisfies LayoutLoad;

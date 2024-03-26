@@ -1,12 +1,12 @@
 import { error } from '@sveltejs/kit';
-import { questions } from '$lib/data.js';
+import participants from '$lib/participants.json';
 
 export function load({ params }) {
-	const question = questions.find((question) => question.slug === params.slug);
+	const theme = participants.themes.find((theme) => theme.slug === params.slug);
 
-	if (!question) throw error(404);
+	if (!theme) throw error(404);
 
 	return {
-		question
+		theme
 	};
 }

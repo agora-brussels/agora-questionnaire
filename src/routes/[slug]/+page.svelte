@@ -7,25 +7,20 @@
 
 	const slug: string = $page.params.slug;
 
-	let answer: string = $answers[slug];
-
-	// This reactive statement udpates when answer changes
-	$: answers.update((answers) => {
-		answers[slug] = answer;
-		return answers;
-	});
-
 	const next = () => {
 		console.log('Go to next page');
 	};
 </script>
 
-<h1>{data.question.title}</h1>
-<div>{@html data.question.content}</div>
+<h1>{data.theme.title}</h1>
+<div>{@html data.theme.content}</div>
 
-<Options bind:value={answer} on:submit={next} />
+{#each data.theme.questions as question}
+	<h2>{question.title}</h2>
+	<div>{@html question.content}</div>
 
-<p>Current answer: {answer}</p>
+	<Options bind:slug={question.slug} on:submit={next} />
+{/each}
 
 <p>At: {slug}</p>
 <p>Store: {JSON.stringify($answers)}</p>
