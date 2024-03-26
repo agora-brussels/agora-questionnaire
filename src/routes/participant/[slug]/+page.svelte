@@ -28,7 +28,7 @@
 	<p>{@html data.theme.content}</p>
 </hgroup>
 
-{#each data.theme.questions as question}
+{#each data.theme.questions as question (question.slug)}
 	<article>
 		<header>
 			{question.title}

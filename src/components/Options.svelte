@@ -10,11 +10,10 @@
 	// Define answer and look up existing answer in store
 	let answer: string = $answers[slug];
 
-	console.log(slug, answer);
-
 	// Select function to change the answer variable on click
 	const dispatch = createEventDispatcher();
 	const select = (option: string) => () => {
+		console.log('selecting');
 		answer = answer == option ? '' : option;
 		dispatch('submit'); // Not used anymore
 	};
