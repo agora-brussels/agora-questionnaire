@@ -5,10 +5,12 @@
     "button": "Je participe au panel citoyen (ou pas) ?",
     "alt": "Si vous êtes une organisation qui organise un pannel citoyen,",
     "alt_button": "c'est par ici!",
-    "about": "Une initiative du mouvement citoyen Bruxelloix <a href=\"https://agora.brussels\">Agora.brussels</a>"
+    "about": "Une initiative du mouvement politique citoyen bruxellois",
+    "about_button": "agora.brussels"
   },
   "participant": {
     "title": "Participer à un panel",
+    "subtitle": "Questionnaire participant·e processus",
     "content": "<p>\n  Tu es invité à participer à une assemblée / un processus de participation citoyenne? Tu hésites à t'y rendre ? Tu te demandes si l'organisation du processus est sérieuse et permettra de produire des résultats dans un cadre sécurisé ?\n</p>\n<p>\n  Voici 15 questions pour te dire \"oui j'y vais” ou pas.\n</p>\n<p>\n  Avant d'y répondre, nous te conseillons de lire toutes les informations que tu as reçues.<br>\n  Il y aura sans doute des questions sans réponse. Au-delà de cinq questions sans réponse, nous t'invitons à demander des informations complémentaires à la structure en charge de l'organisation.\n</p>\n",
     "button": "Je participe au panel citoyen (ou pas) ?"
   },

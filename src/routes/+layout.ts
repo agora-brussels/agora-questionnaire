@@ -6,11 +6,11 @@ import type { LayoutLoad } from './$types';
 export const load = (async () => {
 	return {
 		pages,
-		participant,
-		themes: participant.themes.map((theme) => ({
-			slug: theme.slug,
-			title: theme.title
-		}))
+		participant
+		// themes: participant.themes.map((theme) => ({
+		// 	slug: theme.slug,
+		// 	title: theme.title
+		// }))
 	};
 }) satisfies LayoutLoad;
 

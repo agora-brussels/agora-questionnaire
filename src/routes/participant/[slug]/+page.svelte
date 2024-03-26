@@ -23,14 +23,22 @@
 	};
 </script>
 
-<h1>{data.theme.title}</h1>
-<div>{@html data.theme.content}</div>
+<hgroup>
+	<h1>{data.theme.title}</h1>
+	<p>{@html data.theme.content}</p>
+</hgroup>
 
 {#each data.theme.questions as question}
-	<h2>{question.title}</h2>
-	<div>{@html question.content}</div>
+	<article>
+		<header>
+			{question.title}
+		</header>
+		<main>
+			<div>{@html question.content}</div>
 
-	<Options bind:slug={question.slug} />
+			<Options bind:slug={question.slug} />
+		</main>
+	</article>
 {/each}
 
 <p>

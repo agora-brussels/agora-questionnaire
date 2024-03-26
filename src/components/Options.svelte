@@ -10,6 +10,8 @@
 	// Define answer and look up existing answer in store
 	let answer: string = $answers[slug];
 
+	console.log(slug, answer);
+
 	// Select function to change the answer variable on click
 	const dispatch = createEventDispatcher();
 	const select = (option: string) => () => {
@@ -24,9 +26,9 @@
 	});
 </script>
 
-<div class="options">
+<div style="margin-top: 20px;" role="group">
 	{#each options as option}
-		<button aria-current={answer === option} on:click={select(option)}
+		<button class={answer === option ? '' : 'outline'} on:click={select(option)}
 			>{option.toUpperCase()}</button
 		>
 	{/each}

@@ -10,9 +10,11 @@ home:
   button: Je participe au panel citoyen (ou pas) ?
   alt: Si vous êtes une organisation qui organise un pannel citoyen, 
   alt_button: c'est par ici!
-  about: Une initiative du mouvement citoyen Bruxelloix <a href="https://agora.brussels">Agora.brussels</a>
+  about: Une initiative du mouvement politique citoyen bruxellois
+  about_button: agora.brussels
 participant:
   title: Participer à un panel
+  subtitle: Questionnaire participant·e processus
   content: |
     <p>
       Tu es invité à participer à une assemblée / un processus de participation citoyenne? Tu hésites à t'y rendre ? Tu te demandes si l'organisation du processus est sérieuse et permettra de produire des résultats dans un cadre sécurisé ?
