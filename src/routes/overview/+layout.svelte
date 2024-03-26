@@ -1,14 +1,12 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	export let data;
 </script>
 
 <nav>
 	<ul>
 		<li>
 			<strong>
-				<a href="/" class="secondary">Home</a> >
-				<a href="{base}/participant" class="contrast">{data.pages.participant.subtitle}</a>
+				<a href="/" class="secondary">Home</a>
 			</strong>
 		</li>
 	</ul>

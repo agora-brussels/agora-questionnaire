@@ -25,7 +25,7 @@
 	});
 </script>
 
-<div style="margin-top: 20px;" role="group">
+<div style="margin-top: 20px; max-width: 600px" role="group">
 	{#each options as option}
 		<button class={answer === option ? '' : 'outline'} on:click={select(option)}
 			>{option.toUpperCase()}</button
