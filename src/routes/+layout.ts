@@ -1,10 +1,13 @@
-import participants from '$lib/participants.json';
+import pages from '$lib/pages.json';
+import participant from '$lib/participant.json';
 
 import type { LayoutLoad } from './$types';
 
 export const load = (async () => {
 	return {
-		themes: participants.themes.map((theme) => ({
+		pages,
+		participant,
+		themes: participant.themes.map((theme) => ({
 			slug: theme.slug,
 			title: theme.title
 		}))

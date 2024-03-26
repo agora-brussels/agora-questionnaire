@@ -2,7 +2,7 @@ title: Questionnaire participant·e processus
 themes: 
   - slug: accessibility
     title: Accessibilité
-    content: pour permettre à tous·te·s de participer pleinement
+    content: Pour permettre à tous·te·s de participer pleinement
     questions:
       - slug: representativeness
         title: Représentativité
@@ -15,7 +15,7 @@ themes:
         content: Des acteur·rice·s de terrain sont-iels invité·e·s à intervenir pour valoriser le résultat et augmenter son implémentation ?
   - slug: organisation
     title: Organisation
-    content: pour inspirer de la confiance
+    content: Pour inspirer de la confiance
     questions:
       - slug: temporality
         title: Temporalité
@@ -54,7 +54,7 @@ themes:
         content: L'information est-elle fournie d'une façon interactive et permet-elle de comprendre la complexité de la thématique? Fait-elle apparaître des contradictions entre les avis d'expert·e·s ?
   - slug: product
     title: Produit et suivi
-    content: pour un produit intégratif et robuste
+    content: Pour un produit intégratif et robuste
     questions: 
       - slug: deliberation
         title: Délibération

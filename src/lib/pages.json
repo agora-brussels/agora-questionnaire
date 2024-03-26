@@ -12,9 +12,9 @@
     "content": "<p>\n  Tu es invité à participer à une assemblée / un processus de participation citoyenne? Tu hésites à t'y rendre ? Tu te demandes si l'organisation du processus est sérieuse et permettra de produire des résultats dans un cadre sécurisé ?\n</p>\n<p>\n  Voici 15 questions pour te dire \"oui j'y vais” ou pas.\n</p>\n<p>\n  Avant d'y répondre, nous te conseillons de lire toutes les informations que tu as reçues.<br>\n  Il y aura sans doute des questions sans réponse. Au-delà de cinq questions sans réponse, nous t'invitons à demander des informations complémentaires à la structure en charge de l'organisation.\n</p>\n",
     "button": "Je participe au panel citoyen (ou pas) ?"
   },
-  "organisation": {
+  "organiser": {
     "title": "Organiser un panel",
     "content": "<p>\n  Vous souhaitez, comme organisation, lancer un processus de participation citoyenne ? Super ! <br>\n  Voici un questionnaire pour vous inviter à penser à l'essentiel avant de commencer cette aventure. Ces questions ont été sélectionnées sur base de 4 ans d'expériences et d'évaluations des Asssemblées Citoyennes Bruxelloises organisées par Agora.Brussels.\n</p>\n<p>\n  Chaque processus participatif est unique grâce à son public, sa question, son territoire et évidemment son design. Il y a toutefois une série de points communs à toutes ces expériences. A travers ce questionnaire, nous souhaitons aider votre organisation à se poser les bonnes questions et vous pousser à vous lancer.\n</p>\n<p>\n  Nul besoin d'avoir donc d'avoir répondu \"oui” à toutes les questions. Mais si vous répondez à l'une d'entre elles par la négative et qu'elle vous semble soulever un point crucial, nous vous invitons à y réfléchir encore.<br>\n  Pour cela, nous offrons des pistes et renvoyons vers notre expérience pour vous inspirer.\n</p>\n<p>\n  Nous vous invitons à pratiquer cette logique d'amélioration dans la durée. Jetez-vous dans l'action lorsque vous avez assez de \"oui” et focalisez-vous sur certains ”oui mais-non mais” ou \"non” à perfectionner lors des éditions suivantes.\n</p>\n",
-    "button": "Bouton call to action: Les bonnes questions avant de se lancer"
+    "button": "Les bonnes questions avant de se lancer"
   }
 }

@@ -14,7 +14,7 @@
 	const dispatch = createEventDispatcher();
 	const select = (option: string) => () => {
 		answer = answer == option ? '' : option;
-		dispatch('submit');
+		dispatch('submit'); // Not used anymore
 	};
 
 	// Update store when answer changes

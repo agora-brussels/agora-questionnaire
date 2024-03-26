@@ -25,7 +25,7 @@ participant:
       Il y aura sans doute des questions sans réponse. Au-delà de cinq questions sans réponse, nous t'invitons à demander des informations complémentaires à la structure en charge de l'organisation.
     </p>
   button: Je participe au panel citoyen (ou pas) ?
-organisation:
+organiser:
   title: Organiser un panel
   content: |
     <p>
@@ -42,4 +42,4 @@ organisation:
     <p>
       Nous vous invitons à pratiquer cette logique d'amélioration dans la durée. Jetez-vous dans l'action lorsque vous avez assez de "oui” et focalisez-vous sur certains ”oui mais-non mais” ou "non” à perfectionner lors des éditions suivantes.
     </p>
-  button: "Bouton call to action: Les bonnes questions avant de se lancer"
+  button: "Les bonnes questions avant de se lancer"
