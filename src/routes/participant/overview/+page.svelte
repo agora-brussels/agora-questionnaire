@@ -6,9 +6,7 @@
 
 	export let data;
 
-	function reset() {
-		answers.set({});
-	}
+	let openResetDialog: boolean = false;
 </script>
 
 <h2>{data.pages.overview.title}</h2>
@@ -30,7 +28,39 @@
 	{JSON.stringify($answers)}
 </div> -->
 
-<button on:click={reset} class="secondary outline">{data.pages.overview.reset}</button>
+<button
+	on:click={() => {
+		console.log(print);
+	}}
+	class="outline">{data.pages.overview.print}</button
+>
+<button
+	on:click={() => {
+		openResetDialog = true;
+	}}
+	class="secondary outline">{data.pages.overview.reset}</button
+>
+
+<dialog open={openResetDialog}>
+	<article>
+		<h2>{data.pages.overview.reset}</h2>
+		<footer>
+			<button
+				on:click={() => {
+					answers.set({});
+					openResetDialog = false;
+				}}
+				class="secondary outline">{data.pages.overview.confirm}</button
+			>
+			<button
+				on:click={() => {
+					openResetDialog = false;
+				}}
+				class="secondary outline">{data.pages.overview.cancel}</button
+			>
+		</footer>
+	</article>
+</dialog>
 
 <img src={img} alt="People" />
 

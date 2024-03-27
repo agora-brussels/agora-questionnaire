@@ -14,11 +14,11 @@ home:
       Tu es invité·e à participer à une assemblée ou un processus de participation citoyenne? Tu hésites à t'y rendre ?
     </p>
     <p>
-      Nous avons créé cet outil pour t'aider à dire <em>"oui j'y vais”</em>, ou pas.
+      En sourcant de nos propres expériences, nous avons créé cet outil pour t'aider à évaluer l'initiative et ainsi à décider: <em>"oui j'y vais”</em>, ou pas.
     </p>
-  button: Evaluons ta participation
-  alt: Vous êtes une organisation qui mettez en place un pannel citoyen?
-  alt_button: C'est par ici.
+  button: Vers l'évaluation
+  alt: Vous mettez en place un pannel citoyen?
+  alt_button: C'est par ici pour les organisations.
 about:
   title: A propos de cette initative
   content: |
@@ -28,6 +28,9 @@ about:
     <p>
       Entre 2019 et 2024, nous avons organisé 4 assemblées citoyennes.
     </p>
+    <p>
+      Cet outil est publié en license libre. Vous pouvez l'utiliser, l'inclure dans votre projet ou l'améliorer. Les données des questions, ainsi que le code source de ce site, sont accessible <a href="https://github.com/agora-brussels/agora-questionnaire/">ici</a>.
+    </p>
 overview:
   title: Aperçu de mes réponses
   content: |
@@ -35,9 +38,12 @@ overview:
       Nous espérons que parcourir ces questions vous a donné quelques clés pour evaluater l'initiative à laquelle vous êtes invité·e.
     </p>
     <p>
-      Voici l'aperçu de vous réponses. Mainentant, le choix est à vous!
+      Voici l'aperçu de vous réponses. <b>Mainentant, le choix est à vous!</b>
     </p>
   reset: Réinitialiser mes réponses
+  confirm: Confirmer
+  cancel: Annuler
+  print: Imprimer un compte-rendu
 participant:
   title: Participer à un panel
   subtitle: Questionnaire participant·e processus

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
 	import Options from '$lib/components/Options.svelte';
 	import img from '$lib/img/14-100.jpg';
@@ -16,14 +17,19 @@
 	};
 </script>
 
+<!-- <nav>
+	<ul>
+		{#each data.participant.themes as theme (theme.slug)}
+			<li>
+				<small>
+					<a href="{base}/participant/{theme.slug}" class="secondary">{theme.title}</a>
+				</small>
+			</li>
+		{/each}
+	</ul>
+</nav> -->
+
 <div style="margin-bottom: 20px">
-	<!-- <select name="select" aria-label="Select" required>
-			{#each data.participant.themes as themeItem}
-				<option disabled={themeItem.slug === themeSlug} selected={themeItem.slug === themeSlug}
-					>{themeItem.title}</option
-				>
-			{/each}
-		</select> -->
 	<div class="container">
 		<div class="content">
 			<hgroup>
@@ -32,7 +38,7 @@
 			</hgroup>
 		</div>
 		<div class="image">
-			<!-- <img src={img} alt="People" style="height: 200px; " /> -->
+			<img src={img} alt="People" style="height: 200px; " />
 		</div>
 	</div>
 </div>
@@ -44,6 +50,12 @@
 		</header>
 		<main>
 			<div>{@html question.content}</div>
+			<!-- <article style="margin-top: 20px"> -->
+			<details>
+				<summary class="outline">En lire plus</summary>
+				<p>...</p>
+			</details>
+			<!-- </article> -->
 			<Options bind:questionSlug={question.slug} />
 		</main>
 	</article>
@@ -95,5 +107,13 @@
 		flex: 1;
 		background-position: center;
 		background-size: cover;
+	}
+
+	details summary {
+		margin-top: 10px;
+	}
+
+	details summary::after {
+		float: left;
 	}
 </style>
