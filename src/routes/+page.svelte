@@ -1,4 +1,5 @@
 <script lang="ts">
+	import img from '$lib/img/32-100.jpg';
 	export let data;
 </script>
 
@@ -13,7 +14,7 @@
 	{data.pages.home.alt} <a href="organiser">{data.pages.home.alt_button}</a>
 </small>
 
-<img src="src/img/32-100.jpg" alt="people" />
+<img src={img} alt="People" />
 
 <!-- <h1>Overview of the themes</h1>
 
