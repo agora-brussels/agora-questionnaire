@@ -1,5 +1,4 @@
 <script lang="ts">
-	import answers from '$lib/store.js';
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import Options from '../../../components/Options.svelte';
@@ -12,7 +11,7 @@
 		goto(data.previousThemeSlug ? '/participant/' + data.previousThemeSlug : '/participant/');
 	};
 	const next = () => {
-		goto(data.nextThemeSlug ? '/participant/' + data.nextThemeSlug : '/overview/');
+		goto(data.nextThemeSlug ? '/participant/' + data.nextThemeSlug : '/participant/overview/');
 	};
 </script>
 
@@ -42,7 +41,7 @@
 		<main>
 			<div>{@html question.content}</div>
 
-			<Options bind:slug={question.slug} />
+			<Options bind:questionSlug={question.slug} />
 		</main>
 	</article>
 {/each}
@@ -52,5 +51,30 @@
 	<button class="outline" on:click={next}>►</button>
 </nav>
 
-<p>At theme: {themeSlug}</p>
-<p>Store: {JSON.stringify($answers)}</p>
+<!-- <p>At theme: {themeSlug}</p>
+<p>Store: {JSON.stringify($answers)}</p> -->
+
+<table>
+	{#each data.participant.themes as theme (theme.slug)}
+		<tr>
+			<td><b>{theme.title}</b></td>
+			{#each theme.questions as question (question.slug)}
+				<td>{question.title}</td>
+			{/each}
+		</tr>
+	{/each}
+</table>
+
+<style>
+	table {
+		display: table;
+		white-space: nowrap;
+		font-size: smaller;
+	}
+	table tr {
+		display: table-cell;
+	}
+	table tr td {
+		display: block;
+	}
+</style>

@@ -5,10 +5,10 @@
 	const options = ['yes', 'unsure', 'no'];
 
 	// Read slug
-	export let slug: string = '';
+	export let questionSlug: string = '';
 
 	// Define answer and look up existing answer in store
-	let answer: string = $answers[slug];
+	let answer: string = $answers[questionSlug];
 
 	// Select function to change the answer variable on click
 	const dispatch = createEventDispatcher();
@@ -20,7 +20,7 @@
 
 	// Update store when answer changes
 	$: answers.update((answers) => {
-		answers[slug] = answer;
+		answers[questionSlug] = answer;
 		return answers;
 	});
 </script>
@@ -31,7 +31,4 @@
 			>{option.toUpperCase()}</button
 		>
 	{/each}
-
-	<!-- <p>At: {slug}</p>
-	<p>Current answer: {answer}</p> -->
 </div>
