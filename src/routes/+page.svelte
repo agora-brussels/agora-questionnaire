@@ -16,14 +16,6 @@
 
 <img src={img} alt="People" />
 
-<!-- <h1>Overview of the themes</h1>
-
-<ul>
-	{#each data.themes as { slug, title }}
-		<li><a href="{base}/{slug}">{title}</a></li>
-	{/each}
-</ul> -->
-
 <style>
 	p {
 		max-width: 600px;

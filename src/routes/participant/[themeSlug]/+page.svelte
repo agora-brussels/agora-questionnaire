@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
-	import Options from '../../../components/Options.svelte';
+	import Options from '$lib/components/Options.svelte';
+	import img from '$lib/img/14-100.jpg';
 
 	export let data;
 
@@ -15,22 +16,25 @@
 	};
 </script>
 
-<div style="margin-bottom: 50px; margin-top: 10px">
-	<nav>
-		<button class="outline" on:click={previous}>◀︎</button>
-		<!-- <select name="select" aria-label="Select" required>
+<div style="margin-bottom: 20px">
+	<!-- <select name="select" aria-label="Select" required>
 			{#each data.participant.themes as themeItem}
 				<option disabled={themeItem.slug === themeSlug} selected={themeItem.slug === themeSlug}
 					>{themeItem.title}</option
 				>
 			{/each}
 		</select> -->
-		<hgroup>
-			<h1>{data.theme.title}</h1>
-			<p>{@html data.theme.content}</p>
-		</hgroup>
-		<button class="outline" on:click={next}>►</button>
-	</nav>
+	<div class="container">
+		<div class="content">
+			<hgroup>
+				<h3>{data.theme.title}</h3>
+				<p>{@html data.theme.content}</p>
+			</hgroup>
+		</div>
+		<div class="image">
+			<!-- <img src={img} alt="People" style="height: 200px; " /> -->
+		</div>
+	</div>
 </div>
 
 {#each data.theme.questions as question (question.slug)}
@@ -40,13 +44,12 @@
 		</header>
 		<main>
 			<div>{@html question.content}</div>
-
 			<Options bind:questionSlug={question.slug} />
 		</main>
 	</article>
 {/each}
 
-<nav>
+<nav style="margin-bottom: 50px">
 	<button class="outline" on:click={previous}>◀︎</button>
 	<button class="outline" on:click={next}>►</button>
 </nav>
@@ -54,7 +57,7 @@
 <!-- <p>At theme: {themeSlug}</p>
 <p>Store: {JSON.stringify($answers)}</p> -->
 
-<table>
+<!-- <table>
 	{#each data.participant.themes as theme (theme.slug)}
 		<tr>
 			<td><b>{theme.title}</b></td>
@@ -76,5 +79,21 @@
 	}
 	table tr td {
 		display: block;
+	}
+</style> -->
+
+<style>
+	.container {
+		display: flex;
+	}
+
+	.content {
+		flex: 3;
+	}
+
+	.image {
+		flex: 1;
+		background-position: center;
+		background-size: cover;
 	}
 </style>

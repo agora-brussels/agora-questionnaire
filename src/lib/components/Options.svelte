@@ -1,8 +1,13 @@
 <script lang="ts">
-	import answers from '$lib/store.js';
+	import answers from '$lib/stores/answers.js';
 	import { createEventDispatcher } from 'svelte';
 
 	const options = ['yes', 'unsure', 'no'];
+	const optionsTranslated = new Map([
+		['yes', 'Oui'],
+		['unsure', 'Incertain'],
+		['no', 'Non']
+	]);
 
 	// Read slug
 	export let questionSlug: string = '';
@@ -13,7 +18,6 @@
 	// Select function to change the answer variable on click
 	const dispatch = createEventDispatcher();
 	const select = (option: string) => () => {
-		console.log('selecting');
 		answer = answer == option ? '' : option;
 		dispatch('submit'); // Not used anymore
 	};
@@ -28,7 +32,7 @@
 <div style="margin-top: 20px; max-width: 600px" role="group">
 	{#each options as option}
 		<button class={answer === option ? '' : 'outline'} on:click={select(option)}
-			>{option.toUpperCase()}</button
+			>{optionsTranslated.get(option)}</button
 		>
 	{/each}
 </div>

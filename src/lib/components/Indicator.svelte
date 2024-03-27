@@ -1,5 +1,5 @@
 <script lang="ts">
-	import answers from '$lib/store.js';
+	import answers from '$lib/stores/answers.js';
 
 	export let questionSlug: string = '';
 
@@ -21,6 +21,7 @@
 		height: 1rem;
 		width: 1rem;
 		border-radius: 20%;
+		margin-right: 0.25rem;
 		display: inline-block;
 	}
 </style>

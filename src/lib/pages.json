@@ -1,19 +1,34 @@
 {
+  "general": {
+    "home": "Acceuil",
+    "about": "A propos",
+    "overview": "Mes réponses",
+    "yes": "Oui",
+    "unsure": "Incertain",
+    "no": "Non",
+    "previousTheme": "Thème précédent",
+    "nextTheme": "Prochain thème"
+  },
   "home": {
     "title": "Bienvenu·e!",
-    "content": "<p>\n  Tu es invité·e à participer à une assemblée ou un processus de participation citoyenne? Tu hésites à t'y rendre ?\n</p>\n<p>\n  Nous avons créé cet outil pour vous aide a dire \"oui j'y vais”, ou pas.\n</p>\n",
-    "button": "Evaluons ma participation!",
+    "content": "<p>\n  Tu es invité·e à participer à une assemblée ou un processus de participation citoyenne? Tu hésites à t'y rendre ?\n</p>\n<p>\n  Nous avons créé cet outil pour t'aider à dire <em>\"oui j'y vais”</em>, ou pas.\n</p>\n",
+    "button": "Evaluons ta participation",
     "alt": "Vous êtes une organisation qui mettez en place un pannel citoyen?",
-    "alt_button": "C'est par ici!"
+    "alt_button": "C'est par ici."
   },
   "about": {
-    "title": "Sur cette initative",
+    "title": "A propos de cette initative",
     "content": "<p>\n  Cette outil a été créer par le mouvement politique citoyen <a href=\"https://agora.brussels\">Agora.Brussels</a>.      \n</p>\n<p>\n  Entre 2019 et 2024, nous avons organisé 4 assemblées citoyennes.\n</p>\n"
+  },
+  "overview": {
+    "title": "Aperçu de mes réponses",
+    "content": "<p>\n  Nous espérons que parcourir ces questions vous a donné quelques clés pour evaluater l'initiative à laquelle vous êtes invité·e.\n</p>\n<p>\n  Voici l'aperçu de vous réponses. Mainentant, le choix est à vous!\n</p>\n",
+    "reset": "Réinitialiser mes réponses"
   },
   "participant": {
     "title": "Participer à un panel",
     "subtitle": "Questionnaire participant·e processus",
-    "content": "<p>\n  Tu es invité à participer à une assemblée / un processus de participation citoyenne? Tu hésites à t'y rendre ? Tu te demandes si l'organisation du processus est sérieuse et permettra de produire des résultats dans un cadre sécurisé ?\n</p>\n<p>\n  Voici 15 questions pour te dire \"oui j'y vais” ou pas.\n</p>\n<p>\n  Avant d'y répondre, nous te conseillons de lire toutes les informations que tu as reçues.<br>\n  Il y aura sans doute des questions sans réponse. Au-delà de cinq questions sans réponse, nous t'invitons à demander des informations complémentaires à la structure en charge de l'organisation.\n</p>\n",
+    "content": "<p>\n  Tu es invité à participer à une assemblée / un processus de participation citoyenne? Tu hésites à t'y rendre ? Tu te demandes si l'organisation du processus est sérieuse et permettra de produire des résultats dans un cadre sécurisé ?\n</p>\n<p>\n  Voici 15 questions pour te dire <em>\"oui j'y vais”<em> ou pas.\n</p>\n<p>\n  Avant d'y répondre, nous te conseillons de lire toutes les informations que tu as reçues.<br>\n  Il y aura sans doute des questions sans réponse. Au-delà de cinq questions sans réponse, nous t'invitons à demander des informations complémentaires à la structure en charge de l'organisation.\n</p>\n",
     "button": "Je participe au panel citoyen (ou pas) ?"
   },
   "organiser": {
