@@ -1,12 +1,14 @@
 {
   "home": {
-    "title": "Bienvenue!",
-    "content": "<p>\n  Tu es invité à participer à une assemblée / un processus de participation citoyenne? Tu hésites à t'y rendre ? Tu te demandes si l'organisation du processus est sérieuse et permettra de produire des résultats dans un cadre sécurisé ?\n</p>\n<p>\n  Cet outil vous aide a dire \"oui j'y vais” ou pas.\n</p>\n",
-    "button": "Je participe au panel citoyen (ou pas) ?",
-    "alt": "Si vous êtes une organisation qui organise un pannel citoyen,",
-    "alt_button": "c'est par ici!",
-    "about": "Une initiative du mouvement politique citoyen bruxellois",
-    "about_button": "agora.brussels"
+    "title": "Bienvenu·e!",
+    "content": "<p>\n  Tu es invité·e à participer à une assemblée ou un processus de participation citoyenne? Tu hésites à t'y rendre ?\n</p>\n<p>\n  Nous avons créé cet outil pour vous aide a dire \"oui j'y vais”, ou pas.\n</p>\n",
+    "button": "Evaluons ma participation!",
+    "alt": "Vous êtes une organisation qui mettez en place un pannel citoyen?",
+    "alt_button": "C'est par ici!"
+  },
+  "about": {
+    "title": "Sur cette initative",
+    "content": "<p>\n  Cette outil a été créer par le mouvement politique citoyen <a href=\"https://agora.brussels\">Agora.Brussels</a>.      \n</p>\n<p>\n  Entre 2019 et 2024, nous avons organisé 4 assemblées citoyennes.\n</p>\n"
   },
   "participant": {
     "title": "Participer à un panel",
