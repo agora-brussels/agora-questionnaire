@@ -23,8 +23,10 @@ about:
       Cette outil a été créer par le mouvement politique citoyen [Agora.Brussels](https://agora.brussels).
 
       Entre 2019 et 2024, nous avons organisé 4 assemblées citoyennes.
-
-      Cet outil est publié en license libre. Vous pouvez l'utiliser, l'inclure dans votre projet ou l'améliorer. Les données des questions, ainsi que le code source de ce site, sont accessible [ici](https://github.com/agora-brussels/agora-questionnaire/).
+      
+      Cet outil est publié sous licence [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). Vous êtes donc autorisé·e à partager ce matériel (le copier, distribuer et communiquer par tous moyens et sous tous formats) selon les conditions suivantes: Attribution, Pas d’Utilisation Commerciale, Pas de modifications.
+      
+      Le code source de ce site es accessible [sur Github](https://github.com/agora-brussels/agora-questionnaire/). Les données des questions sont accessible sous forme structurée [ici](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content).
 overview:
   title: Aperçu de mes réponses
   content: |

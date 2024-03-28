@@ -10,6 +10,11 @@
 	<div>
 		<h2>{data.pages.about.title}</h2>
 		<p>{@html micromark(data.pages.about.content)}</p>
+		<img
+			src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.png"
+			alt="by-nc-nd"
+			width="200"
+		/>
 	</div>
 	<img src={img} alt="People" />
 </div>
