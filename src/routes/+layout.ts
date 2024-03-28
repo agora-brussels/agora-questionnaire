@@ -1,5 +1,5 @@
-import pages from '$lib/content/pages.json';
-import participant from '$lib/content/participant.json';
+import pages from '$lib/content/pages.yml';
+import participant from '$lib/content/participant.yml';
 
 import type { LayoutLoad } from './$types';
 

@@ -1,8 +1,8 @@
 import { error } from '@sveltejs/kit';
-import participants from '$lib/content/participant.json';
+import participants from '$lib/content/participant.yml';
 
 export function load({ params }) {
-	const theme = participants.themes.find((theme) => theme.slug === params.themeSlug);
+	const theme = participants.themes.find((theme: any) => theme.slug === params.themeSlug);
 
 	if (!theme) throw error(404);
 
