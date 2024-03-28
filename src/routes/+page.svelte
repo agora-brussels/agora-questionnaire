@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { micromark } from 'micromark';
 	import img from '$lib/img/32-100.jpg';
 	export let data;
 </script>
@@ -6,7 +7,7 @@
 <div class="grid-container">
 	<div>
 		<h1>{data.pages.home.title}</h1>
-		<p>{@html data.pages.home.content}</p>
+		<p>{@html micromark(data.pages.home.content)}</p>
 		<p style="margin-bottom: 10px">
 			<a href="participant"><button>{data.pages.home.button}</button></a>
 		</p>

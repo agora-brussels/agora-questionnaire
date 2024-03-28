@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { micromark } from 'micromark';
+
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
 
@@ -35,7 +37,7 @@
 >
 	<hgroup>
 		<h3>{data.theme.title}</h3>
-		<p>{@html data.theme.content}</p>
+		<p>{@html micromark(data.theme.content)}</p>
 	</hgroup>
 	<img src={img} alt="People" style="width: 100px; " />
 </div>
@@ -46,7 +48,7 @@
 			{question.title}
 		</header>
 		<main>
-			<div>{@html question.content}</div>
+			<div>{@html micromark(question.content)}</div>
 			<!-- <article style="margin-top: 20px"> -->
 			<details>
 				<summary class="outline">En lire plus</summary>

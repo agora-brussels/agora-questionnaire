@@ -1,8 +1,10 @@
 <script lang="ts">
+	import { micromark } from 'micromark';
+
 	import { base } from '$app/paths';
 	import answers from '$lib/stores/answers.js';
-	import Indicator from '$lib/components/Indicator.svelte';
 	import img from '$lib/img/31-100.jpg';
+	import Indicator from '$lib/components/Indicator.svelte';
 
 	export let data;
 
@@ -11,7 +13,7 @@
 
 <h2>{data.pages.overview.title}</h2>
 
-<p>{@html data.pages.overview.content}</p>
+<p>{@html micromark(data.pages.overview.content)}</p>
 
 <div class="grid-container">
 	{#each data.participant.themes as theme (theme.slug)}

@@ -7,40 +7,31 @@ general:
   no: Non
   previousTheme: Thème précédent
   nextTheme: Prochain thème
-  footer: Un outil de <a href="https://agora.brussels">Agora.Brussels</a>
+  footer: Un outil de [Agora.Brussels](https://agora.brussels).
 home:
   title: Bienvenu·e!
   content: |
-    <p>
-      Tuu es invité·e à participer à une assemblée ou un processus de participation citoyenne? Tu hésites à t'y rendre ?
-    </p>
-    <p>
-      En sourcant de nos propres expériences, nous avons créé cet outil pour t'aider à évaluer l'initiative et ainsi à décider: <em>"oui j'y vais”</em>, ou pas.
-    </p>
+      Tu es invité·e à participer à une assemblée ou un processus de participation citoyenne? Tu hésites à t'y rendre ?
+
+      En sourcant de nos propres expériences, nous avons créé cet outil pour t'aider à évaluer l'initiative et ainsi à décider: *"oui j'y vais"*, ou pas.
   button: Vers l'évaluation
   alt: Vous mettez en place un pannel citoyen?
   alt_button: C'est par ici pour les organisations.
 about:
   title: A propos de cette initative
   content: |
-    <p>
-      Cette outil a été créer par le mouvement politique citoyen <a href="https://agora.brussels">Agora.Brussels</a>.      
-    </p>
-    <p>
+      Cette outil a été créer par le mouvement politique citoyen [Agora.Brussels](https://agora.brussels).
+
       Entre 2019 et 2024, nous avons organisé 4 assemblées citoyennes.
-    </p>
-    <p>
-      Cet outil est publié en license libre. Vous pouvez l'utiliser, l'inclure dans votre projet ou l'améliorer. Les données des questions, ainsi que le code source de ce site, sont accessible <a href="https://github.com/agora-brussels/agora-questionnaire/">ici</a>.
-    </p>
+
+      Cet outil est publié en license libre. Vous pouvez l'utiliser, l'inclure dans votre projet ou l'améliorer. Les données des questions, ainsi que le code source de ce site, sont accessible [ici](https://github.com/agora-brussels/agora-questionnaire/).
 overview:
   title: Aperçu de mes réponses
   content: |
-    <p>
       Nous espérons que parcourir ces questions vous a donné quelques clés pour evaluater l'initiative à laquelle vous êtes invité·e.
-    </p>
-    <p>
-      Voici l'aperçu de vous réponses. <b>Mainentant, le choix est à vous!</b>
-    </p>
+
+      Voici l'aperçu de vous réponses. **Mainentant, le choix est à vous!**
+
   reset: Réinitialiser mes réponses
   confirm: Confirmer
   cancel: Annuler
@@ -49,32 +40,21 @@ participant:
   title: Participer à un panel
   subtitle: Questionnaire participant·e processus
   content: |
-    <p>
       Tu es invité à participer à une assemblée / un processus de participation citoyenne? Tu hésites à t'y rendre ? Tu te demandes si l'organisation du processus est sérieuse et permettra de produire des résultats dans un cadre sécurisé ?
-    </p>
-    <p>
-      Voici 15 questions pour te dire <em>"oui j'y vais”<em> ou pas.
-    </p>
-    <p>
-      Avant d'y répondre, nous te conseillons de lire toutes les informations que tu as reçues.<br>
-      Il y aura sans doute des questions sans réponse. Au-delà de cinq questions sans réponse, nous t'invitons à demander des informations complémentaires à la structure en charge de l'organisation.
-    </p>
+
+      Voici 15 questions pour te dire *"oui j'y vais"* ou pas.
+
+      Avant d'y répondre, nous te conseillons de lire toutes les informations que tu as reçues. Il y aura sans doute des questions sans réponse. Au-delà de cinq questions sans réponse, nous t'invitons à demander des informations complémentaires à la structure en charge de l'organisation.
+
   button: Je participe au panel citoyen (ou pas) ?
 organiser:
   title: Organiser un panel
   content: |
-    <p>
-      Vous souhaitez, comme organisation, lancer un processus de participation citoyenne ? Super ! <br>
-      Voici un questionnaire pour vous inviter à penser à l'essentiel avant de commencer cette aventure. Ces questions ont été sélectionnées sur base de 4 ans d'expériences et d'évaluations des Asssemblées Citoyennes Bruxelloises organisées par Agora.Brussels.
-    </p>
-    <p>
+      Vous souhaitez, comme organisation, lancer un processus de participation citoyenne ? Super ! Voici un questionnaire pour vous inviter à penser à l'essentiel avant de commencer cette aventure. Ces questions ont été sélectionnées sur base de 4 ans d'expériences et d'évaluations des Asssemblées Citoyennes Bruxelloises organisées par Agora.Brussels.
+
       Chaque processus participatif est unique grâce à son public, sa question, son territoire et évidemment son design. Il y a toutefois une série de points communs à toutes ces expériences. A travers ce questionnaire, nous souhaitons aider votre organisation à se poser les bonnes questions et vous pousser à vous lancer.
-    </p>
-    <p>
-      Nul besoin d'avoir donc d'avoir répondu "oui” à toutes les questions. Mais si vous répondez à l'une d'entre elles par la négative et qu'elle vous semble soulever un point crucial, nous vous invitons à y réfléchir encore.<br>
-      Pour cela, nous offrons des pistes et renvoyons vers notre expérience pour vous inspirer.
-    </p>
-    <p>
+
+      Nul besoin d'avoir donc d'avoir répondu "oui” à toutes les questions. Mais si vous répondez à l'une d'entre elles par la négative et qu'elle vous semble soulever un point crucial, nous vous invitons à y réfléchir encore. Pour cela, nous offrons des pistes et renvoyons vers notre expérience pour vous inspirer.
+
       Nous vous invitons à pratiquer cette logique d'amélioration dans la durée. Jetez-vous dans l'action lorsque vous avez assez de "oui” et focalisez-vous sur certains ”oui mais-non mais” ou "non” à perfectionner lors des éditions suivantes.
-    </p>
   button: "Les bonnes questions avant de se lancer"

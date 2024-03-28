@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { micromark } from 'micromark';
 	import { base } from '$app/paths';
 	import lang, { langs } from '$lib/stores/lang.js';
 
@@ -42,7 +43,7 @@
 	>
 		<ul></ul>
 		<ul>
-			<li>{@html data.pages.general.footer}</li>
+			<li>{@html micromark(data.pages.general.footer)}</li>
 		</ul>
 		<ul></ul>
 	</nav>
