@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import participants from '$lib/participant.json';
+import participants from '$lib/content/participant.json';
 
 export function load({ params }) {
 	const theme = participants.themes.find((theme) => theme.slug === params.themeSlug);

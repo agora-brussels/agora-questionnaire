@@ -7,7 +7,8 @@
     "unsure": "Incertain",
     "no": "Non",
     "previousTheme": "Thème précédent",
-    "nextTheme": "Prochain thème"
+    "nextTheme": "Prochain thème",
+    "footer": "Un outil de <a href=\"https://agora.brussels\">Agora.Brussels</a>"
   },
   "home": {
     "title": "Bienvenu·e!",
