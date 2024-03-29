@@ -9,10 +9,10 @@
 		<h6>{data.pages.home.pretitle}</h6>
 		<h1>{data.pages.home.title}</h1>
 		<p>{@html micromark(data.pages.home.content)}</p>
-		<p style="margin-bottom: 10px">
+		<p>
 			<a href="participant/accessibility"><button>{data.pages.home.button}</button></a>
 		</p>
-		<small>
+		<small style="margin-top: 1rem">
 			{data.pages.home.alt} <a href="organiser">{data.pages.home.alt_button}</a>
 		</small>
 	</div>

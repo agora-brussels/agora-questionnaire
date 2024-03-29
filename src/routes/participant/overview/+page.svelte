@@ -2,6 +2,7 @@
 	import { micromark } from 'micromark';
 
 	import { base } from '$app/paths';
+	import { goto } from '$app/navigation';
 	import answers from '$lib/stores/answers.js';
 	import img from '$lib/img/31-100.jpg';
 	import Indicator from '$lib/components/Indicator.svelte';
@@ -36,7 +37,7 @@
 
 		<button
 			on:click={() => {
-				console.log(print);
+				goto(base + '/participant/print');
 			}}
 			class="outline">{data.pages.overview.print}</button
 		>

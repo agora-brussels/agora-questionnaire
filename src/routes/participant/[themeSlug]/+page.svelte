@@ -11,10 +11,12 @@
 	export let data;
 
 	const previous = () => {
-		goto(data.previousThemeSlug ? '/participant/' + data.previousThemeSlug : '/');
+		goto(data.previousThemeSlug ? base + '/participant/' + data.previousThemeSlug : '/');
 	};
 	const next = () => {
-		goto(data.nextThemeSlug ? '/participant/' + data.nextThemeSlug : '/participant/overview/');
+		goto(
+			data.nextThemeSlug ? base + '/participant/' + data.nextThemeSlug : '/participant/overview/'
+		);
 	};
 </script>
 
@@ -62,6 +64,7 @@
 
 <nav style="margin-bottom: 50px">
 	<button class="outline" on:click={previous}>◀︎</button>
+	<p>{data.themeIndex + 1}/{data.participant.themes.length}</p>
 	<button class="outline" on:click={next}>►</button>
 </nav>
 

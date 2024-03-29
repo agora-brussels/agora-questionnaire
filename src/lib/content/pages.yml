@@ -10,13 +10,13 @@ general:
   footer: Un outil de [Agora.Brussels](https://agora.brussels).
 home:
   pretitle: Tiré·e au sort? Tu hésites?
-  title: Décidez sur votre participation à un panel citoyen!
+  title: Décide sur ta participation à un panel citoyen!
   content: |
     Tu es invité·e à participer à une assemblée ou un processus de participation citoyenne? Tu hésites à t'y rendre ? Tu te demandes si l'organisation du processus est sérieuse et permettra de produire des résultats dans un cadre sécurisé ?
 
     En s'appuyant sur ces propres expériences, Agora.Brussels a créé cet outil qui propose **15 questions** sur des caractéristiques clés d'un processus. Cela te permettra de dire *"oui j'y vais"*, ou pas, en plus de confiance.
     
-    Tu es conseillé de lire toutes les informations que tu as reçues avant de commencer. Prêt?
+    Tu es conseillé de lire toutes les informations que tu as reçues avant de commencer.
 
   button: Vers le test!
   alt: Vous mettez en place un panel citoyen?
@@ -36,15 +36,13 @@ about:
     
     Le code source de ce site est accessible [sur Github](https://github.com/agora-brussels/agora-questionnaire/). Les données des questions sont accessibles sous forme structurée [ici](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content).
 overview:
-  title: Aperçu de mes réponses
+  title: Faire un choix suite à ces réponses
   content: |
     Merci d'avoir parcouru tous les thèmes et questions. Nous espérons que cela t'a donné quelques clés lorsque tu considères ta participation à l'initiative à laquelle tu es invité·e.
 
     Il y a sans doute eu des questions dont sans réponse. Au-delà de cinq questions sans réponse, nous t'invitons à demander des informations complémentaires à la structure en charge de l'organisation.
     
     Cet outil n'a pas pour but de décider à ta place. C'est important que chacun·e se décide sur sa propre participation. Comment te sens-tu en regardant ces réponses? Tous les thèmes sont équivalents pour toi, ou il y a en a-t-il un qui est primordial? Regarde tes réponses et pense à ce que tu trouves important. **Maintentant, le choix est à toi!**
-    
-    Voici l'aperçu de tes réponses:
   reset: Réinitialiser mes réponses
   confirm: Confirmer
   cancel: Annuler
