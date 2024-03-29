@@ -6,13 +6,16 @@
 	export let data;
 </script>
 
+<svelte:head>
+	<title>Agora Questionnaire</title>
+</svelte:head>
+
 <header class="container">
 	<nav style="margin-bottom: 30px;">
 		<ul>
 			<li>
 				<strong>
 					<a href="{base}/" class="secondary">{data.pages.general.home}</a>
-					<!-- > <a href="{base}/participant" class="contrast">{data.pages.participant.subtitle}</a> -->
 				</strong>
 			</li>
 		</ul>
