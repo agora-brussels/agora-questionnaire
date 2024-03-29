@@ -1,26 +1,34 @@
 # Agora Questionnaire
 
-Questionnaire for Agora.
+This is the source code for a questionnaire website made by the political citizen collective [Agora.Brussels](https://agora.brussels/).
 
-## Developing
+The questionnaire has two potential audiences:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- **Citizens**, invited to participate in an assembly or participatory process for which they were recently drawn by lot, who are hesitating to participate. For these citizens, the questionnaire helps them question the process setup through 15 questions so they can better decide for themselves.
+- **Organisers** of a future assembly or participatory process. The questionnaire helps future organisers to ask important questions on their own setup, in order to make it more welcoming and effective.
 
-```bash
-npm run dev
+Between 2019 and 2024, Agora organised the [Brussels Citizen Assembly](https://www.assemblee.brussels/?lang=en), the first Brussels political institution made up entirely of citizens drawn by lot. The lessons learned during the preparation, living and evaluation of 4 assembly cycles, by Agora and the participants, form the content of this tool.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+This tool is accessible at [https://questionnaire.agora.brussels](https://questionnaire.agora.brussels/) from 2024 on (until the domain name expires) and will be accessible at [agora-brussel.github.io/agora-questionnaire](https://agora-brussels.github.io/agora-questionnaire) afterwards.
 
-## Building
+## Reuse and license
 
-To create a production version of your app:
+This tool is shared hoping to inspire future participants and organisations. It is published under the [CC CC BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-```bash
-npm run build
-```
+## Developing and building this website yourself
+
+You can build this website yourself, e.g. to host it somewhere, or reuse the content (within the scope of the license).
+
+This website is built with SvelteKit. To develop or build locally, for the repository and follow the instructions below.
+
+### Developing
+
+Install the dependencies with `npm install` and start a development server using `npm run dev -- --open`. You can now make modifications.
+
+### Building
+
+To create a production version of your app, run `npm run build`
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
