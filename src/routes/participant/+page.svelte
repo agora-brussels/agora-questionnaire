@@ -4,7 +4,10 @@
 	export let data;
 </script>
 
-<h2>{data.pages.participant.title}</h2>
+<hgroup>
+	<h2>{data.pages.participant.title}</h2>
+	<h4>{data.pages.participant.subtitle}</h4>
+</hgroup>
 
 <img src={img} alt="People" style="height: 400px; float:right" />
 

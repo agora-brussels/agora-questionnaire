@@ -9,31 +9,42 @@ general:
   nextTheme: Prochain thème
   footer: Un outil de [Agora.Brussels](https://agora.brussels).
 home:
-  title: Bienvenu·e!
+  pretitle: Tiré·e au sort? Tu hésites?
+  title: Décidez sur votre participation à un panel citoyen!
   content: |
-      Tu es invité·e à participer à une assemblée ou un processus de participation citoyenne? Tu hésites à t'y rendre ?
+    Tu es invité·e à participer à une assemblée ou un processus de participation citoyenne? Tu hésites à t'y rendre ? Tu te demandes si l'organisation du processus est sérieuse et permettra de produire des résultats dans un cadre sécurisé ?
 
-      En sourcant de nos propres expériences, nous avons créé cet outil pour t'aider à évaluer l'initiative et ainsi à décider: *"oui j'y vais"*, ou pas.
-  button: Vers l'évaluation
-  alt: Vous mettez en place un pannel citoyen?
+    En s'appuyant sur ces propres expériences, Agora.Brussels a créé cet outil qui propose **15 questions** sur des caractéristiques clés d'un processus. Cela te permettra de dire *"oui j'y vais"*, ou pas, en plus de confiance.
+    
+    Tu es conseillé de lire toutes les informations que tu as reçues avant de commencer. Prêt?
+
+  button: Vers le test!
+  alt: Vous mettez en place un panel citoyen?
   alt_button: C'est par ici pour les organisations.
 about:
-  title: A propos de cette initative
+  title: A propos de cet outil
   content: |
-      Cette outil a été créer par le mouvement politique citoyen [Agora.Brussels](https://agora.brussels).
+    Cet outil a été créé par le mouvement politique citoyen [Agora.Brussels](https://agora.brussels).
 
-      Entre 2019 et 2024, nous avons organisé 4 assemblées citoyennes.
-      
-      Cet outil est publié sous licence [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). Vous êtes donc autorisé·e à partager ce matériel (le copier, distribuer et communiquer par tous moyens et sous tous formats) selon les conditions suivantes: Attribution, Pas d’Utilisation Commerciale, Pas de modifications.
-      
-      Le code source de ce site es accessible [sur Github](https://github.com/agora-brussels/agora-questionnaire/). Les données des questions sont accessible sous forme structurée [ici](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content).
+    Entre 2019 et 2024, Agora.Brussels a organisé l'[Assemblée Citoyenne Bruxelloise](https://www.assemblee.brussels/) - la première institution politique bruxelloise constituée entièrement de citoyen·nes tirés au sort. Lors de 4 cycles, les membres ont délibéré sur des sujets relevant de la compétence de la région bruxelloise.
+    
+    Préparer, vivre et évaluer ces 4 cycles d'assemblée, ensemble avec les participants, Agora.Brussels a beaucoup appris sur ce qui peut apporter à une organisation qui favorise la représentativité, la délibération et la participation. Via cet outil, avec sa partie pour futurs participants et pour futurs organisateurs, Agora.Brussels veut partager et rendre utile ces apprentissages.
+    
+    ##### Réutilisation
+
+    Cet outil est publié sous licence [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). Vous êtes donc autorisé·e à partager ce matériel (le copier, distribuer et communiquer par tous moyens et sous tous formats) selon les conditions suivantes: Attribution, Pas d'Utilisation Commerciale, Pas de modifications.
+    
+    Le code source de ce site est accessible [sur Github](https://github.com/agora-brussels/agora-questionnaire/). Les données des questions sont accessibles sous forme structurée [ici](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content).
 overview:
   title: Aperçu de mes réponses
   content: |
-      Nous espérons que parcourir ces questions vous a donné quelques clés pour evaluater l'initiative à laquelle vous êtes invité·e.
+    Merci d'avoir parcouru tous les thèmes et questions. Nous espérons que cela t'a donné quelques clés lorsque tu considères ta participation à l'initiative à laquelle tu es invité·e.
 
-      Voici l'aperçu de vous réponses. **Mainentant, le choix est à vous!**
-
+    Il y a sans doute eu des questions dont sans réponse. Au-delà de cinq questions sans réponse, nous t'invitons à demander des informations complémentaires à la structure en charge de l'organisation.
+    
+    Cet outil n'a pas pour but de décider à ta place. C'est important que chacun·e se décide sur sa propre participation. Comment te sens-tu en regardant ces réponses? Tous les thèmes sont équivalents pour toi, ou il y a en a-t-il un qui est primordial? Regarde tes réponses et pense à ce que tu trouves important. **Maintentant, le choix est à toi!**
+    
+    Voici l'aperçu de tes réponses:
   reset: Réinitialiser mes réponses
   confirm: Confirmer
   cancel: Annuler
@@ -42,21 +53,16 @@ participant:
   title: Participer à un panel
   subtitle: Questionnaire participant·e processus
   content: |
-      Tu es invité à participer à une assemblée / un processus de participation citoyenne? Tu hésites à t'y rendre ? Tu te demandes si l'organisation du processus est sérieuse et permettra de produire des résultats dans un cadre sécurisé ?
-
-      Voici 15 questions pour te dire *"oui j'y vais"* ou pas.
-
-      Avant d'y répondre, nous te conseillons de lire toutes les informations que tu as reçues. Il y aura sans doute des questions sans réponse. Au-delà de cinq questions sans réponse, nous t'invitons à demander des informations complémentaires à la structure en charge de l'organisation.
 
   button: Je participe au panel citoyen (ou pas) ?
 organiser:
   title: Organiser un panel
   content: |
-      Vous souhaitez, comme organisation, lancer un processus de participation citoyenne ? Super ! Voici un questionnaire pour vous inviter à penser à l'essentiel avant de commencer cette aventure. Ces questions ont été sélectionnées sur base de 4 ans d'expériences et d'évaluations des Asssemblées Citoyennes Bruxelloises organisées par Agora.Brussels.
+    Vous souhaitez, comme organisation, lancer un processus de participation citoyenne ? Super ! Voici un questionnaire pour vous inviter à penser à l'essentiel avant de commencer cette aventure. Ces questions ont été sélectionnées sur base de 4 ans d'expériences et d'évaluations des Asssemblées Citoyennes Bruxelloises organisées par Agora.Brussels.
 
-      Chaque processus participatif est unique grâce à son public, sa question, son territoire et évidemment son design. Il y a toutefois une série de points communs à toutes ces expériences. A travers ce questionnaire, nous souhaitons aider votre organisation à se poser les bonnes questions et vous pousser à vous lancer.
+    Chaque processus participatif est unique grâce à son public, sa question, son territoire et évidemment son design. Il y a toutefois une série de points communs à toutes ces expériences. A travers ce questionnaire, nous souhaitons aider votre organisation à se poser les bonnes questions et vous pousser à vous lancer.
 
-      Nul besoin d'avoir donc d'avoir répondu "oui” à toutes les questions. Mais si vous répondez à l'une d'entre elles par la négative et qu'elle vous semble soulever un point crucial, nous vous invitons à y réfléchir encore. Pour cela, nous offrons des pistes et renvoyons vers notre expérience pour vous inspirer.
+    Nul besoin d'avoir donc d'avoir répondu "oui” à toutes les questions. Mais si vous répondez à l'une d'entre elles par la négative et qu'elle vous semble soulever un point crucial, nous vous invitons à y réfléchir encore. Pour cela, nous offrons des pistes et renvoyons vers notre expérience pour vous inspirer.
 
-      Nous vous invitons à pratiquer cette logique d'amélioration dans la durée. Jetez-vous dans l'action lorsque vous avez assez de "oui” et focalisez-vous sur certains ”oui mais-non mais” ou "non” à perfectionner lors des éditions suivantes.
+    Nous vous invitons à pratiquer cette logique d'amélioration dans la durée. Jetez-vous dans l'action lorsque vous avez assez de "oui” et focalisez-vous sur certains ”oui mais-non mais” ou "non” à perfectionner lors des éditions suivantes.
   button: "Les bonnes questions avant de se lancer"
