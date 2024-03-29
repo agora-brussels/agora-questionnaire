@@ -5,6 +5,7 @@ general:
   yes: Oui
   unsure: Incertain
   no: Non
+  theme: Thème
   previousTheme: Thème précédent
   nextTheme: Prochain thème
   footer: Un outil de [Agora.Brussels](https://agora.brussels).
@@ -47,12 +48,6 @@ overview:
   confirm: Confirmer
   cancel: Annuler
   print: Imprimer un compte-rendu
-participant:
-  title: Participer à un panel
-  subtitle: Questionnaire participant·e processus
-  content: |
-
-  button: Je participe au panel citoyen (ou pas) ?
 organiser:
   title: Organiser un panel
   content: |

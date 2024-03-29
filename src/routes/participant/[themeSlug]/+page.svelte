@@ -9,15 +9,6 @@
 	import img from '$lib/img/14-100.jpg';
 
 	export let data;
-
-	const previous = () => {
-		goto(data.previousThemeSlug ? base + '/participant/' + data.previousThemeSlug : '/');
-	};
-	const next = () => {
-		goto(
-			data.nextThemeSlug ? base + '/participant/' + data.nextThemeSlug : '/participant/overview/'
-		);
-	};
 </script>
 
 <nav>
@@ -37,8 +28,9 @@
 	display: grid;
 	grid-template-columns: 4fr 1fr;"
 >
+	<p>{data.participant.hint}</p>
 	<hgroup>
-		<h3>{data.theme.title}</h3>
+		<h3>{data.pages.general.theme}: {data.theme.title}</h3>
 		<p>{@html micromark(data.theme.content)}</p>
 	</hgroup>
 	<img src={img} alt="People" style="width: 100px; " />
@@ -63,9 +55,29 @@
 {/each}
 
 <nav style="margin-bottom: 50px">
-	<button class="outline" on:click={previous}>◀︎</button>
+	<div>
+		<button
+			class="outline"
+			on:click={() => {
+				goto(data.previousThemeSlug ? base + '/participant/' + data.previousThemeSlug : '/');
+			}}>◀︎</button
+		>
+		{data.previousThemeSlug ? data.pages.general.previousTheme : data.pages.general.home}
+	</div>
 	<p>{data.themeIndex + 1}/{data.participant.themes.length}</p>
-	<button class="outline" on:click={next}>►</button>
+	<div>
+		{data.nextThemeSlug ? data.pages.general.nextTheme : data.pages.general.overview}
+		<button
+			class="outline"
+			on:click={() => {
+				goto(
+					data.nextThemeSlug
+						? base + '/participant/' + data.nextThemeSlug
+						: '/participant/overview/'
+				);
+			}}>►</button
+		>
+	</div>
 </nav>
 
 <style>
