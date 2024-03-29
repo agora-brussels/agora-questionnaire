@@ -11,7 +11,7 @@
 	export let data;
 
 	const previous = () => {
-		goto(data.previousThemeSlug ? '/participant/' + data.previousThemeSlug : '/participant/');
+		goto(data.previousThemeSlug ? '/participant/' + data.previousThemeSlug : '/');
 	};
 	const next = () => {
 		goto(data.nextThemeSlug ? '/participant/' + data.nextThemeSlug : '/participant/overview/');
