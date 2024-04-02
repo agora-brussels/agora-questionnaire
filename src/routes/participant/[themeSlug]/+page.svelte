@@ -11,7 +11,7 @@
 	export let data;
 </script>
 
-<nav>
+<!-- <nav>
 	<ul>
 		{#each data.participant.themes as theme (theme.slug)}
 			<li>
@@ -21,19 +21,28 @@
 			</li>
 		{/each}
 	</ul>
-</nav>
+</nav> -->
 
-<div
-	style="
+<div>
+	<div
+		style="
 	display: grid;
-	grid-template-columns: 4fr 1fr;"
->
-	<p>{data.participant.hint}</p>
-	<hgroup>
+	grid-template-columns: auto 6rem"
+	>
+		<article style="max-width: 400px; margin-left: 3rem; margin-bottom: 3rem; justify-self: end;">
+			<div style="display: flex">
+				<div style="margin-top: 0.3rem; margin-right: 1rem">💡</div>
+				<div style="font-size:smaller; color:gray">
+					{data.participant.hint}
+				</div>
+			</div>
+		</article>
+		<img src={img} alt="People" style="height: 150px; margin-left: 2rem" />
+	</div>
+	<hgroup style="margin-left: 2rem">
 		<h3>{data.pages.general.theme}: {data.theme.title}</h3>
 		<p>{@html micromark(data.theme.content)}</p>
 	</hgroup>
-	<img src={img} alt="People" style="width: 100px; " />
 </div>
 
 {#each data.theme.questions as question (question.slug)}
@@ -58,17 +67,19 @@
 	<div>
 		<button
 			class="outline"
+			style="margin-right:1rem"
 			on:click={() => {
 				goto(data.previousThemeSlug ? base + '/participant/' + data.previousThemeSlug : '/');
 			}}>◀︎</button
 		>
 		{data.previousThemeSlug ? data.pages.general.previousTheme : data.pages.general.home}
 	</div>
-	<p>{data.themeIndex + 1}/{data.participant.themes.length}</p>
+	<p style="margin-top:0.75rem">{data.themeIndex + 1}/{data.participant.themes.length}</p>
 	<div>
 		{data.nextThemeSlug ? data.pages.general.nextTheme : data.pages.general.overview}
 		<button
 			class="outline"
+			style="margin-left:1rem"
 			on:click={() => {
 				goto(
 					data.nextThemeSlug

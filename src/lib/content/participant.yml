@@ -10,7 +10,7 @@ themes:
       - slug: inclusion
         title: Inclusion
         content: L'organisation a-t-elle veillé à supprimer/diminuer les barrières empêchant certaines personnes de participer (rémunération et accessibilité physique, mentale, émotionnelle, linguistique, etc.) ?
-      - slug: stakeholder
+      - slug: stakeholders
         title: Parties prenantes
         content: Des acteur·rice·s de terrain sont-iels invité·e·s à intervenir pour valoriser le résultat et augmenter son implémentation ?
   - slug: organisation
