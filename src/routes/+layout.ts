@@ -1,12 +1,10 @@
-import pages from '$lib/content/pages.yml';
-import participant from '$lib/content/participant.yml';
+import pagesContent from '$lib/content/pagesContent.yml';
 
 import type { LayoutLoad } from './$types';
 
 export const load = (async () => {
 	return {
-		pages,
-		participant
+		pagesContent
 	};
 }) satisfies LayoutLoad;
 

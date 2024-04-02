@@ -6,14 +6,14 @@
 
 <div class="grid-container">
 	<div>
-		<h6>{data.pages.home.pretitle}</h6>
-		<h1>{data.pages.home.title}</h1>
-		<p>{@html micromark(data.pages.home.content)}</p>
+		<h6>{data.pagesContent.home.pretitle}</h6>
+		<h1>{data.pagesContent.home.title}</h1>
+		<p>{@html micromark(data.pagesContent.home.content)}</p>
 		<p>
-			<a href="participant/accessibility"><button>{data.pages.home.button}</button></a>
+			<a href="participant/accessibility"><button>{data.pagesContent.home.button}</button></a>
 		</p>
 		<small style="margin-top: 1rem">
-			{data.pages.home.alt} <a href="organiser">{data.pages.home.alt_button}</a>
+			{data.pagesContent.home.alt} <a href="organiser">{data.pagesContent.home.alt_button}</a>
 		</small>
 	</div>
 	<img src={img} alt="People" />

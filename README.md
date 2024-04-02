@@ -19,7 +19,7 @@ This tool is shared hoping to inspire future participants and organisations. It 
 
 You can build this website yourself, e.g. to host it somewhere, or reuse the content (within the scope of the license).
 
-This website is built with SvelteKit. To develop or build locally, for the repository and follow the instructions below.
+This website is built with SvelteKit. To develop or build locally, fork the repository and follow the instructions below.
 
 ### Developing
 

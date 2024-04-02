@@ -14,11 +14,11 @@
 
 <div class="grid-container">
 	<div>
-		<h2>{data.pages.overview.title}</h2>
-		<p>{@html micromark(data.pages.overview.content)}</p>
+		<h2>{data.pagesContent.overview.title}</h2>
+		<p>{@html micromark(data.pagesContent.overview.content)}</p>
 
 		<div class="overview-grid-container">
-			{#each data.participant.themes as theme (theme.slug)}
+			{#each data.participantOrOrganiserContent.themes as theme (theme.slug)}
 				<div>
 					<p><a href="{base}/participant/{theme.slug}">{theme.title}</a></p>
 					{#each theme.questions as question (question.slug)}
@@ -39,13 +39,13 @@
 			on:click={() => {
 				goto(base + '/participant/print');
 			}}
-			class="outline">{data.pages.overview.print}</button
+			class="outline">{data.pagesContent.overview.print}</button
 		>
 		<button
 			on:click={() => {
 				openResetDialog = true;
 			}}
-			class="secondary outline">{data.pages.overview.reset}</button
+			class="secondary outline">{data.pagesContent.overview.reset}</button
 		>
 	</div>
 
@@ -59,20 +59,20 @@
 
 <dialog open={openResetDialog}>
 	<article>
-		<h2>{data.pages.overview.reset}</h2>
+		<h2>{data.pagesContent.overview.reset}</h2>
 		<footer>
 			<button
 				on:click={() => {
 					openResetDialog = false;
 				}}
-				class="secondary outline">{data.pages.overview.cancel}</button
+				class="secondary outline">{data.pagesContent.overview.cancel}</button
 			>
 			<button
 				on:click={() => {
 					answers.set({});
 					openResetDialog = false;
 				}}
-				class="outline">{data.pages.overview.confirm}</button
+				class="outline">{data.pagesContent.overview.confirm}</button
 			>
 		</footer>
 	</article>

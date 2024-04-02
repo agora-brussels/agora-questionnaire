@@ -13,13 +13,13 @@
 
 <div class="print-grid-container">
 	<div>
-		<h6>{data.pages.home.pretitle}</h6>
-		<h1>{data.pages.home.title}</h1>
-		<p>{@html micromark(data.pages.home.content)}</p>
+		<h6>{data.pagesContent.home.pretitle}</h6>
+		<h1>{data.pagesContent.home.title}</h1>
+		<p>{@html micromark(data.pagesContent.home.content)}</p>
 	</div>
 
 	<div>
-		{#each data.participant.themes as theme (theme.slug)}
+		{#each data.participantOrOrganiserContent.themes as theme (theme.slug)}
 			<div style="margin-top: 4rem; margin-bottom: 4rem">
 				<hgroup>
 					<h3>{theme.title}</h3>
@@ -42,15 +42,15 @@
 	</div>
 
 	<div>
-		<h2>{data.pages.overview.title}</h2>
-		<p>{@html micromark(data.pages.overview.content)}</p>
+		<h2>{data.pagesContent.overview.title}</h2>
+		<p>{@html micromark(data.pagesContent.overview.content)}</p>
 	</div>
 
 	<hr />
 
 	<div>
-		<h2>{data.pages.about.title}</h2>
-		<p>{@html micromark(data.pages.about.content)}</p>
+		<h2>{data.pagesContent.about.title}</h2>
+		<p>{@html micromark(data.pagesContent.about.content)}</p>
 	</div>
 </div>
 

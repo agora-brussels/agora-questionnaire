@@ -5,6 +5,7 @@ general:
   yes: Oui
   unsure: Incertain
   no: Non
+  more: En lire plus...
   theme: Thème
   previousTheme: Thème précédent
   nextTheme: Prochain thème

@@ -15,14 +15,16 @@
 		<ul>
 			<li>
 				<strong>
-					<a href="{base}/" class="secondary">{data.pages.general.home}</a>
+					<a href="{base}/" class="secondary">{data.pagesContent.general.home}</a>
 				</strong>
 			</li>
 		</ul>
 		<ul>
-			<li><a href="{base}/about" class="secondary">{data.pages.general.about}</a></li>
+			<li><a href="{base}/about" class="secondary">{data.pagesContent.general.about}</a></li>
 			<li>
-				<a href="{base}/participant/overview" class="secondary">{data.pages.general.overview}</a>
+				<a href="{base}/participant/overview" class="secondary"
+					>{data.pagesContent.general.overview}</a
+				>
 			</li>
 			<li>
 				<select bind:value={$lang}>
@@ -46,7 +48,7 @@
 	>
 		<ul></ul>
 		<ul>
-			<li>{@html micromark(data.pages.general.footer)}</li>
+			<li>{@html micromark(data.pagesContent.general.footer)}</li>
 		</ul>
 		<ul></ul>
 	</nav>
