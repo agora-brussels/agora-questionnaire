@@ -12,13 +12,13 @@
 </script>
 
 <div>
-	{#if data.participantOrOrganiserContent.hint}
+	{#if data.participantContent.hint}
 		<div style="display: grid; grid-template-columns: auto 6rem">
 			<article style="max-width: 400px; margin-left: 3rem; margin-bottom: 3rem; justify-self: end;">
 				<div style="display: flex">
 					<div style="margin-top: 0.3rem; margin-right: 1rem">💡</div>
 					<div style="font-size:smaller; color:gray">
-						{data.participantOrOrganiserContent.hint}
+						{data.participantContent.hint}
 					</div>
 				</div>
 			</article>
@@ -38,12 +38,10 @@
 		</header>
 		<main>
 			<div>{@html micromark(question.content)}</div>
-			{#if data.participantOrOrganiser == 'organiser'}
-				<details>
-					<summary class="outline">{data.pagesContent.general.more}</summary>
-					<small>{@html micromark(question.more)}</small>
-				</details>
-			{/if}
+			<!-- <details>
+				<summary class="outline">{data.pagesContent.general.more}</summary>
+				<small>{@html micromark(question.more)}</small>
+			</details> -->
 			<Options bind:questionSlug={question.slug} />
 		</main>
 	</article>
@@ -55,11 +53,7 @@
 			class="outline"
 			style="margin-right:1rem"
 			on:click={() => {
-				goto(
-					data.previousThemeSlug
-						? base + '/' + data.participantOrOrganiser + '/' + data.previousThemeSlug
-						: '/'
-				);
+				goto(data.previousThemeSlug ? base + '/participant/' + data.previousThemeSlug : '/');
 			}}
 			>◀︎ {data.previousThemeSlug
 				? data.pagesContent.general.previousTheme
@@ -67,7 +61,7 @@
 		>
 	</div>
 	<p style="margin-top:0.75rem">
-		{data.themeIndex + 1}/{data.participantOrOrganiserContentThemes.length}
+		{data.themeIndex + 1}/{data.participantContent.themes.length}
 	</p>
 	<div>
 		<button
@@ -76,8 +70,8 @@
 			on:click={() => {
 				goto(
 					data.nextThemeSlug
-						? base + '/' + data.participantOrOrganiser + '/' + data.nextThemeSlug
-						: '/' + data.participantOrOrganiser + '/overview/'
+						? base + '/participant/' + data.nextThemeSlug
+						: '/participant/overview/'
 				);
 			}}
 			>{data.nextThemeSlug
@@ -88,10 +82,10 @@
 </nav>
 
 <style>
-	details summary {
+	/* details summary {
 		margin-top: 10px;
 	}
 	details summary::after {
 		float: left;
-	}
+	} */
 </style>

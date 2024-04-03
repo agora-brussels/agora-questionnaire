@@ -19,7 +19,7 @@
 	</div>
 
 	<div>
-		{#each data.participantOrOrganiserContent.themes as theme (theme.slug)}
+		{#each data.participantContent.themes as theme (theme.slug)}
 			<div style="margin-top: 4rem; margin-bottom: 4rem">
 				<hgroup>
 					<h3>{theme.title}</h3>

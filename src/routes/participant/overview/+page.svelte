@@ -18,7 +18,7 @@
 		<p>{@html micromark(data.pagesContent.overview.content)}</p>
 
 		<div class="overview-grid-container">
-			{#each data.participantOrOrganiserContent.themes as theme (theme.slug)}
+			{#each data.participantContent.themes as theme (theme.slug)}
 				<div>
 					<p><a href="{base}/participant/{theme.slug}">{theme.title}</a></p>
 					{#each theme.questions as question (question.slug)}
