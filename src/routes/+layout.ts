@@ -4,45 +4,52 @@ import organiserContent from '$lib/content/organiserContent.yml';
 
 import type { LayoutLoad } from './$types';
 
+type OrganiserContent = {
+	chapters: any;
+	themes: any;
+	questions: any;
+};
+
 export const load = (async () => {
-	const organiserContentWithThemes = {
+	let organiserContentImproved = {
 		...organiserContent,
-		themes: organiserContent.chapters
-			.map((chapter: any) =>
-				chapter.themes.map((theme: any) => {
+		chapters: organiserContent.chapters.map((chapter: any) => {
+			return {
+				...chapter,
+				themes: chapter.themes.map((theme: any) => {
 					return {
 						...theme,
 						chapterSlug: chapter.slug,
 						chapterTitle: chapter.title,
-						chapterContent: chapter.content
+						chapterContent: chapter.content,
+						questions: theme.questions.map((question: any) => {
+							return {
+								...question,
+								themeSlug: theme.slug,
+								themeTitle: theme.title,
+								themeContent: theme.content,
+								chapterSlug: chapter.slug,
+								chapterTitle: chapter.title,
+								chapterContent: chapter.content
+							};
+						})
 					};
 				})
-			)
-			.flat()
-	};
-	const organiserContentWithThemesAndQuestions = {
-		...organiserContentWithThemes,
-		questions: organiserContentWithThemes.themes
-			.map((theme: any) =>
-				theme.questions.map((question: any) => {
-					return {
-						...question,
-						themeSlug: theme.slug,
-						themeTitle: theme.title,
-						themeContent: theme.content,
-						chapterSlug: theme.chapterSlug,
-						chapterTitle: theme.chapterTitle,
-						chapterContent: theme.chapterContent
-					};
-				})
-			)
-			.flat()
-	};
+			};
+		})
+	} as OrganiserContent;
+
+	organiserContentImproved.themes = organiserContentImproved.chapters
+		.map((chapter: any) => chapter.themes)
+		.flat();
+	organiserContentImproved.questions = organiserContentImproved.themes
+		.map((theme: any) => theme.questions)
+		.flat();
 
 	return {
 		pagesContent,
 		participantContent,
-		organiserContent: organiserContentWithThemesAndQuestions
+		organiserContent: organiserContentImproved
 	};
 }) satisfies LayoutLoad;
 

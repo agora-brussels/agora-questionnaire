@@ -23,16 +23,17 @@
 	</header>
 	<main>
 		<div>{@html micromark(data.question.content)}</div>
-		<details>
+		<details open>
 			<summary class="outline">{data.pagesContent.general.more}</summary>
-			<small>{@html micromark(data.question.more)}</small>
+			<div style="font-size: smaller; margin: 1rem">{@html micromark(data.question.more)}</div>
 		</details>
 		<Options bind:questionSlug={data.question.slug} />
 	</main>
 </article>
 
-<!-- <nav style="margin-top: 2rem; margin-bottom: 4rem">
-	<div>
+<nav style="margin-top: 2rem; margin-bottom: 4rem">
+	<div></div>
+	<!-- <div>
 		<button
 			class="outline"
 			style="margin-right:1rem"
@@ -43,17 +44,36 @@
 				? data.pagesContent.general.previousTheme
 				: data.pagesContent.general.home}</button
 		>
-	</div>
-	<p style="margin-top:0.75rem">
+	</div> -->
+	<!-- <p style="margin-top:0.75rem">
 		{data.themeIndex + 1}/{data.organiserContent.themes.length}
-	</p>
+	</p> -->
+	<div>
+		<button
+			class="outline"
+			style="margin-left:1rem"
+			disabled={data.nextQuestionSlug ? false : true}
+			on:click={() => {
+				goto(
+					data.nextQuestionSlug
+						? base + '/organiser/' + data.question.themeSlug + '/' + data.nextQuestionSlug
+						: '/organiser/overview/'
+				);
+			}}
+			>{data.nextQuestionSlug
+				? data.pagesContent.general.deeperTheme
+				: data.pagesContent.general.overview} ▼</button
+		>
+	</div>
 	<div>
 		<button
 			class="outline"
 			style="margin-left:1rem"
 			on:click={() => {
 				goto(
-					data.nextThemeSlug ? base + '/organiser/' + data.nextThemeSlug : '/organiser/overview/'
+					data.nextThemeSlug
+						? base + '/organiser/' + data.nextThemeSlug + '/' + data.nextThemeNextQuestionSlug
+						: '/organiser/overview/'
 				);
 			}}
 			>{data.nextThemeSlug
@@ -61,4 +81,4 @@
 				: data.pagesContent.general.overview} ►</button
 		>
 	</div>
-</nav> -->
+</nav>

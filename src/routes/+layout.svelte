@@ -1,7 +1,5 @@
 <script lang="ts">
 	import { micromark } from 'micromark';
-	import { base } from '$app/paths';
-	import lang, { langs } from '$lib/stores/lang.js';
 
 	export let data;
 </script>
@@ -9,33 +7,6 @@
 <svelte:head>
 	<title>Agora Questionnaire</title>
 </svelte:head>
-
-<header class="container">
-	<nav style="margin-bottom: 30px;">
-		<ul>
-			<li>
-				<strong>
-					<a href="{base}/" class="secondary">{data.pagesContent.general.home}</a>
-				</strong>
-			</li>
-		</ul>
-		<ul>
-			<li><a href="{base}/about" class="secondary">{data.pagesContent.general.about}</a></li>
-			<li>
-				<a href="{base}/participant/overview" class="secondary"
-					>{data.pagesContent.general.overview}</a
-				>
-			</li>
-			<li>
-				<select bind:value={$lang}>
-					{#each langs as l}
-						<option value={l}>{l.toUpperCase()}</option>
-					{/each}
-				</select>
-			</li>
-		</ul>
-	</nav>
-</header>
 
 <main class="container">
 	<slot />

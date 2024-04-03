@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { micromark } from 'micromark';
+
 	import img from '$lib/img/32-100.jpg';
+
 	export let data;
 </script>
 
