@@ -24,7 +24,7 @@
 					{#each theme.questions as question (question.slug)}
 						<div style="display: flex; margin: 0.5rem">
 							<div style="width: 1.5rem">
-								<Indicator questionSlug={question.slug} />
+								<Indicator audience="participant" questionSlug={question.slug} />
 							</div>
 							<div style="width: 8rem">
 								{question.title}
@@ -69,7 +69,7 @@
 			>
 			<button
 				on:click={() => {
-					answers.set({});
+					answers.set({ ...$answers, participant: {} });
 					openResetDialog = false;
 				}}
 				class="outline">{data.pagesContent.overview.confirm}</button

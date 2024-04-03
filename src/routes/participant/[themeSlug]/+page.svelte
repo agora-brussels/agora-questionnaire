@@ -38,11 +38,7 @@
 		</header>
 		<main>
 			<div>{@html micromark(question.content)}</div>
-			<!-- <details>
-				<summary class="outline">{data.pagesContent.general.more}</summary>
-				<small>{@html micromark(question.more)}</small>
-			</details> -->
-			<Options bind:questionSlug={question.slug} />
+			<Options audience="participant" bind:questionSlug={question.slug} />
 		</main>
 	</article>
 {/each}
@@ -88,4 +84,8 @@
 	details summary::after {
 		float: left;
 	} */
+
+	nav button {
+		font-size: smaller;
+	}
 </style>

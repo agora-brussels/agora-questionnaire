@@ -8,6 +8,12 @@ export async function load({ params, parent }) {
 	if (!theme) throw error(404, 'Theme not found');
 
 	const themeIndex = organiserContent.themes.indexOf(theme);
+	let previousThemeSlug;
+	if (themeIndex == 0) {
+		previousThemeSlug = undefined;
+	} else {
+		previousThemeSlug = organiserContent.themes[themeIndex - 1].slug;
+	}
 	let nextThemeSlug;
 	let nextThemeNextQuestionSlug;
 	if (themeIndex + 1 == organiserContent.themes.length) {
@@ -32,6 +38,7 @@ export async function load({ params, parent }) {
 	return {
 		theme,
 		themeIndex,
+		previousThemeSlug,
 		nextThemeSlug,
 		nextThemeNextQuestionSlug,
 		question,

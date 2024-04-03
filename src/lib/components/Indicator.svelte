@@ -1,6 +1,7 @@
 <script lang="ts">
 	import answers from '$lib/stores/answers.js';
 
+	export let audience: string = '';
 	export let questionSlug: string = '';
 
 	const options = ['yes', 'unsure', 'no'];
@@ -10,7 +11,7 @@
 	let answer: string;
 	let color: string;
 
-	$: answer = $answers[questionSlug];
+	$: answer = $answers[audience][questionSlug];
 	$: color = options.indexOf(answer) != -1 ? colors[options.indexOf(answer)] : defaultColor;
 </script>
 

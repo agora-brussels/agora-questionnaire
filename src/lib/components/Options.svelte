@@ -9,11 +9,14 @@
 		['no', 'Non']
 	]);
 
+	// Read audience
+	export let audience: string = '';
+
 	// Read slug
 	export let questionSlug: string = '';
 
 	// Define answer and look up existing answer in store
-	let answer: string = $answers[questionSlug];
+	let answer: string = $answers[audience] ? $answers[audience][questionSlug] : undefined;
 
 	// Select function to change the answer variable on click
 	const dispatch = createEventDispatcher();
@@ -24,7 +27,10 @@
 
 	// Update store when answer changes
 	$: answers.update((answers) => {
-		answers[questionSlug] = answer;
+		if (!answers[audience]) {
+			answers[audience] = {};
+		}
+		answers[audience][questionSlug] = answer;
 		return answers;
 	});
 </script>

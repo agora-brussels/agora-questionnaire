@@ -28,7 +28,7 @@
 				<summary class="outline">{data.pagesContent.general.more}</summary>
 				<small>{@html micromark(question.more)}</small>
 			</details>
-			<Options bind:questionSlug={question.slug} />
+			<Options audience="organiser" bind:questionSlug={question.slug} />
 		</main>
 	</article>
 {/each}
@@ -39,7 +39,11 @@
 			class="outline"
 			style="margin-right:1rem"
 			on:click={() => {
-				goto(data.previousThemeSlug ? base + '/organiser/' + data.previousThemeSlug : '/');
+				goto(
+					data.previousThemeSlug
+						? base + '/organiser/' + data.previousThemeSlug
+						: base + '/organiser/'
+				);
 			}}
 			>◀︎ {data.previousThemeSlug
 				? data.pagesContent.general.previousTheme
@@ -67,9 +71,13 @@
 
 <style>
 	/* details summary {
-		margin-top: 10px;
+	margin-top: 10px;
 	}
 	details summary::after {
-		float: left;
+	float: left;
 	} */
+
+	nav button {
+		font-size: smaller;
+	}
 </style>

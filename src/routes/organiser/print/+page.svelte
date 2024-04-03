@@ -33,7 +33,7 @@
 						</header>
 						<main>
 							<div>{@html micromark(question.content)}</div>
-							<Options bind:questionSlug={question.slug} />
+							<Options audience="organiser" bind:questionSlug={question.slug} />
 						</main>
 					</article>
 				{/each}
