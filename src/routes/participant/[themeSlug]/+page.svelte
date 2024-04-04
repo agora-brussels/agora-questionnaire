@@ -3,8 +3,9 @@
 	import { goto } from '$app/navigation';
 
 	import Hint from '$lib/components/Hint.svelte';
-	import Title from '$lib/components/Title.svelte';
+	import NavButton from '$lib/components/NavButton.svelte';
 	import Question from '$lib/components/Question.svelte';
+	import Title from '$lib/components/Title.svelte';
 
 	import img from '$lib/img/14-100.jpg';
 
@@ -20,35 +21,27 @@
 {/each}
 
 <nav style="margin-top: 2rem; margin-bottom: 4rem">
-	<div>
-		<button
-			class="outline"
-			style="margin-right:1rem; font-size: smaller;"
-			on:click={() => {
-				goto(data.previousThemeSlug ? base + '/participant/' + data.previousThemeSlug : '/');
-			}}
-			>◀︎ {data.previousThemeSlug
-				? data.pagesContent.general.previousTheme
-				: data.pagesContent.general.home}</button
-		>
-	</div>
+	<NavButton
+		content={data.previousThemeSlug
+			? data.pagesContent.general.previousTheme
+			: data.pagesContent.general.home}
+		direction="left"
+		on:click={() => {
+			goto(data.previousThemeSlug ? base + '/participant/' + data.previousThemeSlug : '/');
+		}}
+	/>
 	<p style="margin-top:0.75rem">
 		{data.themeIndex + 1}/{data.participantContent.themes.length}
 	</p>
-	<div>
-		<button
-			class="outline"
-			style="margin-left:1rem; font-size: smaller;"
-			on:click={() => {
-				goto(
-					data.nextThemeSlug
-						? base + '/participant/' + data.nextThemeSlug
-						: '/participant/overview/'
-				);
-			}}
-			>{data.nextThemeSlug
-				? data.pagesContent.general.nextTheme
-				: data.pagesContent.general.overview} ►</button
-		>
-	</div>
+	<NavButton
+		content={data.nextThemeSlug
+			? data.pagesContent.general.nextTheme
+			: data.pagesContent.general.overview}
+		direction="right"
+		on:click={() => {
+			goto(
+				data.nextThemeSlug ? base + '/participant/' + data.nextThemeSlug : '/participant/overview/'
+			);
+		}}
+	/>
 </nav>
