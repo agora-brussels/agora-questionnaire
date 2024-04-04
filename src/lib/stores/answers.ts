@@ -6,12 +6,10 @@ const answers = writable<any>({});
 
 // Run this code only on client, not e.g. during ssr or pre-rendering
 if (browser) {
-	console.log('browser');
 	// Load previously saved answers from localStorage
 	const storedAnswers = localStorage.getItem('answers');
 	if (storedAnswers) {
 		const parsedAnswers = JSON.parse(storedAnswers);
-		console.log('parsedAnswers', parsedAnswers);
 		if (parsedAnswers.participant || parsedAnswers.organiser) answers.set(parsedAnswers);
 	}
 

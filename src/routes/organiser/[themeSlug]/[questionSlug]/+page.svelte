@@ -1,42 +1,28 @@
 <script lang="ts">
-	import { micromark } from 'micromark';
-
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
 
-	import Options from '$lib/components/Options.svelte';
 	import OrganiserNav from '$lib/components/OrganiserNav.svelte';
+	import Title from '$lib/components/Title.svelte';
+	import Question from '$lib/components/Question.svelte';
 
 	export let data;
 </script>
 
-<hgroup style="margin-left: 2rem; margin-bottom: 3rem">
-	<h6 style="margin-bottom: 0.5rem">
-		{data.pagesContent.general.chapter}: {data.question.chapterTitle}
-	</h6>
-	<h3>{data.pagesContent.general.theme}: {data.question.themeTitle}</h3>
-	<p>{@html micromark(data.question.themeContent)}</p>
-</hgroup>
+<Title
+	chapterTitle={data.question.chapterTitle}
+	themeTitle={data.question.title}
+	themeContent={data.question.content}
+	{data}
+/>
 
-<article>
-	<header>
-		{data.question.title}
-	</header>
-	<main>
-		<div>{@html micromark(data.question.content)}</div>
-		<details open>
-			<summary class="outline">{data.pagesContent.general.more}</summary>
-			<div style="font-size: smaller; margin: 1rem">{@html micromark(data.question.more)}</div>
-		</details>
-		<Options audience="organiser" bind:questionSlug={data.question.slug} />
-	</main>
-</article>
+<Question audience="organiser" question={data.question} {data} />
 
 <nav style="margin-top: 2rem; margin-bottom: 4rem">
 	<div>
 		<button
 			class="outline"
-			style="margin-right:1rem"
+			style="margin-right:1rem; font-size: smaller;"
 			on:click={() => {
 				goto(
 					data.previousThemeSlug
@@ -49,13 +35,10 @@
 				: data.pagesContent.general.home}</button
 		>
 	</div>
-	<!-- <p style="margin-top:0.75rem">
-		{data.themeIndex + 1}/{data.organiserContent.themes.length}
-	</p> -->
 	<div>
 		<button
 			class="outline"
-			style="margin-left:1rem"
+			style="margin-left:1rem; font-size: smaller;"
 			disabled={data.nextQuestionSlug ? false : true}
 			on:click={() => {
 				goto(
@@ -72,7 +55,7 @@
 	<div>
 		<button
 			class="outline"
-			style="margin-left:1rem"
+			style="margin-left:1rem; font-size: smaller;"
 			on:click={() => {
 				goto(
 					data.nextThemeSlug
@@ -88,9 +71,3 @@
 </nav>
 
 <OrganiserNav {data} />
-
-<style>
-	nav button {
-		font-size: smaller;
-	}
-</style>

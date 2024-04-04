@@ -1,16 +1,17 @@
 general:
-  home: Acceuil
+  home: Accueil
   about: A propos
   overview: Mes réponses
   yes: Oui
   unsure: Incertain
   no: Non
-  more: En lire plus...
+  more: En savoir plus
   chapter: Chapitre
   theme: Thème
   previousTheme: Thème précédent
   deeperTheme: Approfondir thème
   nextTheme: Prochain thème
+  question: Question
   footer: Un outil de [Agora.Brussels](https://agora.brussels).
 home:
   pretitle: Tiré·e au sort? Tu hésites?
