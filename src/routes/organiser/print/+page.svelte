@@ -6,36 +6,36 @@
 		window.print();
 	});
 
-	import Options from '$lib/components/Options.svelte';
+	import Title from '$lib/components/Title.svelte';
+	import Question from '$lib/components/Question.svelte';
+	import OrganiserOverview from '$lib/components/OrganiserOverview.svelte';
 
 	export let data;
 </script>
 
 <div class="print-grid-container">
 	<div>
-		<h6>{data.pagesContent.home.pretitle}</h6>
-		<h1>{data.pagesContent.home.title}</h1>
-		<p>{@html micromark(data.pagesContent.home.content)}</p>
+		{#if data.pagesContent.organiser.pretitle}
+			<h6>{data.pagesContent.organiser.pretitle}</h6>
+		{/if}
+		<h1>{data.pagesContent.organiser.title}</h1>
+		<p>{@html micromark(data.pagesContent.organiser.content)}</p>
 	</div>
+
+	<hr />
 
 	<div>
 		{#each data.organiserContent.themes as theme (theme.slug)}
-			<div style="margin-top: 4rem; margin-bottom: 4rem">
-				<hgroup>
-					<h3>{theme.title}</h3>
-					<p>{@html micromark(theme.content)}</p>
-				</hgroup>
+			<div style="margin-top: 2rem; margin-bottom: 2rem">
+				<Title
+					chapterTitle={theme.chapterTitle}
+					themeTitle={theme.title}
+					themeContent={theme.content}
+					{data}
+				/>
 
 				{#each theme.questions as question (question.slug)}
-					<article>
-						<header>
-							{question.title}
-						</header>
-						<main>
-							<div>{@html micromark(question.content)}</div>
-							<Options {data} audience="organiser" bind:questionSlug={question.slug} />
-						</main>
-					</article>
+					<Question audience="organiser" {question} {data} />
 				{/each}
 			</div>
 		{/each}
@@ -45,6 +45,8 @@
 		<h2>{data.pagesContent.overview.title}</h2>
 		<p>{@html micromark(data.pagesContent.overview.content)}</p>
 	</div>
+
+	<OrganiserOverview {data} />
 
 	<hr />
 

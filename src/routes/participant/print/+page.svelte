@@ -6,7 +6,9 @@
 		window.print();
 	});
 
-	import Options from '$lib/components/Options.svelte';
+	import Question from '$lib/components/Question.svelte';
+	import Title from '$lib/components/Title.svelte';
+	import ParticipantOverview from '$lib/components/ParticipantOverview.svelte';
 
 	export let data;
 </script>
@@ -21,21 +23,10 @@
 	<div>
 		{#each data.participantContent.themes as theme (theme.slug)}
 			<div style="margin-top: 4rem; margin-bottom: 4rem">
-				<hgroup>
-					<h3>{theme.title}</h3>
-					<p>{@html micromark(theme.content)}</p>
-				</hgroup>
+				<Title themeTitle={theme.title} themeContent={theme.content} {data} />
 
 				{#each theme.questions as question (question.slug)}
-					<article>
-						<header>
-							{question.title}
-						</header>
-						<main>
-							<div>{@html micromark(question.content)}</div>
-							<Options {data} audience="participant" bind:questionSlug={question.slug} />
-						</main>
-					</article>
+					<Question audience="participant" {question} {data} />
 				{/each}
 			</div>
 		{/each}
@@ -45,6 +36,8 @@
 		<h2>{data.pagesContent.overview.title}</h2>
 		<p>{@html micromark(data.pagesContent.overview.content)}</p>
 	</div>
+
+	<ParticipantOverview {data} />
 
 	<hr />
 
