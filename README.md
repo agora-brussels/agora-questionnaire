@@ -13,7 +13,9 @@ This tool is accessible at [https://questionnaire.agora.brussels](https://questi
 
 ## Reuse and license
 
-This tool is shared hoping to inspire future participants and organisations. It is published under the [CC CC BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+This tool is shared hoping to inspire future participants and organisations. It is published under the [CC CC BY-ND 4.0 license](https://creativecommons.org/licenses/by-nd/4.0/).
+
+The data used for the questions is available in a structured YAML format [here](./src/lib/content).
 
 ## Developing and building this website yourself
 

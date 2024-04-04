@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { micromark } from 'micromark';
-	import img from '$lib/img/agora.jpg';
+	import licence from '$lib/img/by-nd.png';
+	import agora from '$lib/img/agora.jpg';
 	export let data;
 </script>
 
@@ -8,13 +9,9 @@
 	<div>
 		<h2>{data.pagesContent.about.title}</h2>
 		<p>{@html micromark(data.pagesContent.about.content)}</p>
-		<img
-			src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.png"
-			alt="by-nc-nd"
-			width="200"
-		/>
+		<img src={licence} alt="by-nd" width="200" />
 	</div>
-	<img style="margin-top: 2rem; max-width: 300px; border-radius:0.25rem" src={img} alt="People" />
+	<img style="margin-top: 2rem; max-width: 300px; border-radius:0.25rem" src={agora} alt="People" />
 </div>
 
 <style>
