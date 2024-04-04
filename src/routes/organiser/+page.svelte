@@ -6,6 +6,6 @@
 
 <h2>{data.pagesContent.organiser.title}</h2>
 <p>{@html micromark(data.pagesContent.organiser.content)}</p>
-<a href="{base}/organiser/accessibility"><button>By theme</button></a>
-<!-- {data.pagesContent.organiser.button} -->
-<a href="{base}/organiser/accessibility/database"><button>By question</button></a>
+<a href="{base}/organiser/accessibility/database"
+	><button>{data.pagesContent.organiser.button}</button></a
+>
