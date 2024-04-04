@@ -12,6 +12,7 @@ general:
   deeperTheme: Approfondir ce thème
   nextTheme: Prochain thème
   question: Question
+  navigateToQuestion: Naviguer vers une question
   footer: Un outil de [Agora.Brussels](https://agora.brussels).
 home:
   pretitle: Tiré·e au sort? Tu hésites?

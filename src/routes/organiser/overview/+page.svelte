@@ -5,7 +5,7 @@
 	import { goto } from '$app/navigation';
 	import organiserAnswers from '$lib/stores/organiserAnswers.js';
 	import img from '$lib/img/31-100.jpg';
-	import OrganiserNav from '$lib/components/OrganiserNav.svelte';
+	import OrganiserOverview from '$lib/components/OrganiserOverview.svelte';
 
 	export let data;
 
@@ -17,7 +17,7 @@
 		<h2>{data.pagesContent.overview.title}</h2>
 		<p>{@html micromark(data.pagesContent.overview.content)}</p>
 
-		<OrganiserNav {data} />
+		<OrganiserOverview {data} />
 
 		<button
 			on:click={() => {

@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
 
-	import OrganiserNav from '$lib/components/OrganiserNav.svelte';
+	import OrganiserOverview from '$lib/components/OrganiserOverview.svelte';
 	import Title from '$lib/components/Title.svelte';
 	import Question from '$lib/components/Question.svelte';
 	import NavButton from '$lib/components/NavButton.svelte';
@@ -12,8 +12,8 @@
 
 <Title
 	chapterTitle={data.question.chapterTitle}
-	themeTitle={data.question.title}
-	themeContent={data.question.content}
+	themeTitle={data.question.themeTitle}
+	themeContent={data.question.themeContent}
 	{data}
 />
 
@@ -40,9 +40,7 @@
 		}}
 	/>
 	<NavButton
-		content={data.nextQuestionSlug
-			? data.pagesContent.general.deeperTheme
-			: data.pagesContent.general.overview}
+		content={data.pagesContent.general.deeperTheme}
 		disabled={data.nextQuestionSlug ? false : true}
 		direction="down"
 		onClick={() => {
@@ -68,4 +66,4 @@
 	/>
 </nav>
 
-<OrganiserNav {data} />
+<OrganiserOverview {data} currentQuestionSlug={data.question.slug} />

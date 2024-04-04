@@ -1,8 +1,12 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import Indicator from '$lib/components/Indicator.svelte';
 
+	export let currentQuestionSlug = '';
+
+	console.log(currentQuestionSlug);
+
 	export let data: any;
-	// export let questionSlug: string = '';
 </script>
 
 <div class="chapter-overview-grid-container">
@@ -14,14 +18,25 @@
 					<div>
 						<h6>{theme.title}</h6>
 						{#each theme.questions as question (question.slug)}
-							<div style="display: flex; margin: 0.5rem">
-								<div style="width: 1.5rem">
-									<Indicator audience="organiser" questionSlug={question.slug} />
-								</div>
-								<div style="width: 7rem; font-size:smaller">
-									{question.title}
-								</div>
-							</div>
+							<a
+								style="text-decoration:none; color: #373c44"
+								href="{base}/organiser/{theme.slug}/{question.slug}"
+								><div style="display: flex; margin: 0.5rem">
+									<div style="width: 1.5rem">
+										<Indicator audience="organiser" questionSlug={question.slug} />
+									</div>
+									<div
+										style="width: 7rem; font-size:smaller; font-weight:{currentQuestionSlug ==
+										question.slug
+											? 650
+											: undefined}; color:{currentQuestionSlug == question.slug
+											? '#047878'
+											: undefined}"
+									>
+										{question.title}
+									</div>
+								</div></a
+							>
 						{/each}
 					</div>
 				{/each}
