@@ -2,12 +2,14 @@
 	export let direction: string;
 	export let disabled = false;
 	export let content: string;
+	export let onClick = () => {};
 </script>
 
 <button
 	class="outline"
 	style="font-size: smaller; margin: 0 {direction == 'down' || direction == 'up' ? '0.4rem' : 0}"
 	{disabled}
+	on:click={onClick}
 >
 	{#if direction == 'left'}
 		<i class="arrow {direction}"></i>

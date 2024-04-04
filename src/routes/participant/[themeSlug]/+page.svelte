@@ -26,7 +26,7 @@
 			? data.pagesContent.general.previousTheme
 			: data.pagesContent.general.home}
 		direction="left"
-		on:click={() => {
+		onClick={() => {
 			goto(data.previousThemeSlug ? base + '/participant/' + data.previousThemeSlug : '/');
 		}}
 	/>
@@ -38,7 +38,7 @@
 			? data.pagesContent.general.nextTheme
 			: data.pagesContent.general.overview}
 		direction="right"
-		on:click={() => {
+		onClick={() => {
 			goto(
 				data.nextThemeSlug ? base + '/participant/' + data.nextThemeSlug : '/participant/overview/'
 			);

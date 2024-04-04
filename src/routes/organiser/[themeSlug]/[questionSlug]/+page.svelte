@@ -27,7 +27,7 @@
 			? data.pagesContent.general.previousTheme
 			: data.pagesContent.general.home}
 		direction="left"
-		on:click={() => {
+		onClick={() => {
 			goto(
 				data.nextQuestionSlug
 					? base +
@@ -45,7 +45,7 @@
 			: data.pagesContent.general.overview}
 		disabled={data.nextQuestionSlug ? false : true}
 		direction="down"
-		on:click={() => {
+		onClick={() => {
 			goto(
 				data.nextQuestionSlug
 					? base + '/organiser/' + data.question.themeSlug + '/' + data.nextQuestionSlug
@@ -58,7 +58,7 @@
 			? data.pagesContent.general.nextTheme
 			: data.pagesContent.general.overview}
 		direction="right"
-		on:click={() => {
+		onClick={() => {
 			goto(
 				data.nextThemeSlug
 					? base + '/organiser/' + data.nextThemeSlug + '/' + data.nextThemeFirstQuestionSlug
