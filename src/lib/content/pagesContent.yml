@@ -9,7 +9,7 @@ general:
   chapter: Chapitre
   theme: Thème
   previousTheme: Thème précédent
-  deeperTheme: Approfondir thème
+  deeperTheme: Approfondir ce thème
   nextTheme: Prochain thème
   question: Question
   footer: Un outil de [Agora.Brussels](https://agora.brussels).

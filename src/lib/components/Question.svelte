@@ -25,12 +25,12 @@
 			</div>
 		</div>
 	</header>
-	<main>
+	<main style="margin-left:6rem; margin-top: 2rem">
 		<div>{@html micromark(question.content)}</div>
-		<Options {audience} bind:questionSlug={question.slug} />
+		<Options {audience} {data} questionSlug={question.slug} />
 		{#if question.more}
-			<div style="margin:2rem; max-width: 600px">
-				<b>{data.pagesContent.general.more}</b>
+			<div style="margin:1rem; max-width: 600px">
+				<p style="margin-bottom:1rem">{data.pagesContent.general.more}</p>
 				<div style="font-size: smaller">{@html micromark(question.more)}</div>
 			</div>
 		{/if}

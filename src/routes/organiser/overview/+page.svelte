@@ -3,7 +3,7 @@
 
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
-	import answers from '$lib/stores/answers.js';
+	import organiserAnswers from '$lib/stores/organiserAnswers.js';
 	import img from '$lib/img/31-100.jpg';
 	import OrganiserNav from '$lib/components/OrganiserNav.svelte';
 
@@ -53,7 +53,7 @@
 			>
 			<button
 				on:click={() => {
-					answers.set({ ...$answers, organiser: {} });
+					organiserAnswers.set({});
 					openResetDialog = false;
 				}}
 				class="outline">{data.pagesContent.overview.confirm}</button

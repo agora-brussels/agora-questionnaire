@@ -2,21 +2,21 @@ import { browser } from '$app/environment';
 import { writable } from 'svelte/store';
 
 // Initialise store
-const answers = writable<any>({});
+const organiserAnswers = writable<any>({});
+const localStorageItem = 'organiserAnswers';
 
 // Run this code only on client, not e.g. during ssr or pre-rendering
 if (browser) {
 	// Load previously saved answers from localStorage
-	const storedAnswers = localStorage.getItem('answers');
+	const storedAnswers = localStorage.getItem(localStorageItem);
 	if (storedAnswers) {
-		const parsedAnswers = JSON.parse(storedAnswers);
-		if (parsedAnswers.participant || parsedAnswers.organiser) answers.set(parsedAnswers);
+		organiserAnswers.set(JSON.parse(storedAnswers));
 	}
 
 	// Subscribe to changes in the answers store and save answers to localStorage
-	answers.subscribe((value) => {
-		localStorage.setItem('answers', JSON.stringify(value));
+	organiserAnswers.subscribe((value) => {
+		localStorage.setItem(localStorageItem, JSON.stringify(value));
 	});
 }
 
-export default answers;
+export default organiserAnswers;

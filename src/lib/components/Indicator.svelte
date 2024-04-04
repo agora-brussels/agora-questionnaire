@@ -1,5 +1,6 @@
 <script lang="ts">
-	import answers from '$lib/stores/answers.js';
+	import participantAnswers from '$lib/stores/participantAnswers.js';
+	import organiserAnswers from '$lib/stores/organiserAnswers.js';
 
 	export let audience: string = '';
 	export let questionSlug: string = '';
@@ -8,10 +9,12 @@
 	const colors = ['#419491', '#919191', '#ed1566'];
 	const defaultColor = '#D6D6D6';
 
+	let answers = audience == 'participant' ? participantAnswers : organiserAnswers;
+
 	let answer: string;
 	let color: string;
 
-	$: answer = $answers[audience][questionSlug];
+	$: answer = $answers[questionSlug];
 	$: color = options.indexOf(answer) != -1 ? colors[options.indexOf(answer)] : defaultColor;
 </script>
 

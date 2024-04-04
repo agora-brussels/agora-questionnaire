@@ -9,18 +9,20 @@ export async function load({ params, parent }) {
 
 	const themeIndex = organiserContent.themes.indexOf(theme);
 	let previousThemeSlug;
+	let previousThemeFirstQuestionSlug;
 	if (themeIndex == 0) {
 		previousThemeSlug = undefined;
 	} else {
 		previousThemeSlug = organiserContent.themes[themeIndex - 1].slug;
+		previousThemeFirstQuestionSlug = organiserContent.themes[themeIndex - 1].questions[0].slug;
 	}
 	let nextThemeSlug;
-	let nextThemeNextQuestionSlug;
+	let nextThemeFirstQuestionSlug;
 	if (themeIndex + 1 == organiserContent.themes.length) {
 		nextThemeSlug = undefined;
 	} else {
 		nextThemeSlug = organiserContent.themes[themeIndex + 1].slug;
-		nextThemeNextQuestionSlug = organiserContent.themes[themeIndex + 1].questions[0].slug;
+		nextThemeFirstQuestionSlug = organiserContent.themes[themeIndex + 1].questions[0].slug;
 	}
 
 	const question = theme.questions.find((question: any) => question.slug === params.questionSlug);
@@ -39,8 +41,9 @@ export async function load({ params, parent }) {
 		theme,
 		themeIndex,
 		previousThemeSlug,
+		previousThemeFirstQuestionSlug,
 		nextThemeSlug,
-		nextThemeNextQuestionSlug,
+		nextThemeFirstQuestionSlug,
 		question,
 		questionIndex,
 		nextQuestionSlug

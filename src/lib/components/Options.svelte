@@ -1,22 +1,23 @@
 <script lang="ts">
-	import answers from '$lib/stores/answers.js';
+	import participantAnswers from '$lib/stores/participantAnswers.js';
+	import organiserAnswers from '$lib/stores/organiserAnswers.js';
 	import { createEventDispatcher } from 'svelte';
+
+	export let audience: string = '';
+	export let questionSlug: string = '';
+
+	export let data: any;
 
 	const options = ['yes', 'unsure', 'no'];
 	const optionsTranslated = new Map([
-		['yes', 'Oui'],
-		['unsure', 'Incertain'],
-		['no', 'Non']
+		['yes', data.pagesContent.general.yes],
+		['unsure', data.pagesContent.general.unsure],
+		['no', data.pagesContent.general.no]
 	]);
 
-	// Read audience
-	export let audience: string = '';
-
-	// Read slug
-	export let questionSlug: string = '';
-
 	// Define answer and look up existing answer in store
-	let answer: string = $answers[audience] ? $answers[audience][questionSlug] : undefined;
+	let answers = audience == 'participant' ? participantAnswers : organiserAnswers;
+	let answer: string = $answers[questionSlug] ? $answers[questionSlug] : undefined;
 
 	// Select function to change the answer variable on click
 	const dispatch = createEventDispatcher();
@@ -27,10 +28,7 @@
 
 	// Update store when answer changes
 	$: answers.update((answers) => {
-		if (!answers[audience]) {
-			answers[audience] = {};
-		}
-		answers[audience][questionSlug] = answer;
+		answers[questionSlug] = answer;
 		return answers;
 	});
 </script>
