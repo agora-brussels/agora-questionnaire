@@ -6,7 +6,7 @@ themes:
     questions:
       - slug: representativeness
         title: Représentativité
-        content: Tout le monde a-t-il eu la même chance d'être sélectionné (par exemple grâce à un tirage au sort) ? Le processus de sélection permet-il à la diversité de vécus et d'opinions qui existe dans la société d'être présente dans l'assemblée ?
+        content: Est-ce que tout le monde a eu la même chance d'être sélectionné·e (par exemple grâce à un tirage au sort) ? Le processus de sélection permet-il à la diversité de vécus et d'opinions qui existe dans la société d'être présente dans l'assemblée ?
       - slug: inclusion
         title: Inclusion
         content: L'organisation a-t-elle veillé à supprimer/diminuer les barrières empêchant certaines personnes de participer (rémunération et accessibilité physique, mentale, émotionnelle, linguistique, etc.) ?
@@ -64,4 +64,4 @@ themes:
         content: Le résultat est-il validé selon un processus clair et visant à l'inclusion de l'avis de tous·tes (pas plus de 10% d'objection) ?
       - slug: recipient
         title: Destinataire
-        content: Le destinataire institutionnel (parlement, ministre, échevin, etc.) est-il connu et s'est-il engagé à implémenter le résultat ?
+        content: La·le destinataire institutionnel·le (parlement, ministre, échevin·e, etc.) est-iel connu et s'est-iel engagé·e à implémenter le résultat ?
