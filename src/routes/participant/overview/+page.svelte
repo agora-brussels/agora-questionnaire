@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { micromark } from 'micromark';
 
+	import lang from '$lib/stores/lang.js';
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
 	import participantAnswers from '$lib/stores/participantAnswers.js';
@@ -14,8 +15,8 @@
 
 <div class="grid-container">
 	<div>
-		<h2>{data.pagesContent.participantOverview.title}</h2>
-		<p>{@html micromark(data.pagesContent.participantOverview.content)}</p>
+		<h2>{data.pagesContent[$lang].participantOverview.title}</h2>
+		<p>{@html micromark(data.pagesContent[$lang].participantOverview.content)}</p>
 
 		<ParticipantOverview {data} />
 
@@ -23,13 +24,13 @@
 			on:click={() => {
 				goto(base + '/participant/print');
 			}}
-			class="outline">{data.pagesContent.participantOverview.print}</button
+			class="outline">{data.pagesContent[$lang].participantOverview.print}</button
 		>
 		<button
 			on:click={() => {
 				openResetDialog = true;
 			}}
-			class="secondary outline">{data.pagesContent.participantOverview.reset}</button
+			class="secondary outline">{data.pagesContent[$lang].participantOverview.reset}</button
 		>
 	</div>
 
@@ -43,20 +44,20 @@
 
 <dialog open={openResetDialog}>
 	<article>
-		<h2>{data.pagesContent.participantOverview.reset}</h2>
+		<h2>{data.pagesContent[$lang].participantOverview.reset}</h2>
 		<footer>
 			<button
 				on:click={() => {
 					openResetDialog = false;
 				}}
-				class="secondary outline">{data.pagesContent.participantOverview.cancel}</button
+				class="secondary outline">{data.pagesContent[$lang].participantOverview.cancel}</button
 			>
 			<button
 				on:click={() => {
 					participantAnswers.set({});
 					openResetDialog = false;
 				}}
-				class="outline">{data.pagesContent.participantOverview.confirm}</button
+				class="outline">{data.pagesContent[$lang].participantOverview.confirm}</button
 			>
 		</footer>
 	</article>

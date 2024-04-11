@@ -10,13 +10,15 @@
 		<ul>
 			<li>
 				<strong>
-					<a href="{base}/" class="secondary">{data.pagesContent.general.home}</a>
+					<a href="{base}/" class="secondary">{data.pagesContent[$lang].general.home}</a>
 				</strong>
 			</li>
 		</ul>
 		<ul>
 			<li>
-				<a href="{base}/participant/about" class="secondary">{data.pagesContent.general.about}</a>
+				<a href="{base}/participant/about" class="secondary"
+					>{data.pagesContent[$lang].general.about}</a
+				>
 			</li>
 			<li>
 				<select bind:value={$lang}>

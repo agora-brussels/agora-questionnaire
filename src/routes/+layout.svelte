@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { micromark } from 'micromark';
 
+	import lang from '$lib/stores/lang.js';
+
 	export let data;
 </script>
 
@@ -19,7 +21,7 @@
 	>
 		<ul></ul>
 		<ul>
-			<li>{@html micromark(data.pagesContent.general.footer)}</li>
+			<li>{@html micromark(data.pagesContent[$lang].general.footer)}</li>
 		</ul>
 		<ul></ul>
 	</nav>

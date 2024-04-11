@@ -2,22 +2,23 @@
 	import { micromark } from 'micromark';
 	import { onMount } from 'svelte';
 
-	onMount(() => {
-		window.print();
-	});
-
+	import lang from '$lib/stores/lang.js';
 	import Question from '$lib/components/Question.svelte';
 	import Title from '$lib/components/Title.svelte';
 	import ParticipantOverview from '$lib/components/ParticipantOverview.svelte';
 
 	export let data;
+
+	onMount(() => {
+		window.print();
+	});
 </script>
 
 <div class="print-grid-container">
 	<div>
-		<h6>{data.pagesContent.home.pretitle}</h6>
-		<h1>{data.pagesContent.home.title}</h1>
-		<p>{@html micromark(data.pagesContent.home.content)}</p>
+		<h6>{data.pagesContent[$lang].home.pretitle}</h6>
+		<h1>{data.pagesContent[$lang].home.title}</h1>
+		<p>{@html micromark(data.pagesContent[$lang].home.content)}</p>
 	</div>
 
 	<div>
@@ -33,8 +34,8 @@
 	</div>
 
 	<div>
-		<h2>{data.pagesContent.participantOverview.title}</h2>
-		<p>{@html micromark(data.pagesContent.participantOverview.content)}</p>
+		<h2>{data.pagesContent[$lang].participantOverview.title}</h2>
+		<p>{@html micromark(data.pagesContent[$lang].participantOverview.content)}</p>
 	</div>
 
 	<ParticipantOverview {data} />
@@ -42,8 +43,8 @@
 	<hr />
 
 	<div>
-		<h2>{data.pagesContent.participantAbout.title}</h2>
-		<p>{@html micromark(data.pagesContent.participantAbout.content)}</p>
+		<h2>{data.pagesContent[$lang].participantAbout.title}</h2>
+		<p>{@html micromark(data.pagesContent[$lang].participantAbout.content)}</p>
 	</div>
 </div>
 

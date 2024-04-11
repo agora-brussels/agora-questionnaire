@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { micromark } from 'micromark';
 
+	import lang from '$lib/stores/lang.js';
 	import img from '$lib/img/32-100.jpg';
 
 	export let data;
@@ -8,14 +9,16 @@
 
 <div class="grid-container">
 	<div>
-		<h6>{data.pagesContent.home.pretitle}</h6>
-		<h1>{data.pagesContent.home.title}</h1>
-		<p>{@html micromark(data.pagesContent.home.content)}</p>
+		<h6>{data.pagesContent[$lang].home.pretitle}</h6>
+		<h1>{data.pagesContent[$lang].home.title}</h1>
+		<p>{@html micromark(data.pagesContent[$lang].home.content)}</p>
 		<p>
-			<a href="participant/accessibility"><button>{data.pagesContent.home.button}</button></a>
+			<a href="participant/accessibility"><button>{data.pagesContent[$lang].home.button}</button></a
+			>
 		</p>
 		<small style="margin-top: 1rem">
-			{data.pagesContent.home.alt} <a href="organiser">{data.pagesContent.home.alt_button}</a>
+			{data.pagesContent[$lang].home.alt}
+			<a href="organiser">{data.pagesContent[$lang].home.alt_button}</a>
 		</small>
 	</div>
 	<img src={img} alt="People" />

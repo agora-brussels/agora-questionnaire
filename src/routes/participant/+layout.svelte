@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import lang, { langs } from '$lib/stores/lang.js';
+	import { base } from '$app/paths';
 
 	export let data;
 </script>
@@ -10,17 +10,19 @@
 		<ul>
 			<li>
 				<strong>
-					<a href="{base}/" class="secondary">{data.pagesContent.general.home}</a>
+					<a href="{base}/" class="secondary">{data.pagesContent[$lang].general.home}</a>
 				</strong>
 			</li>
 		</ul>
 		<ul>
 			<li>
-				<a href="{base}/participant/about" class="secondary">{data.pagesContent.general.about}</a>
+				<a href="{base}/participant/about" class="secondary"
+					>{data.pagesContent[$lang].general.about}</a
+				>
 			</li>
 			<li>
 				<a href="{base}/participant/overview" class="secondary"
-					>{data.pagesContent.general.overview}</a
+					>{data.pagesContent[$lang].general.overview}</a
 				>
 			</li>
 			<li>

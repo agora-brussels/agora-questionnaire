@@ -2,68 +2,102 @@
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
 
+	import lang from '$lib/stores/lang.js';
 	import OrganiserOverview from '$lib/components/OrganiserOverview.svelte';
 	import Title from '$lib/components/Title.svelte';
 	import Question from '$lib/components/Question.svelte';
 	import NavButton from '$lib/components/NavButton.svelte';
 
 	export let data;
+
+	$: theme = data.organiserContent[$lang].themes.find(
+		(theme: any) => theme.slug === data.params.themeSlug
+	);
+
+	$: themeIndex = data.organiserContent[$lang].themes.indexOf(theme);
+
+	let previousThemeSlug: string | undefined;
+	let previousThemeFirstQuestionSlug: string | undefined;
+	$: if (themeIndex == 0) {
+		previousThemeSlug = undefined;
+	} else {
+		previousThemeSlug = data.organiserContent[$lang].themes[themeIndex - 1].slug;
+		previousThemeFirstQuestionSlug =
+			data.organiserContent[$lang].themes[themeIndex - 1].questions[0].slug;
+	}
+
+	let nextThemeSlug: string | undefined;
+	let nextThemeFirstQuestionSlug: string | undefined;
+	$: if (themeIndex + 1 == data.organiserContent[$lang].themes.length) {
+		nextThemeSlug = undefined;
+	} else {
+		nextThemeSlug = data.organiserContent[$lang].themes[themeIndex + 1].slug;
+		nextThemeFirstQuestionSlug =
+			data.organiserContent[$lang].themes[themeIndex + 1].questions[0].slug;
+	}
+
+	$: question = theme.questions.find((question: any) => question.slug === data.params.questionSlug);
+
+	$: questionIndex = theme.questions.indexOf(question);
+
+	let nextQuestionSlug: string | undefined;
+	$: if (questionIndex + 1 == theme.questions.length) {
+		nextQuestionSlug = undefined;
+	} else {
+		nextQuestionSlug = theme.questions[questionIndex + 1].slug;
+	}
 </script>
 
 <Title
-	chapterTitle={data.question.chapterTitle}
-	themeTitle={data.question.themeTitle}
-	themeContent={data.question.themeContent}
+	chapterTitle={question.chapterTitle}
+	themeTitle={question.themeTitle}
+	themeContent={question.themeContent}
 	{data}
 />
 
-{#key data.question.slug}
-	<Question audience="organiser" question={data.question} {data} />
+{#key question.slug}
+	<Question audience="organiser" {question} {data} />
 {/key}
 
 <nav style="margin-top: 2rem; margin-bottom: 4rem">
 	<NavButton
-		content={data.previousThemeSlug
-			? data.pagesContent.general.previousTheme
-			: data.pagesContent.general.home}
+		content={previousThemeSlug
+			? data.pagesContent[$lang].general.previousTheme
+			: data.pagesContent[$lang].general.home}
 		direction="left"
 		onClick={() => {
 			goto(
-				data.nextQuestionSlug
-					? base +
-							'/organiser/' +
-							data.previousThemeSlug +
-							'/' +
-							data.previousThemeFirstQuestionSlug
+				nextQuestionSlug
+					? base + '/organiser/' + previousThemeSlug + '/' + previousThemeFirstQuestionSlug
 					: base + '/organiser/'
 			);
 		}}
 	/>
 	<NavButton
-		content={data.pagesContent.general.deeperTheme}
-		disabled={data.nextQuestionSlug ? false : true}
+		content={data.pagesContent[$lang].general.deeperTheme}
+		disabled={nextQuestionSlug ? false : true}
 		direction="down"
 		onClick={() => {
 			goto(
-				data.nextQuestionSlug
-					? base + '/organiser/' + data.question.themeSlug + '/' + data.nextQuestionSlug
+				nextQuestionSlug
+					? base + '/organiser/' + question.themeSlug + '/' + nextQuestionSlug
 					: '/organiser/overview/'
 			);
 		}}
 	/>
 	<NavButton
-		content={data.nextThemeSlug
-			? data.pagesContent.general.nextTheme
-			: data.pagesContent.general.overview}
+		content={nextThemeSlug
+			? data.pagesContent[$lang].general.nextTheme
+			: data.pagesContent[$lang].general.overview}
 		direction="right"
 		onClick={() => {
 			goto(
-				data.nextThemeSlug
-					? base + '/organiser/' + data.nextThemeSlug + '/' + data.nextThemeFirstQuestionSlug
+				nextThemeSlug
+					? base + '/organiser/' + nextThemeSlug + '/' + nextThemeFirstQuestionSlug
 					: '/organiser/overview/'
 			);
 		}}
 	/>
 </nav>
 
-<OrganiserOverview {data} currentQuestionSlug={data.question.slug} />
+<OrganiserOverview {data} currentQuestionSlug={question.slug} />

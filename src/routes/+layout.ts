@@ -11,45 +11,50 @@ type OrganiserContent = {
 };
 
 export const load = (async () => {
-	let organiserContentImproved = {
-		...organiserContent,
-		chapters: organiserContent.chapters.map((chapter: any) => {
-			return {
-				...chapter,
-				themes: chapter.themes.map((theme: any) => {
-					return {
-						...theme,
-						chapterSlug: chapter.slug,
-						chapterTitle: chapter.title,
-						chapterContent: chapter.content,
-						questions: theme.questions.map((question: any) => {
-							return {
-								...question,
-								themeSlug: theme.slug,
-								themeTitle: theme.title,
-								themeContent: theme.content,
-								chapterSlug: chapter.slug,
-								chapterTitle: chapter.title,
-								chapterContent: chapter.content
-							};
-						})
-					};
-				})
-			};
-		})
-	} as OrganiserContent;
+	function improveOrganiserContent(organiserContent: any): OrganiserContent {
+		organiserContent = {
+			...organiserContent,
+			chapters: organiserContent.chapters.map((chapter: any) => {
+				return {
+					...chapter,
+					themes: chapter.themes.map((theme: any) => {
+						return {
+							...theme,
+							chapterSlug: chapter.slug,
+							chapterTitle: chapter.title,
+							chapterContent: chapter.content,
+							questions: theme.questions.map((question: any) => {
+								return {
+									...question,
+									themeSlug: theme.slug,
+									themeTitle: theme.title,
+									themeContent: theme.content,
+									chapterSlug: chapter.slug,
+									chapterTitle: chapter.title,
+									chapterContent: chapter.content
+								};
+							})
+						};
+					})
+				};
+			})
+		} as OrganiserContent;
 
-	organiserContentImproved.themes = organiserContentImproved.chapters
-		.map((chapter: any) => chapter.themes)
-		.flat();
-	organiserContentImproved.questions = organiserContentImproved.themes
-		.map((theme: any) => theme.questions)
-		.flat();
+		organiserContent.themes = organiserContent.chapters
+			.map((chapter: any) => chapter.themes)
+			.flat();
+		organiserContent.questions = organiserContent.themes
+			.map((theme: any) => theme.questions)
+			.flat();
+
+		return organiserContent;
+	}
 
 	return {
 		pagesContent,
 		participantContent,
-		organiserContent: organiserContentImproved
+		organiserContent,
+		improveOrganiserContent
 	};
 }) satisfies LayoutLoad;
 

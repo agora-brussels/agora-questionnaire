@@ -1,14 +1,17 @@
 <script lang="ts">
 	import { micromark } from 'micromark';
+
+	import lang from '$lib/stores/lang.js';
 	import licence from '$lib/img/by-nd.png';
 	import agora from '$lib/img/agora.jpg';
+
 	export let data;
 </script>
 
 <div class="grid-container">
 	<div>
-		<h2>{data.pagesContent.participantAbout.title}</h2>
-		<p>{@html micromark(data.pagesContent.participantAbout.content)}</p>
+		<h2>{data.pagesContent[$lang].participantAbout.title}</h2>
+		<p>{@html micromark(data.pagesContent[$lang].participantAbout.content)}</p>
 		<img src={licence} alt="by-nd" width="200" />
 	</div>
 	<img style="margin-top: 2rem; max-width: 300px; border-radius:0.25rem" src={agora} alt="People" />

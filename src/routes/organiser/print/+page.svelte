@@ -2,30 +2,31 @@
 	import { micromark } from 'micromark';
 	import { onMount } from 'svelte';
 
-	onMount(() => {
-		window.print();
-	});
-
+	import lang from '$lib/stores/lang.js';
 	import Title from '$lib/components/Title.svelte';
 	import Question from '$lib/components/Question.svelte';
 	import OrganiserOverview from '$lib/components/OrganiserOverview.svelte';
+
+	onMount(() => {
+		window.print();
+	});
 
 	export let data;
 </script>
 
 <div class="print-grid-container">
 	<div>
-		{#if data.pagesContent.organiser.pretitle}
-			<h6>{data.pagesContent.organiser.pretitle}</h6>
+		{#if data.pagesContent[$lang].organiser.pretitle}
+			<h6>{data.pagesContent[$lang].organiser.pretitle}</h6>
 		{/if}
-		<h1>{data.pagesContent.organiser.title}</h1>
-		<p>{@html micromark(data.pagesContent.organiser.content)}</p>
+		<h1>{data.pagesContent[$lang].organiser.title}</h1>
+		<p>{@html micromark(data.pagesContent[$lang].organiser.content)}</p>
 	</div>
 
 	<hr />
 
 	<div>
-		{#each data.organiserContent.themes as theme (theme.slug)}
+		{#each data.organiserContent[$lang].themes as theme (theme.slug)}
 			<div style="margin-top: 2rem; margin-bottom: 2rem">
 				<Title
 					chapterTitle={theme.chapterTitle}
@@ -42,8 +43,8 @@
 	</div>
 
 	<div>
-		<h2>{data.pagesContent.organiserOverview.title}</h2>
-		<p>{@html micromark(data.pagesContent.organiserOverview.content)}</p>
+		<h2>{data.pagesContent[$lang].organiserOverview.title}</h2>
+		<p>{@html micromark(data.pagesContent[$lang].organiserOverview.content)}</p>
 	</div>
 
 	<OrganiserOverview {data} />
@@ -51,8 +52,8 @@
 	<hr />
 
 	<div>
-		<h2>{data.pagesContent.organiserAbout.title}</h2>
-		<p>{@html micromark(data.pagesContent.organiserAbout.content)}</p>
+		<h2>{data.pagesContent[$lang].organiserAbout.title}</h2>
+		<p>{@html micromark(data.pagesContent[$lang].organiserAbout.content)}</p>
 	</div>
 </div>
 

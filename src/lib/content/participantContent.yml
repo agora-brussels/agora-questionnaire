@@ -1,67 +1,68 @@
-hint: Réponds au trois questions de cette thématique pour t'aider à te positionner sur ta participation.
-themes: 
-  - slug: accessibility
-    title: Accessibilité
-    content: Pour permettre à tous·te·s de participer pleinement
-    questions:
-      - slug: representativeness
-        title: Représentativité
-        content: Est-ce que tout le monde a eu la même chance d'être sélectionné·e (par exemple grâce à un tirage au sort) ? Le processus de sélection permet-il à la diversité de vécus et d'opinions qui existe dans la société d'être présente dans l'assemblée ?
-      - slug: inclusion
-        title: Inclusion
-        content: L'organisation a-t-elle veillé à supprimer/diminuer les barrières empêchant certaines personnes de participer (rémunération et accessibilité physique, mentale, émotionnelle, linguistique, etc.) ?
-      - slug: stakeholders
-        title: Parties prenantes
-        content: Des acteur·rice·s de terrain sont-iels invité·e·s à intervenir pour valoriser le résultat et augmenter son implémentation ?
-  - slug: organisation
-    title: Organisation
-    content: Pour inspirer de la confiance
-    questions:
-      - slug: temporality
-        title: Temporalité
-        content: L'agenda et la durée du processus facilitent-ils ta participation ?
-      - slug: logistics
-        title: Logistique
-        content: Le lieu et le soutien humain et matériel te semblent-ils accueillants et suffisants ?
-      - slug: institution
-        title: Institution organisatrice
-        content: L'institution se positionne-t-elle d'une façon transparente par rapport à son intention (positionnement politique, résultat désiré, impact politique, etc.) ?
-  - slug: accompaniement
-    title: Accompagnement
-    content: Pour une participation maximale
-    questions:
-      - slug: meetings
-        title: Rencontres
-        content: Le travail collectif est-il soutenu par un accompagnement accueillant ? Cet accompagnement est-il adapté au mode de rencontre choisi (présentiel / en ligne / hybride) ?
-      - slug: communication
-        title: Communication
-        content: La communication est-elle claire et compréhensible pour tous·tes ? Donne-t-elle confiance ?
-      - slug: equity
-        title: Équité
-        content: La facilitation applique-t-elle des techniques d'interactions inclusives, respectueuses ? Mobilise-t-elle différents types d'expression (orale, écrite, dessin, positionnement dans l'espace…) ?
-  - slug: theme
-    title: Thème et information
-    content: Pour un travail citoyen faisable et utile
-    questions:
-      - slug: formuation
-        title: Formulation du thème
-        content: le thème est-il formulé sous forme de question, dans un langage qui te parait simple et clair, qui permettra d'arriver à des propositions/décisions précises ?
-      - slug: information
-        title: Information
-        content: L'information fournie répond-elle précisément aux idées et questionnements des participant·e·s? Répond-elle aussi aux besoins de compréhension ?
-      - slug: exchange
-        title: Échange
-        content: L'information est-elle fournie d'une façon interactive et permet-elle de comprendre la complexité de la thématique? Fait-elle apparaître des contradictions entre les avis d'expert·e·s ?
-  - slug: product
-    title: Produit et suivi
-    content: Pour un produit intégratif et robuste
-    questions: 
-      - slug: deliberation
-        title: Délibération
-        content: Est-ce que tout le monde participe aux échanges ? Est-ce que l'intérêt général devient évident dans les échanges ?
-      - slug: validation
-        title: Validation
-        content: Le résultat est-il validé selon un processus clair et visant à l'inclusion de l'avis de tous·tes (pas plus de 10% d'objection) ?
-      - slug: recipient
-        title: Destinataire
-        content: La·le destinataire institutionnel·le (parlement, ministre, échevin·e, etc.) est-iel connu et s'est-iel engagé·e à implémenter le résultat ?
+fr: 
+  hint: Réponds au trois questions de cette thématique pour t'aider à te positionner sur ta participation.
+  themes: 
+    - slug: accessibility
+      title: Accessibilité
+      content: Pour permettre à tous·te·s de participer pleinement
+      questions:
+        - slug: representativeness
+          title: Représentativité
+          content: Est-ce que tout le monde a eu la même chance d'être sélectionné·e (par exemple grâce à un tirage au sort) ? Le processus de sélection permet-il à la diversité de vécus et d'opinions qui existe dans la société d'être présente dans l'assemblée ?
+        - slug: inclusion
+          title: Inclusion
+          content: L'organisation a-t-elle veillé à supprimer/diminuer les barrières empêchant certaines personnes de participer (rémunération et accessibilité physique, mentale, émotionnelle, linguistique, etc.) ?
+        - slug: stakeholders
+          title: Parties prenantes
+          content: Des acteur·rice·s de terrain sont-iels invité·e·s à intervenir pour valoriser le résultat et augmenter son implémentation ?
+    - slug: organisation
+      title: Organisation
+      content: Pour inspirer de la confiance
+      questions:
+        - slug: temporality
+          title: Temporalité
+          content: L'agenda et la durée du processus facilitent-ils ta participation ?
+        - slug: logistics
+          title: Logistique
+          content: Le lieu et le soutien humain et matériel te semblent-ils accueillants et suffisants ?
+        - slug: institution
+          title: Institution organisatrice
+          content: L'institution se positionne-t-elle d'une façon transparente par rapport à son intention (positionnement politique, résultat désiré, impact politique, etc.) ?
+    - slug: accompaniement
+      title: Accompagnement
+      content: Pour une participation maximale
+      questions:
+        - slug: meetings
+          title: Rencontres
+          content: Le travail collectif est-il soutenu par un accompagnement accueillant ? Cet accompagnement est-il adapté au mode de rencontre choisi (présentiel / en ligne / hybride) ?
+        - slug: communication
+          title: Communication
+          content: La communication est-elle claire et compréhensible pour tous·tes ? Donne-t-elle confiance ?
+        - slug: equity
+          title: Équité
+          content: La facilitation applique-t-elle des techniques d'interactions inclusives, respectueuses ? Mobilise-t-elle différents types d'expression (orale, écrite, dessin, positionnement dans l'espace…) ?
+    - slug: theme
+      title: Thème et information
+      content: Pour un travail citoyen faisable et utile
+      questions:
+        - slug: formuation
+          title: Formulation du thème
+          content: le thème est-il formulé sous forme de question, dans un langage qui te parait simple et clair, qui permettra d'arriver à des propositions/décisions précises ?
+        - slug: information
+          title: Information
+          content: L'information fournie répond-elle précisément aux idées et questionnements des participant·e·s? Répond-elle aussi aux besoins de compréhension ?
+        - slug: exchange
+          title: Échange
+          content: L'information est-elle fournie d'une façon interactive et permet-elle de comprendre la complexité de la thématique? Fait-elle apparaître des contradictions entre les avis d'expert·e·s ?
+    - slug: product
+      title: Produit et suivi
+      content: Pour un produit intégratif et robuste
+      questions: 
+        - slug: deliberation
+          title: Délibération
+          content: Est-ce que tout le monde participe aux échanges ? Est-ce que l'intérêt général devient évident dans les échanges ?
+        - slug: validation
+          title: Validation
+          content: Le résultat est-il validé selon un processus clair et visant à l'inclusion de l'avis de tous·tes (pas plus de 10% d'objection) ?
+        - slug: recipient
+          title: Destinataire
+          content: La·le destinataire institutionnel·le (parlement, ministre, échevin·e, etc.) est-iel connu et s'est-iel engagé·e à implémenter le résultat ?

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { micromark } from 'micromark';
 
+	import lang from '$lib/stores/lang.js';
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
 	import organiserAnswers from '$lib/stores/organiserAnswers.js';
@@ -14,8 +15,8 @@
 
 <div class="grid-container">
 	<div>
-		<h2>{data.pagesContent.organiserOverview.title}</h2>
-		<p>{@html micromark(data.pagesContent.organiserOverview.content)}</p>
+		<h2>{data.pagesContent[$lang].organiserOverview.title}</h2>
+		<p>{@html micromark(data.pagesContent[$lang].organiserOverview.content)}</p>
 
 		<OrganiserOverview {data} />
 
@@ -23,13 +24,13 @@
 			on:click={() => {
 				goto(base + '/organiser/print');
 			}}
-			class="outline">{data.pagesContent.organiserOverview.print}</button
+			class="outline">{data.pagesContent[$lang].organiserOverview.print}</button
 		>
 		<button
 			on:click={() => {
 				openResetDialog = true;
 			}}
-			class="secondary outline">{data.pagesContent.organiserOverview.reset}</button
+			class="secondary outline">{data.pagesContent[$lang].organiserOverview.reset}</button
 		>
 	</div>
 
@@ -43,20 +44,20 @@
 
 <dialog open={openResetDialog}>
 	<article>
-		<h2>{data.pagesContent.organiserOverview.reset}</h2>
+		<h2>{data.pagesContent[$lang].organiserOverview.reset}</h2>
 		<footer>
 			<button
 				on:click={() => {
 					openResetDialog = false;
 				}}
-				class="secondary outline">{data.pagesContent.organiserOverview.cancel}</button
+				class="secondary outline">{data.pagesContent[$lang].organiserOverview.cancel}</button
 			>
 			<button
 				on:click={() => {
 					organiserAnswers.set({});
 					openResetDialog = false;
 				}}
-				class="outline">{data.pagesContent.organiserOverview.confirm}</button
+				class="outline">{data.pagesContent[$lang].organiserOverview.confirm}</button
 			>
 		</footer>
 	</article>
