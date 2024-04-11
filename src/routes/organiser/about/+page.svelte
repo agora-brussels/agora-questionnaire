@@ -7,8 +7,8 @@
 
 <div class="grid-container">
 	<div>
-		<h2>{data.pagesContent.about.title}</h2>
-		<p>{@html micromark(data.pagesContent.about.content)}</p>
+		<h2>{data.pagesContent.organiserAbout.title}</h2>
+		<p>{@html micromark(data.pagesContent.organiserAbout.content)}</p>
 		<img src={licence} alt="by-nd" width="200" />
 	</div>
 	<img style="margin-top: 2rem; max-width: 300px; border-radius:0.25rem" src={agora} alt="People" />

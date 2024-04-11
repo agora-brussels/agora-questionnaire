@@ -33,8 +33,8 @@
 	</div>
 
 	<div>
-		<h2>{data.pagesContent.overview.title}</h2>
-		<p>{@html micromark(data.pagesContent.overview.content)}</p>
+		<h2>{data.pagesContent.participantOverview.title}</h2>
+		<p>{@html micromark(data.pagesContent.participantOverview.content)}</p>
 	</div>
 
 	<ParticipantOverview {data} />
@@ -42,8 +42,8 @@
 	<hr />
 
 	<div>
-		<h2>{data.pagesContent.about.title}</h2>
-		<p>{@html micromark(data.pagesContent.about.content)}</p>
+		<h2>{data.pagesContent.participantAbout.title}</h2>
+		<p>{@html micromark(data.pagesContent.participantAbout.content)}</p>
 	</div>
 </div>
 

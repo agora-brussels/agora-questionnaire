@@ -14,8 +14,8 @@
 
 <div class="grid-container">
 	<div>
-		<h2>{data.pagesContent.overview.title}</h2>
-		<p>{@html micromark(data.pagesContent.overview.content)}</p>
+		<h2>{data.pagesContent.participantOverview.title}</h2>
+		<p>{@html micromark(data.pagesContent.participantOverview.content)}</p>
 
 		<ParticipantOverview {data} />
 
@@ -23,13 +23,13 @@
 			on:click={() => {
 				goto(base + '/participant/print');
 			}}
-			class="outline">{data.pagesContent.overview.print}</button
+			class="outline">{data.pagesContent.participantOverview.print}</button
 		>
 		<button
 			on:click={() => {
 				openResetDialog = true;
 			}}
-			class="secondary outline">{data.pagesContent.overview.reset}</button
+			class="secondary outline">{data.pagesContent.participantOverview.reset}</button
 		>
 	</div>
 
@@ -43,20 +43,20 @@
 
 <dialog open={openResetDialog}>
 	<article>
-		<h2>{data.pagesContent.overview.reset}</h2>
+		<h2>{data.pagesContent.participantOverview.reset}</h2>
 		<footer>
 			<button
 				on:click={() => {
 					openResetDialog = false;
 				}}
-				class="secondary outline">{data.pagesContent.overview.cancel}</button
+				class="secondary outline">{data.pagesContent.participantOverview.cancel}</button
 			>
 			<button
 				on:click={() => {
 					participantAnswers.set({});
 					openResetDialog = false;
 				}}
-				class="outline">{data.pagesContent.overview.confirm}</button
+				class="outline">{data.pagesContent.participantOverview.confirm}</button
 			>
 		</footer>
 	</article>

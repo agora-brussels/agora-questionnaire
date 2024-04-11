@@ -15,7 +15,9 @@
 			</li>
 		</ul>
 		<ul>
-			<li><a href="{base}/about" class="secondary">{data.pagesContent.general.about}</a></li>
+			<li>
+				<a href="{base}/participant/about" class="secondary">{data.pagesContent.general.about}</a>
+			</li>
 			<li>
 				<select bind:value={$lang}>
 					{#each langs as l}

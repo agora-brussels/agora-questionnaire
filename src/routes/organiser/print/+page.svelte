@@ -42,8 +42,8 @@
 	</div>
 
 	<div>
-		<h2>{data.pagesContent.overview.title}</h2>
-		<p>{@html micromark(data.pagesContent.overview.content)}</p>
+		<h2>{data.pagesContent.organiserOverview.title}</h2>
+		<p>{@html micromark(data.pagesContent.organiserOverview.content)}</p>
 	</div>
 
 	<OrganiserOverview {data} />
@@ -51,8 +51,8 @@
 	<hr />
 
 	<div>
-		<h2>{data.pagesContent.about.title}</h2>
-		<p>{@html micromark(data.pagesContent.about.content)}</p>
+		<h2>{data.pagesContent.organiserAbout.title}</h2>
+		<p>{@html micromark(data.pagesContent.organiserAbout.content)}</p>
 	</div>
 </div>
 

@@ -15,7 +15,9 @@
 			</li>
 		</ul>
 		<ul>
-			<li><a href="{base}/about" class="secondary">{data.pagesContent.general.about}</a></li>
+			<li>
+				<a href="{base}/organiser/about" class="secondary">{data.pagesContent.general.about}</a>
+			</li>
 			<li>
 				<a href="{base}/organiser/overview" class="secondary"
 					>{data.pagesContent.general.overview}</a

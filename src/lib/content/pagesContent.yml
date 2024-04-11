@@ -18,37 +18,40 @@ home:
   pretitle: Tiré·e au sort? Tu hésites?
   title: Décide sur ta participation à un panel citoyen!
   content: |
-    Tu es invité·e à participer à une assemblée ou un processus de participation citoyenne? Tu hésites à t'y rendre ? Tu te demandes si l'organisation du processus est sérieuse et permettra de produire des résultats dans un cadre sécurisé ?
+    Tu as été invité·e à un projet de participation ou à une assemblée citoyenne ? Tu veux pouvoir choisir en connaissance de cause d'accepter ou non cette invitation ? Ce questionnaire a été élaboré pour t'aider avec ça. À travers 15 questions, il te permettra d'identifier si le projet est inclusif, bienveillant et efficace.
 
-    En s'appuyant sur ces propres expériences, Agora.Brussels a créé cet outil qui propose **15 questions** sur des caractéristiques clés d'un processus. Cela te permettra de dire *"oui j'y vais"*, ou pas, en plus de confiance.
-    
-    Tu es conseillé de lire toutes les informations que tu as reçues avant de commencer.
-
-  button: Vers le test!
+    *On te conseille de lire toutes les informations que tu as reçues concernant l'invitation avant de commencer.*
+  button: Je participe au panel citoyen (ou pas) ?
   alt: Vous mettez en place un panel citoyen?
   alt_button: C'est par ici pour les organisations.
-about:
+participantAbout:
   title: A propos de cet outil
   content: |
-    Cet outil a été créé par le mouvement politique citoyen [Agora.Brussels](https://agora.brussels).
+    Le degré d'inclusion, de bienveillance et d'efficacité des projets de participation citoyenne dépend de plusieurs facteurs. Nous les avons résumés en huit thèmes : accessibilité, organisation, encadrement, facilitation, sujet, information, résultat et suivi. Ce questionnaire, composé de 15 questions, est conçu pour te guider à travers ces aspects.
 
-    Entre 2019 et 2024, Agora.Brussels a organisé l'[Assemblée Citoyenne Bruxelloise](https://www.assemblee.brussels/) - la première institution politique bruxelloise constituée entièrement de citoyen·nes tirés au sort. Lors de 4 cycles, les membres ont délibéré sur des sujets relevant de la compétence de la région bruxelloise.
-    
-    Préparer, vivre et évaluer ces 4 cycles d'assemblée, ensemble avec les participants, Agora.Brussels a beaucoup appris sur ce qui peut apporter à une organisation qui favorise la représentativité, la délibération et la participation. Via cet outil, avec sa partie pour futurs participants et pour futurs organisateurs, Agora.Brussels veut partager et rendre utile ces apprentissages.
+    Le questionnaire a été élaboré par [Agora.Brussels](https://agora.brussels), un mouvement citoyen né du constat que les processus politiques traditionnels n'impliquent pas suffisamment les citoyen·ne·s, manquent d'inclusivité et offrent trop peu d'espace pour des délibérations nuancées.
+
+    Entre 2019 et 2024, Agora.Brussels a organisé l'[Assemblée Citoyenne Bruxelloise](https://www.assemblee.brussels/) - la première institution politique bruxelloise constituée entièrement de citoyen·ne·s tiré·e·s au sort. Lors de quatre cycles, les membres ont délibéré sur des sujets relevant de la compétence de la région bruxelloise. Ce questionnaire est basé sur les expériences acquises lors de la préparation, de la mise en œuvre et de l'évaluation de ces assemblées.
+
+    Au fil des ans, nous avons beaucoup appris et douté et avons parfois trébuché sur des choses que nous aurions dû envisager différemment. Pour soutenir les organisations ayant des objectifs similaires à ceux d'Agora.Brussels, nous voulons partager notre méthode de travail. Via cet outil, avec sa partie pour futurs participant·e·s et pour futurs organisateur·rice·s, Agora.Brussels veut partager et rendre utile ces apprentissages. 
+
+    Cet outil s'appuie sur les réflexions résultant de l'implication de centaines d'assemblistes. Merci pour vos efforts, assemblistes! Basée sur un texte d'Ana Adzersen, la version numérique du questionnaire a été créée par Manuel Claeys Bouuaert. Betül Sefika a fourni une version imprimable du questionnaire. Françoise Lepers a relu le texte, et les collaborateurs d'Agora.Brussels (de janvier à mai 2024) ont coordonné le développement de ce projet. 
     
     ##### Réutilisation
 
-    Cet outil est publié sous licence [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/). Vous êtes donc autorisé·e à partager ce matériel (le copier, distribuer et communiquer par tous moyens et sous tous formats) selon les conditions suivantes: Attribution, Pas de modifications.
+    Cet outil est publié sous licence [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/). Vous êtes donc autorisé·e à partager ce matériel (le copier, distribuer et communiquer par tous moyens et sous tous formats) selon les conditions suivantes: attribution, pas de modifications.
     
-    Le code source de ce site est accessible [sur Github](https://github.com/agora-brussels/agora-questionnaire/). Les données des questions sont accessibles sous forme structurée [ici](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content).
-overview:
+    Le code source de ce site est accessible [sur GitHub](https://github.com/agora-brussels/agora-questionnaire/). Les données des questions sont accessibles sous forme structurée [ici](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content).
+participantOverview:
   title: Faire un choix suite à ces réponses
   content: |
-    Merci d'avoir parcouru tous les thèmes et questions. Nous espérons que cela t'a donné quelques clés lorsque tu considères ta participation à l'initiative à laquelle tu es invité·e.
+    Merci d'avoir parcouru tous les thèmes et questions. Nous espérons que cela t'a donné des outils pour faire un choix éclairé concernant ta participation au panel citoyen / à l'assemblée citoyenne.
 
-    Il y a sans doute eu des questions dont sans réponse. Au-delà de cinq questions sans réponse, nous t'invitons à demander des informations complémentaires à la structure en charge de l'organisation.
-    
-    Cet outil n'a pas pour but de décider à ta place. C'est important que chacun·e se décide sur sa propre participation. Comment te sens-tu en regardant ces réponses? Tous les thèmes sont équivalents pour toi, ou il y a en a-t-il un qui est primordial? Regarde tes réponses et pense à ce que tu trouves important. **Maintentant, le choix est à toi!**
+    **Voici un résumé de tes réponses**. Qu'est-ce qui te frappe ? As-tu encore des doutes ?
+
+    Si tu n'as pas pu répondre à toutes les questions, pas de souci. Cependant, si tu te trouves bloqué·e sur plus de cinq questions à cause du manque d'informations de l'organisation, il est conseillé de les contacter pour obtenir des éclaircissements supplémentaires.
+
+    Cet outil n'a pas pour but de décider à ta place. C'est important que chacun·e décide en toute autonomie. Comment te sens-tu en regardant ces réponses? Est-ce que tous les thèmes sont équivalents pour toi, ou y en a-t-il un qui est primordial? Regarde tes réponses et pense à ce que tu trouves important. Maintenant, le choix est à toi!
   reset: Réinitialiser mes réponses
   confirm: Confirmer
   cancel: Annuler
@@ -56,25 +59,42 @@ overview:
 organiser:
   title: Organiser un panel
   content: |
-    Vous souhaitez, comme organisation, lancer un processus de participation citoyenne ? Super ! Voici un questionnaire pour vous inviter à penser à l'essentiel avant de commencer cette aventure. Ces questions ont été sélectionnées sur base de 4 ans d'expériences et d'évaluations des Asssemblées Citoyennes Bruxelloises organisées par Agora.Brussels.
+    Vous souhaitez, comme organisation, lancer un processus de participation citoyenne ? Super ! 
 
-    Chaque processus participatif est unique grâce à son public, sa question, son territoire et évidemment son design. Il y a toutefois une série de points communs à toutes ces expériences. A travers ce questionnaire, nous souhaitons aider votre organisation à se poser les bonnes questions et vous pousser à vous lancer.
+    Chaque processus participatif est unique grâce à son public, sa question, son territoire et évidemment son design. Il y a toutefois une série de points communs à toutes ces expériences. **A travers ce questionnaire, nous souhaitons aider votre organisation à se poser les bonnes questions et vous pousser à vous lancer.**
 
-    Nul besoin d'avoir donc d'avoir répondu "oui” à toutes les questions. Mais si vous répondez à l'une d'entre elles par la négative et qu'elle vous semble soulever un point crucial, nous vous invitons à y réfléchir encore. Pour cela, nous offrons des pistes et renvoyons vers notre expérience pour vous inspirer.
+    L'ensemble des questions et des réponses est basé sur une expérience de quatre ans au cours de laquelle Agora.Brussels a mis en place quatre cycles d'[Assemblées Citoyennes Bruxelloises](https://www.assemblee.brussels/). Certaines avaient pour but d'écrire des recommandations générales sur une thématique, d'autres visaient à amender le travail de parlementaires. Certaines se sont déroulées en présentiel, d'autres en visioconférence. Certaines ont duré trois jours, d'autres sept, étalées sur une période de trois mois à une année (car interrompue par une épidémie mondiale).
 
-    Nous vous invitons à pratiquer cette logique d'amélioration dans la durée. Jetez-vous dans l'action lorsque vous avez assez de "oui” et focalisez-vous sur certains ”oui mais-non mais” ou "non” à perfectionner lors des éditions suivantes.
-
-    ---
-
-    L'ensemble des questions et des réponses est basé sur une expérience de 4 ans au cours de laquelle Agora a mis en place quatre Assemblées Citoyennes Bruxelloises. Certaines avaient pour but d'écrire des recommandations générales sur une thématique, d'autres visaient à amender le travail de parlementaires. Certaines se sont déroulées en présentiel, d'autres en visioconférence. Certaines ont duré 3 jours, d'autres 7, étalées sur une période de 3 mois à une année (car interrompue par une épidémie mondiale).
-    
     Bref, Agora.Brussels a testé et posé des choix en termes d'agenda, de méthodologie, de logistique. Ils ne furent pas toujours les meilleurs, notamment parce que nous avons dû improviser (nous n'avions pas prévu, début 2020, de gérer des confinements à répétition suite à la pandémie…).
 
-    C'est pourquoi nous pensons que ce questionnaire est utile. Comme nous, vous serez amenés à improviser et vous pourrez le faire dans de bonnes conditions si vous avez devancé les nombreux défis liés à l'organisation d'un processus participatif.
+    C'est pourquoi nous pensons que ce questionnaire est utile. Comme nous, vous serez amené·e·s à improviser et vous pourrez le faire dans de bonnes conditions si vous avez devancé les nombreux défis liés à l'organisation d'un processus participatif.
 
-    Le questionnaire comprend 32 questions réparties en quatre grands thèmes :
-    - La structure
-    - Les participants
-    - Le contenu
-    - Le résultat
-  button: "Les bonnes questions avant de se lancer"
+  button: Les bonnes questions avant de se lancer
+organiserAbout:
+  title: A propos de cet outil
+  content: |
+    Ce questionnaire a été élaboré par [Agora.Brussels](https://agora.brussels), un mouvement citoyen né du constat que les processus politiques traditionnels n'impliquent pas suffisamment les citoyen·ne·s, manquent d'inclusivité et offrent trop peu d'espace pour de la délibération.
+
+    Entre 2019 et 2024, Agora.Brussels a organisé l'[Assemblée Citoyenne Bruxelloise](https://www.assemblee.brussels/) - la première institution politique bruxelloise constituée entièrement de citoyen·ne·s tiré·e·s au sort. Lors de quatre cycles, les membres ont délibéré sur des sujets relevant de la compétence de la région bruxelloise. Ce questionnaire est basé sur les expériences acquises lors de la préparation, de la mise en œuvre et de l'évaluation de ces assemblées.
+
+    Au fil des ans, nous avons beaucoup appris et douté et avons parfois trébuché sur des choses que nous aurions dû envisager différemment. Pour soutenir les organisations ayant des objectifs similaires à ceux d'Agora.Brussels, nous voulons partager notre méthode de travail. Via cet outil, avec sa partie pour futurs participant·e·s et pour futurs organisateur·rice·s, Agora.Brussels veut partager et rendre utile ces apprentissages. 
+
+    Cet outil s'appuie sur les réflexions résultant de l'implication de centaines d'assemblistes. Merci pour vos efforts, assemblistes! Basée sur un texte d'Ana Adzersen, la version numérique du questionnaire a été créée par Manuel Claeys Bouuaert. Betül Sefika a fourni une version imprimable du questionnaire. Françoise Lepers a relu le texte, et les collaborateurs d'Agora.Brussels (de janvier à mai 2024) ont coordonné le développement de ce projet.
+    
+    ##### Réutilisation
+
+    Cet outil est publié sous licence [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/). Vous êtes donc autorisé·e à partager ce matériel (le copier, distribuer et communiquer par tous moyens et sous tous formats) selon les conditions suivantes: attribution, pas de modifications.
+    
+    Le code source de ce site est accessible [sur GitHub](https://github.com/agora-brussels/agora-questionnaire/). Les données des questions sont accessibles sous forme structurée [ici](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content).
+organiserOverview:
+  title: Réponses
+  content: |
+    Merci d'avoir parcouru tous les thèmes et questions. Nous espérons que cela vous aidera.
+
+    Nul besoin d'avoir répondu "oui" à toutes les questions. Si vous répondez 'non' à une question qui vous semble cruciale, nous vous invitons à y réfléchir encore. Pour cela, nous offrons des pistes et renvoyons vers notre expérience pour vous inspirer.
+
+    Nous vous invitons à pratiquer cette logique d'amélioration dans la durée. Jetez-vous dans l'action lorsque vous avez assez de "oui" et focalisez-vous sur certains "oui mais-non mais" ou "non" à perfectionner lors des éditions suivantes.
+  reset: Réinitialiser mes réponses
+  confirm: Confirmer
+  cancel: Annuler
+  print: Imprimer un compte-rendu
