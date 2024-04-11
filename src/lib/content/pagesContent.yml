@@ -1,3 +1,119 @@
+nl: 
+  general:
+    home: Welkom
+    about: Over
+    overview: Mijn antwoorden
+    yes: Ja
+    unsure: Onzeker
+    no: Nee
+    more: Meer weten
+    chapter: Hoofdstuk
+    theme: Thema
+    previousTheme: Vorig thema
+    deeperTheme: Dit thema verdiepen
+    nextTheme: Volgende thema
+    question: Vraag
+    navigateToQuestion: Navigeer naar een vraag
+    footer: Een tool van [Agora.Brussels](https://agora.brussels).
+  home:
+    pretitle: Uitgeloot? Twijfel je?
+    title: Beslis over je deelname aan een burgerpanel!
+    content: |
+      Ben je uitgenodigd om deel te nemen aan een burgerpanel of burgerassemblee? Wil je een weloverwogen keuze kunnen maken om al dan niet op de uitnodiging in te gaan? Deze vragenlijst is ontworpen om je daarbij te helpen. Aan de hand van 15 vragen kun je nagaan of het project inclusief, zorgzaam en effectief is.
+
+      *Voor je eraan begint, raden we je aan om de informatie te bekijken die je kreeg van de organisatie.*
+    button: Neem ik deel aan het burgerpanel (of niet)?
+    alt: Bezig met het opzetten van een burgerassemblee? 
+    alt_button: Klik hier voor de gidsende vragenlijst voor organisaties.
+  participantAbout:
+    title: Over deze tool
+    content: |
+      De mate waarin burgerparticipatieprojecten inclusief, zorgzaam en efficiënt zijn, hangt af van een aantal factoren. Die bundelden we in acht thema's: toegankelijkheid, organisatie, begeleiding, facilitatie, thema, informatie, resultaat, opvolging. De 15 vragen in deze vragenlijst gidsen je langs deze pijlers. 
+
+      De vragenlijst is ontwikkeld door [Agora.Brussels](https://agora.brussels), een burgerbeweging die is ontstaan vanuit het besef dat traditionele politieke processen burgers onvoldoende betrekken, niet inclusief genoeg zijn en te weinig ruimte bieden voor genuanceerde gesprekken. 
+
+      Tussen 2019 en 2024 organiseerde Agora.Brussels vier cyclussen van de [Brusselse Burgerassemblee](https://www.assemblee.brussels/). Gelote burgers overlegden er over thema's die zij zelf kozen en dienden op die manier het algemeen belang. Deze vragenlijst is gebaseerd op de ervaringen die zijn opgedaan tijdens de voorbereiding, uitvoering en evaluatie van deze assemblees. 
+
+      In de loop der jaren hebben we veel geleerd en getwijfeld. Soms zijn we gestruikeld over dingen die we anders hadden moeten aanpakken. Om organisaties met gelijkaardige doelstellingen als Agora.Brussels te ondersteunen, willen we onze werkwijze delen. Via dit instrument, dat bestaat uit een versie voor toekomstige deelnemers en een voor organisatoren, wil Agora.Brussels deze ervaringen delen en nuttig maken.
+
+      Dit instrument bouwt voort op inzichten van honderden assemblisten. Dank voor jullie inzet! Gebaseerd op een tekst van Ana Adzersen werd deze digitale versie van de vragenlijst gemaakt door Manuel Claeys Bouuaert. Betül Sefika heeft gezorgd voor een printbare versie van de vragenlijst. Françoise Lepers heeft de tekst nagelezen, en de medewerkers van Agora.Brussels (per januari - mei 2024) hebben de ontwikkeling van dit project gecoördineerd.
+
+      ##### Hergebruik
+      
+      Deze tool is gepubliceerd onder een [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.nl) licentie. Het is dus toegestaan om dit materiaal te delen (kopiëren, verspreiden en door te geven op welke manier en in welk formaat dan ook) op voorwaarde van naamsvermelding en zonder afgeleide werken te maken. 
+      
+      De broncode van deze site is beschikbaar [op Github](https://github.com/agora-brussels/agora-questionnaire/). De gegevens voor de vragen zijn in gestructureerde vorm [hier](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content) toegankelijk.
+  participantOverview:
+    title: Een keuze maken op basis van je antwoorden
+    content: |
+      Bedankt voor het doornemen van alle onderwerpen en vragen. We hopen dat het je zal helpen om een geïnformeerde keuze te maken over deelname aan het burgerpanel/de burgerassemblee.
+
+      **Hier is een overzicht van je antwoorden**. Wat valt je op? Heb je nog twijfels?
+
+      Maak je geen zorgen als je niet alle vragen hebt kunnen beantwoorden. Mocht je over meer dan vijf vragen vastzitten door een gebrek aan informatie van de organisatie, dan is het raadzaam om hen te contacteren voor verdere verduidelijking.
+
+      Deze tool is niet bedoeld om in jouw plaats te beslissen. Het is belangrijk om een eigen keuze te maken. Hoe voel je je als je naar deze antwoorden kijkt? Vind je alle thema's even belangrijk, of is er een onderwerp dat het belangrijkst is? 
+
+      **De keuze ligt nu bij jou!**
+    reset: Mijn antwoorden resetten
+    confirm: Bevestigen
+    cancel: Annuleren
+    print: Een samenvatting afdrukken
+  organiser:
+    title: Een pannel organiseren
+    content: |
+      Wil je als organisatie een proces van burgerparticipatie opstarten? Fantastisch! 
+
+      Ieder participatieproces is uniek naargelang het publiek, het onderwerp, het grondgebied en natuurlijk de vorm. Toch hebben al die ervaringen ook heel wat gemeen. Aan de hand van deze vragenlijst helpen we jouw organisatie de juiste vragen te stellen en willen we jullie aanmoedigen om ervoor te gaan.
+
+      Deze vragen en antwoorden zijn gebaseerd op vier jaar ervaring. In die periode heeft Agora vier cycli van de [Brusselse Burgerassemblee](https://www.assemblee.brussels/) georganiseerd. Sommige cycli waren bedoeld om algemene aanbevelingen te schrijven over een thema, andere om parlementair werk bij amendement te wijzigen. Sommige assemblees vonden fysiek plaats, andere via videoconferentie. Sommige duurden drie dagen, andere zeven, gespreid over een periode van drie maanden tot een jaar (aangezien ze werden onderbroken door een wereldwijde epidemie).
+
+      Kortom, Agora.Brussels heeft opties uitgetest en keuzes gemaakt voor de agenda, de methodologie en de logistiek. Het waren niet altijd de beste keuzes want we hebben soms ook moeten improviseren - begin 2020 konden we niet voorspellen dat we door de pandemie regelmatig in lockdown zouden moeten gaan.
+
+      Daarom denken we dat deze vragenlijst nuttig is. Net als wij zal ook jouw organisatie moeten improviseren. Dat zal vlot verlopen als je hebt geanticipeerd op de talrijke uitdagingen die komen kijken bij de organisatie van een participatieproces.
+
+      ##### Over de vragenlijst
+
+      L'ensemble des questions et des réponses est basé sur une expérience de 4 ans au cours de laquelle Agora a mis en place quatre Assemblées Citoyennes Bruxelloises. Certaines avaient pour but d'écrire des recommandations générales sur une thématique, d'autres visaient à amender le travail de parlementaires. Certaines se sont déroulées en présentiel, d'autres en visioconférence. Certaines ont duré 3 jours, d'autres 7, étalées sur une période de 3 mois à une année (car interrompue par une épidémie mondiale).
+
+      Bref, Agora.Brussels a testé et posé des choix en termes d'agenda, de méthodologie, de logistique. Ils ne furent pas toujours les meilleurs, notamment parce que nous avons dû improviser (nous n'avions pas prévu, début 2020, de gérer des confinements à répétition suite à la pandémie…).
+
+      C'est pourquoi nous pensons que ce questionnaire est utile. Comme nous, vous serez amenés à improviser et vous pourrez le faire dans de bonnes conditions si vous avez devancé les nombreux défis liés à l'organisation d'un processus participatif.
+
+      Le questionnaire comprend 32 questions réparties en quatre grands thèmes :
+      - La structure
+      - Les participant·e·s
+      - Le contenu
+      - Le résultat
+    button: De juiste vragen voor je eraan begint
+  organiserAbout:
+    title: Over deze tool
+    content: |
+      De vragenlijst is ontwikkeld door [Agora.Brussels](https://agora.brussels), een burgerbeweging die is ontstaan vanuit het besef dat traditionele politieke processen burgers onvoldoende betrekken, niet inclusief genoeg zijn en te weinig ruimte bieden voor genuanceerde gesprekken. 
+
+      Tussen 2019 en 2024 organiseerde Agora.Brussels vier cyclussen van de [Brusselse Burgerassemblee](https://www.assemblee.brussels/). Gelote burgers overlegden er over thema's die zij zelf kozen en dienden op die manier het algemeen belang. Deze vragenlijst is gebaseerd op de ervaringen die zijn opgedaan tijdens de voorbereiding, uitvoering en evaluatie van deze assemblees. 
+
+      In de loop der jaren hebben we veel geleerd en getwijfeld. Soms zijn we gestruikeld over dingen die we anders hadden moeten aanpakken. Om organisaties met gelijkaardige doelstellingen als Agora.Brussels te ondersteunen, willen we onze werkwijze delen. Via dit instrument, dat bestaat uit een versie voor toekomstige deelnemers en een voor organisatoren, wil Agora.Brussels deze ervaringen delen en nuttig maken.
+
+      Dit instrument bouwt voort op inzichten van honderden assemblisten. Dank voor jullie inzet! Gebaseerd op een tekst van Ana Adzersen werd deze digitale versie van de vragenlijst gemaakt door Manuel Claeys Bouuaert. Betül Sefika heeft gezorgd voor een printbare versie van de vragenlijst. Françoise Lepers heeft de tekst nagelezen, en de medewerkers van Agora.Brussels (per januari - mei 2024) hebben de ontwikkeling van dit project gecoördineerd.
+
+      ##### Hergebruik
+      
+      Deze tool is gepubliceerd onder een [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.nl) licentie. Het is dus toegestaan om dit materiaal te delen (kopiëren, verspreiden en door te geven op welke manier en in welk formaat dan ook) op voorwaarde van naamsvermelding en zonder afgeleide werken te maken. 
+      
+      De broncode van deze site is beschikbaar [op Github](https://github.com/agora-brussels/agora-questionnaire/). De gegevens voor de vragen zijn in gestructureerde vorm [hier](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content) toegankelijk.
+  organiserOverview:
+    title: Antwoorden
+    content: |
+      Bedankt voor het doornemen van alle onderwerpen en vragen. We hopen dat het je zal helpen!
+
+      Je hoeft dus zeker niet op alle vragen 'ja' te hebben geantwoord. Maar als je op een ervan 'nee' hebt geantwoord en je de indruk hebt dat het een doorslaggevend punt betreft, is het aangewezen om er nog eens goed over te denken.
+
+      We vragen je om deze verbeteringslogica op lange termijn toe te passen. Ga over tot actie als je genoeg ja's hebt en concentreer je op bepaalde 'ja of nee maar' of 'nee' om volgende edities te verbeteren.
+    reset: Mijn antwoorden resetten
+    confirm: Bevestigen
+    cancel: Annuleren
+    print: Een samenvatting afdrukken
 fr: 
   general:
     home: Accueil
@@ -24,7 +140,7 @@ fr:
       *On te conseille de lire toutes les informations que tu as reçues concernant l'invitation avant de commencer.*
     button: Je participe au panel citoyen (ou pas) ?
     alt: Vous mettez en place un panel citoyen?
-    alt_button: C'est par ici pour les organisations.
+    alt_button: Cliquez ici pour consulter le questionnaire d'orientation destiné aux organisations.
   participantAbout:
     title: A propos de cet outil
     content: |
@@ -40,7 +156,7 @@ fr:
       
       ##### Réutilisation
 
-      Cet outil est publié sous licence [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/). Vous êtes donc autorisé·e à partager ce matériel (le copier, distribuer et communiquer par tous moyens et sous tous formats) selon les conditions suivantes: attribution, pas de modifications.
+      Cet outil est publié sous licence [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.fr). Vous êtes donc autorisé·e à partager ce matériel (le copier, distribuer et communiquer par tous moyens et sous tous formats) selon les conditions suivantes: attribution, pas de modifications.
       
       Le code source de ce site est accessible [sur GitHub](https://github.com/agora-brussels/agora-questionnaire/). Les données des questions sont accessibles sous forme structurée [ici](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content).
   participantOverview:
@@ -52,7 +168,9 @@ fr:
 
       Si tu n'as pas pu répondre à toutes les questions, pas de souci. Cependant, si tu te trouves bloqué·e sur plus de cinq questions à cause du manque d'informations de l'organisation, il est conseillé de les contacter pour obtenir des éclaircissements supplémentaires.
 
-      Cet outil n'a pas pour but de décider à ta place. C'est important que chacun·e décide en toute autonomie. Comment te sens-tu en regardant ces réponses? Est-ce que tous les thèmes sont équivalents pour toi, ou y en a-t-il un qui est primordial? Regarde tes réponses et pense à ce que tu trouves important. Maintenant, le choix est à toi!
+      Cet outil n'a pas pour but de décider à ta place. C'est important que chacun·e décide en toute autonomie. Comment te sens-tu en regardant ces réponses? Est-ce que tous les thèmes sont équivalents pour toi, ou y en a-t-il un qui est primordial? Regarde tes réponses et pense à ce que tu trouves important. 
+      
+      **Maintenant, le choix est à toi!**
     reset: Réinitialiser mes réponses
     confirm: Confirmer
     cancel: Annuler
@@ -97,7 +215,7 @@ fr:
       
       ##### Réutilisation
 
-      Cet outil est publié sous licence [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/). Vous êtes donc autorisé·e à partager ce matériel (le copier, distribuer et communiquer par tous moyens et sous tous formats) selon les conditions suivantes: attribution, pas de modifications.
+      Cet outil est publié sous licence [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.fr). Vous êtes donc autorisé·e à partager ce matériel (le copier, distribuer et communiquer par tous moyens et sous tous formats) selon les conditions suivantes: attribution, pas de modifications.
       
       Le code source de ce site est accessible [sur GitHub](https://github.com/agora-brussels/agora-questionnaire/). Les données des questions sont accessibles sous forme structurée [ici](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content).
   organiserOverview:
