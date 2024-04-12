@@ -1,3 +1,301 @@
+nl: 
+  chapters:
+  - slug: structure
+    title: Structuur
+    content: Geeft het proces iedereen de kans om ten volle deel te nemen?
+    themes: 
+    - slug: accessibility
+      title: Toegankelijkheid
+      content: Streeft het proces naar volledige inclusie?
+      questions:
+      - slug: database
+        title: Databank
+        content: worden de deelnemers gekozen op basis van precieze en volledige gegevens?
+        more: |
+          De gegevens die wordt gebruikt voor de selectie (loting of andere) zorgen ervoor dat het panel een goede weerspiegeling is van de bevolking. Dit is heel belangrijk omdat deelnemers zicht moeten hebben op de gevolgen van hun beslissingen. Zo zijn er bijvoorbeeld gewoonlijk meer gebruikers van het openbaar vervoer dan inwoners van een bepaalde administratieve regio.
+
+          De impact van beslissingen gaat vaak verder dan administratieve grenzen. Deelnemers van een participatieproces worden dus idealiter geselecteerd uit het ecosysteem dat de gevolgen van de aanbevelingen daadwerkelijk zal voelen.
+
+          Voor de selectie is het rijksregister de meest uitgebreide databank. Helaas is het moeilijk om toegang te krijgen tot dat register van burgers. Bovendien zijn de kwetsbaarste doelgroepen doorgaans ondervertegenwoordigd in databanken (ook in het rijksregister). Bijgevolg dreigt in de panels een ondervertegenwoordiging van de groepen die in de samenleving al het minst gehoord worden.
+
+          Agora.Brussels koos voor een innovatieve aanpak voor de loting door te werken met een databank die rekening houdt met de bewoonbare oppervlakte. Hoe meer woonoppervlakte, hoe meer kans dat er uitnodigingen werden opgestuurd.
+      - slug: representativeness
+        title: Representativiteit
+        content: Zorgt het selectieproces ervoor dat het panel de verscheidenheid aan ervaringen en meningen in de samenleving weerspiegelt?
+        more: |
+          Het is onmogelijk en zelfs contraproductief om te streven naar een representativiteit gebaseerd op de aanwezigheid van alle doelgroepen. Sommige doelgroepen en types personen zijn meer bereid dan andere om deel te nemen. Het is gemakkelijker om hoogopgeleide Belgische mannen ouder dan 50 te vinden dan mensen die het heel druk hebben, heel bevoorrecht of kansarm zijn of angststoornissen hebben. Bijgevolg moeten we streven naar de aanwezigheid van doelgroepen en profielen die de ervaringen en de meningen kennen van degenen die niet deelnemen. Bijvoorbeeld dichte familie, collega's, personen die bereid zijn om deel te nemen en zich in een vergelijkbare situatie bevinden of hebben bevonden ...
+
+          Om die afwijkende profielen te bereiken, is Agora partnerschappen aangegaan met verenigingen die zulke profielen ondersteunen. Dan gaat het onder andere over hulpverenigingen voor mensen in moeilijke situaties of scholen voor beroepsonderwijs. Samen met hen hebben we specifieke lotingen georganiseerd om ook die burgers een plaats te geven in ons panel.
+      - slug: inclusion
+        title: Inclusie
+        content: Worden de bestaande barrières voor de deelnemers (toegankelijkheid op onder meer fysiek, taalkundig, mentaal en emotioneel vlak) weggewerkt, onder andere dankzij een aanzienlijke vergoeding?
+        more: |
+          Door barrières weg te werken, is een volledige en gelijke deelname mogelijk, vooral voor doelgroepen die het minst bereid zijn om deel te nemen. Daarom is het belangrijk om alle uitdagingen voor deelname in vraag te stellen en die ook gericht aan te pakken. Maak van bij het begin duidelijk dat je te voorziene en logistiek beheersbare obstakels uit de weg zal ruimen. Enkele mogelijkheden zijn taxikosten betalen, een crèche voorzien voor mensen met familiale verplichtingen, tolken inschakelen en het taalniveau vereenvoudigen door middel van specifieke woordenlijsten.
+
+          De psychologische barrières worden vaak onderschat. In onze assemblees hebben we een kader opgezet om bepaalde angsten te overwinnen: angst om de taal van de andere deelnemers niet te spreken, om de grenzen van het proces niet te kunnen onderscheiden (wat je moet vragen of delen met andere deelnemers, wat te maken heeft met het thema of niet), om een onbekende vrijwilliger op je kinderen te laten passen of om alleen te staan vanwege autisme. Voor al die personen moesten individuele oplossingen worden gezocht en daar zijn we deels in geslaagd. De enige manier om te zorgen voor maximale toegankelijkheid, is mensen individueel begeleiden en hun vertrouwen winnen zodat ze hun behoeften voldoende zullen delen om het avontuur voort te zetten.
+      - slug: stakeholders
+        title: Betrokken partijen
+        content: Zal het burgerparticipatief proces beroep doen op betrokken partijen om de impact van het resultaat en de maatschappelijke draagkracht om het resultaat te implementeren te vergroten?
+        more: |
+          Burgerparticipatie verbetert het besluitvormingsproces omdat ze rekening houdt met de behoeften van de personen en organisaties die de gevolgen ervan ondergaan. De beslissingen zijn dus realistischer en beter uit te voeren. In al hun diversiteit weten burgers immers beter wat hen ertoe drijft om een regel al dan niet te volgen.
+          
+          Daarvoor is niet alleen een grote verscheidenheid aan burgerprofielen nodig, maar ook de expertise van de spelers die een sleutelrol zullen spelen in de uitvoering van de beleidsbeslissing. Daarom moeten bepaalde intermediaire organen die alles kunnen blokkeren of in beweging zetten erbij betrokken worden, net zoals opinieleiders die een impact kunnen hebben op het gedrag van burgers en kunnen helpen om de aanbevelingen beter te formuleren.
+    - slug: organisation
+      title: Organisatie
+      content: Boezemt de organisatie vertrouwen in?
+      questions:
+      - slug: ressources
+        title: Middelen
+        content: Zijn er voldoende financiële, menselijke (zie 1. toegankelijkheid en 3. begeleiding) en inhoudelijke (zie 6. informatie) middelen om het werk van de burgers te ondersteunen?
+        more: |
+          Er zijn twee aspecten waarvoor veel middelen nodig zijn: zorgen voor toegankelijkheid en voor aanhoudende individuele begeleiding, zodat iedereen tot het einde kan deelnemen. Er zijn ook nog andere taken, zoals logistiek (locatie, catering, tolkwerk), de organisatie en de verspreiding van de informatie of de facilitatie van het overleg.
+      - slug: timing
+        title: Tijdschema
+        content: Maken de agenda en de werktijd (gevraagde fysieke en individuele tijd) het eenvoudig om deel te nemen?
+        more: |
+          Zoek de best mogelijke data door rekening te houden met schoolvakanties, feestdagen en religieuze agenda's. Idealiter duren de sessies niet langer dan zeven uur per dag met lange pauzes. Als je twee opeenvolgende dagen kan inplannen, verloopt alles een stuk vlotter.
+
+          Het is mogelijk deelnemers individueel te laten voortwerken, maar best in beperkte mate. Weinig mensen zullen de tijd nemen/hebben en bepaalde doelgroepen zijn het niet gewend teksten met veel gegevens door te nemen en zelfstandig reflexieve taken uit te voeren.
+      - slug: logistics
+        title: Logistiek
+        content: Staan de locatie, de technologie en het materiaal ten dienste van het project? Worden de mensen hartelijk ontvangen?
+        more: |
+          Idealiter is de locatie neutraal, niet te institutioneel of symbolisch geladen en biedt ze een zeker comfort. Ze bevordert inclusie en het overlegproces is er mogelijk dankzij eenvoudige en gebruiksvriendelijke technologische ondersteuning. Het materiaal moet de mogelijkheid bieden om zich te concentreren op een complexe taak. Om aanbevelingen te kunnen formuleren moet aan alle individuele behoeften worden voldaan. Denk bijvoorbeeld aan specifieke diëten of koptelefoons die kunnen worden gebruikt met hoofddoeken. 
+          
+          Idealiter is de menselijke ondersteuning gepersonaliseerd en houdt ze rekening met de individuele behoeften.
+      - slug: institution
+        title: Organiserende instelling
+        content: Is de organiserende instelling transparant over haar intentie (politiek standpunt, gewenst resultaat, politieke impact enzovoort)?
+        more: |
+          Het is zinvol om te streven naar onpartijdigheid zodat de burgers zich kunnen aansluiten bij het proces. De deelnemers moeten vertrouwen hebben in het proces en de structuur die erachter zit om zich ten volle te kunnen inzetten. Het is dus belangrijk om transparant en begrijpelijk te communiceren over de reden waarom het proces wordt georganiseerd, de plaats van de organiserende instelling in de institutionele structuur, haar relatie met de overheid, de ontvanger van het resultaat van het participatieproces en diens relatie met de aanbevelingen (rechtstreeks beïnvloed door de voorstellen?).
+          
+          Via de organisatie van het proces geeft de organiserende instelling impliciet enkele waarden mee. Dat kan ertoe leiden dat bepaalde geselecteerde personen zichzelf zullen uitsluiten op het moment van de uitnodiging of tijdens het proces, omdat ze het gevoel hebben dat ze niet op het juiste moment op de juiste plaats zijn.
+          
+          Doorheen het hele proces spreekt het voor zich dat de burgers de organiserende instelling testen en beoordelen op basis van alles wat ze ervan waarnemen.
+  - slug: participation
+    title: Deelname
+    content: Nodigt het proces uit om ten volle deel te nemen?
+    themes:
+    - slug: accompaniement
+      title: Begeleiding
+      content: Wordt alles in het werk gesteld opdat mensen ten volle kunnen deelnemen?
+      questions:
+      - slug: meetings
+        title: Ontmoetingen
+        content: Wordt het collectieve werk ondersteund door een warme omkadering? Is de begeleiding aangepast aan de manier van ontmoeten (fysiek/online/hybride)?
+        more: |
+          Het is belangrijk dat de ontmoetingen op een professionele en duidelijk identificeerbare manier worden begeleid. De rollen van de begeleiders moeten gemakkelijk identificeerbaar zijn zodat de deelnemers er vlot een beroep op kunnen doen wanneer ze hulp nodig hebben. We gebruikten de rollen 'organisatie', 'onthaal', 'facilitator' en 'hulpbron' (die informatie verschaft over het besproken onderwerp).
+
+          Alle begeleiders (in het bijzonder de mensen van buiten de organisatie, zoals deskundigen) moeten erop worden gewezen dat ze de maatschappelijke voorrechten van bepaalde individuen/groepen niet mogen herhalen binnen de assemblee en dat ze elk type deelnemer respectvol en op dezelfde wijze moeten behandelen.
+
+          Elke manier van ontmoeten - fysiek/online/hybride - brengt uitdagingen met zich mee. Dankzij de muteknop is het online bijvoorbeeld gemakkelijker om iemand ononderbroken te laten praten en tijdens fysieke sessies is het dan weer gemakkelijker om mensen betrokken te houden.
+      - slug: communication
+        title: Communicatie
+        content: Boezemt de organisatie vertrouwen in dankzij duidelijke, transparante en gepersonaliseerde communicatie?
+        more: |
+          De manier waarop de organiserende instelling communiceert naar de deelnemers is een van de grootste uitdagingen en vraagt veel aandacht en middelen. De berichtgeving moet worden aangepast op drie belangrijke momenten:
+          
+          1. Voor en na de ontmoetingen;
+          2. Tijdens de ontmoetingen die plaatsvinden voor, tussen en na de werksessies;
+          3. Tijdens de werksessies.
+          
+          Voor elke gelegenheid is het belangrijk om het meest gepaste communicatiemiddel te kiezen naargelang de verschillende aanwezige profielen en hun wereldbeeld. Het is ook belangrijk om de juiste toon te kiezen om ervoor te zorgen dat iedereen zich beschikbaar opstelt met openheid van geest. In het algemeen moet de informatie op verschillende manieren worden herhaald om de kans te vergroten dat de verschillende profielen worden bereikt, naargelang de situaties en de behoeften.
+          
+          Uit ervaring weten we dat mensen verschillende en uiteenlopende relaties hebben met digitale communicatiemiddelen. Daarom moet worden uitgezocht wie met welk middel communiceert (sms, WhatsApp, e-mail) en in sommige gevallen moet dat worden aangevuld met telefoongesprekken. Voor communicatie buiten de werksessies is het belangrijk om kernachtige en eenvoudige taal en woordenschat te hanteren. De doeltreffendste toon is een lichte, nederige toon vol humor en erkenning.
+          
+          Tijdens werksessies in kleine groepen moeten de manier van uitdrukken en de toon doelgerichter zijn, met aandacht voor zowel het individu als de groep. Het is een meerwaarde transparant en authentiek te zijn. Het wordt steeds aangeraden om elk bericht een à twee keer te herhalen.
+      - slug: equity
+        title: Gelijkheid
+        content: Kan iedereen echt deelnemen dankzij gevoelige en pedagogische ondersteuning?
+        more: |
+          In een participatieproces kunnen alle uitdagingen opduiken die zich in de samenleving voordoen. Het is dan ook belangrijk om een kader van democratische waarden en overleg te creëren en te handhaven, om tot een beslissing van algemeen belang te komen.
+
+          Daarom is dit, heel kort, de boodschap die we gebruikten om de interacties in onze assemblees te omkaderen: “Dit proces zal werken als iedereen handelt vanuit het idee dat elke stem telt, dat het hier een meertalige ruimte is, dat actief luisteren cruciaal is voor een goed begrip, dat nieuwsgierigheid ons helpt om gemeenschappelijke invalshoeken te ontdekken en dat vertrouwen in onszelf en in anderen, evenals zorg voor onszelf en anderen, ons in staat stellen om samen vooruit te komen”.
+
+          Om binnen dat kader te kunnen handelen, is er ook een denkoefening en een leerproces nodig over wat we als individu niet kennen. Idealiter is een deel van een participatieproces gewijd aan dat leerproces. In onze assemblees hebben we geëxperimenteerd met duo's, vertrouwensgroepen en brainstormwandelingen. Het belangrijkste is om een ruimte te creëren waarin het gedrag van iedereen in vraag kan worden gesteld. Zo kunnen we dominante verhoudingen overstijgen die eigen zijn aan elke groepsinteractie..
+      - slug: codesign
+        title: Co-design
+        content: Omvat het proces een co-creatieve modus operandi die deelnemers in staat stelt het proces mee uit te werken?
+        more: |
+          Co-design is bedoeld om de bevoegdheid van de organiserende instelling over de inhoud én de besluitvorming aan de burgers over te laten. Dat is ook de grootste uitdaging met het oog op facilitatie.
+
+          In principe is het mogelijk om burgers het hele ontwerp van een participatieproces te laten uitwerken. De grootste beperking daarvoor is dat de organiserende instelling zelf actief is binnen een institutioneel kader, wat eisen inhoudt op het vlak van waarden, principes, acties of resultaten. Bij Agora.Brussels was dit de verkiezingsbelofte om binnen het parlement een woordvoerder te hebben voor de aanbevelingen van de Assemblee, dankzij de verkiezing van een volksvertegenwoordiger. Een andere beperking is de tijd die dit kost. 
+          
+          We hebben de deelnemers vooral de mogelijkheid geboden om het werkingskader (zie [3. begeleiding - gelijkheid](organiser/accompaniement/equity/)) mee op te bouwen en aan te passen, de eerste thema's en vragen te formuleren en de subthema's te kiezen waaraan gewerkt zou worden.
+          
+          De wensen van onze deelnemers op het vlak van co-design hadden betrekking op de werkorganisatie (hoe groot zijn de subgroepen en hoe worden ze verdeeld? Hoe plenair werken? Waaraan werktijd besteden? enz.) Die vragen opnemen vraagt veel tijd, organisatie, structuur en aandacht voor details. En de groep moet in staat zijn erg zelfstandig te kunnen werken. Er moet een evenwicht worden gevonden tussen de manier van organiseren en van beslissingen nemen over de thema's.
+          
+          Wanneer we co-design willen opnemen in een proces, mogen we niet vergeten dat bepaalde persoonlijkheden gemakkelijk ontmoedigd en gefrustreerd raken door collectieve besluitingvormingsprocessen of gewoonweg overstelpt worden. Bijgevolg is het risico erg groot dat mensen uit bepaalde doelgroepen zich terugtrekken.
+    - slug: facilitation
+      title: Facilitatie
+      content: Schept de omkadering van het burgerwerk omstandigheden waarin gestreefd kan worden naar het algemene belang?
+      questions:
+      - slug: deliberation
+        title: Overleg
+        content: Leidt de omkadering voor de interactie in werkgroepen tot een uitwisseling van uiteenlopende meningen om daarna te evolueren naar het algemene belang?
+        more: |
+          Om het overleg te bevorderen, is het nodig om zich te baseren op waarden die uitdrukkelijk geformuleerd zijn in een bekend en gevalideerd kader. De verwerking van feiten en ervaringen bevordert een individueel en collectief begrip tijdens de gesprekken.. Collectief begrip bestaat uit een consensus over de feiten en over wat wenselijk is. Het is niet de bedoeling dat iedereen zich achter één oordeel schaart, maar wel dat iedereen eenzelfde algemene richting nastreeft. Bijvoorbeeld: "Er staan te veel gebouwen leeg en er is meer huisvesting nodig voor daklozen" en niet "Het was een slechte stedelijke strategie om kantoorgebouwen te bouwen terwijl er eindeloze wachtlijsten zijn voor sociale huisvesting".
+
+          Om tot een dergelijke consensus te komen, is het nodig dat de verschillende feiten en ervaringen eerst beschreven worden. Daarna kunnen vragen worden gesteld en meningen worden geuit. Tot slot worden de vaststellingen gerangschikt volgens de mate van overeenstemming. Dat resultaat kan dan worden onderzocht vanuit de waarde ervan voor het algemene belang en verder in die richting worden ontwikkeld.
+
+          De organisatie moet de groep door al die fasen begeleiden en ervoor zorgen dat iedereen echt deelneemt - niet noodzakelijk in gelijke mate, maar voldoende om het resultaat mee vorm te geven. Concreet zorgt de organisatie ervoor dat de groep het proces in haar eigen tempo en binnen de voorziene tijd doorloopt. Het programma wordt voortdurend aangepast via specifieke procedures en benaderingen die bedoeld zijn om de verschillen op te lossen. De organisatie moet het thema, de vragen en de problemen op een duidelijke en constructieve manier herformuleren om de vorderingen samen te vatten en de richting te verduidelijken. Tot slot is het belangrijk om na te gaan of iedereen akkoord is en samen het resultaat te verbeteren, rekening houdend met de standpunten van minderheidsgroepen.
+      - slug: posture
+        title: Houding
+        content: Houdt de organisatie rekening met de verschillen en slaagt ze erin om iedereen bij het proces te betrekken?
+        more: |
+          Om elke deelnemer echt te betrekken, is het noodzakelijk om de groep te stimuleren om elkaar tijdens alle interacties ten volle te respecteren. Dat vormt de basis om vertrouwen te ontwikkelen en echt informatie, meningen, ervaringen en engagement te delen. Enkel met vertrouwen en betrokkenheid kan het overlegproces zijn meerwaarde aantonen en de deelnemers de kans bieden om heel bewust standpunten uit te wisselen. Pas dan wordt het mogelijk om samen te kiezen voor het algemeen belang.
+      - slug: approach
+        title: Benadering
+        content: Past de organisatie inclusieve technieken toe waarbij de verschillende soorten intelligentie worden ingezet?
+        more: |
+          De meeste facilitatietechnieken richten zich tot een publiek dat als standaard kan worden beschouwd en in staat is tot interactie binnen een groep. Meedoen aan een participatieproces kan om verschillende redenen neurodivergente toestanden uitlokken (de sociale stress om alleen te zijn in een groep onbekenden, de druk om beslissingen te nemen voor de hele bevolking enz.) Ook andere tijdelijke factoren zoals armoede, werkloosheid, overbezetting of onderbezetting, verslavingen en ziekten kunnen een rol spelen. Daarom is het van cruciaal belang om verschillende facilitatietechnieken te gebruiken zodat ervaringsdeskundigheid en neurodivergentie zinvol kunnen  bijdragen aan het overleg.
+      - slug: functioning
+        title: (Dis)functioneren binnen de groep
+        content: Zorgt de organisatie voor een co-creatieve dynamiek? Vormt ze een tegengewicht voor de groepswerkingen die uiteenlopende standpunten onderdrukken (bijvoorbeeld dominantieverhoudingen of groepsdenken)?
+        more: |
+          Co-creatie is tegenwoordig helaas geen courante praktijk, integendeel. In een participatieproces leidt een coöperatief kader (zie [3. begeleiding - gelijkheid](organiser/accompaniement/equity/)) het gedrag van de deelnemers naar co-creatie. Als we onder druk staan, bijvoorbeeld wanneer we voorstellen moeten formuleren en erover moeten stemmen, kan competitief gedrag evenwel gemakkelijk weer de bovenhand nemen. De facilitatie moet ten allen tijde waakzaam rekening houden met deze neiging.
+
+          En aangezien de mens een kuddedier is, kunnen bepaalde groepsdynamieken de interactie beïnvloeden: 
+
+          - sympathie voelen voor een persoon met wie ik in de pauze heb gebabbeld en die persoon niet willen tegenspreken;
+          - niet geïdentificeerd willen worden als lid van een bepaalde groep en die groep daarom vurig tegenspreken;
+          - zich superieur voelen ten opzichte van iemand en dat laten voelen.
+
+          Al dat gedrag heeft een invloed op het eindresultaat.
+
+          Een slimme facilitator merkt dat soort gedrag op, toomt het in of benoemt het indien nodig zodat de groep het kan identificeren en het direct kan aanpakken. De organisatie moet zich bewust zijn van de bestaande maatschappelijke en individuele privileges tussen mensen, nederigheid en fouten maken promoten, erkennen en de manier van werken aanpassen. En de organisatie moet vooral dominantie tussen deelnemers durven benoemen en de dynamiek sturen naar co-creatie.
+  - slug: content
+    title: Inhoud
+    content: Bevordert de inhoud van het proces een waardevolle impact op de samenleving?
+    themes:
+    - slug: theme
+      title: Thema
+      content: Maakt het gekozen thema het werk van de assemblee mogelijk en nuttig?
+      questions:
+      - slug: selection
+        title: Keuze
+        content: Gaan toekomstige deelnemers aan het participatieproces akkoord met de manier waarop het thema wordt gekozen? Is er interesse voor het thema?
+        more: |
+          Het thema en de keuze ervan bepalen in grote mate de waargenomen legitimiteit en bijgevolg de betrokkenheid van de deelnemers bij het proces. De legitimiteit hangt af van wie het thema heeft gekozen, hoe en waarom, maar ook van de actualiteit en interesse van individuen en de samenleving. Tot slot spelen ook andere factoren mee die een invloed kunnen hebben op de beslissing van de burger en het resultaat van het participatieproces. Idealiter wordt het thema besproken, voorgesteld en gekozen door representatieve burgers.
+      - slug: field
+        title: Toepassingsgebied
+        content: Is de instelling waarvoor het resultaat bedoeld is, bevoegd voor het besproken onderwerp?
+        more: |
+          Aan het einde van de participatieprocessen wordt het resultaat van het werk van de burgers doorgaans voorgelegd aan een politieke instelling. Vaak hebben de ontvangende instellingen niet voldoende bevoegdheden om wetten te maken of de burgervoorstellen uit te voeren. Dit komt hetzij doordat burgers in hun voorstellen geen rekening houden met de bevoegdheidsverdeling over verschillende bestuursniveaus, hetzij doordat de ontvangende instelling slechts bevoegd is voor een klein deel van het thema uit het burgervoorstel. 
+          
+          Het is dan ook belangrijk dat het proces een analyse bevat van het toepassingsgebied van het thema en de politieke bevoegdheid van de ontvangende instelling. Op die manier kan een werkinhoud worden bepaald met duidelijk afgebakende grenzen.
+      - slug: question
+        title: Vraag als uitgangspunt
+        content: Is het thema geformuleerd in de vorm van een vraag, in eenvoudige en duidelijke taal en met een duidelijk afgebakende besluitvormingscontext?
+        more: |
+          Het is belangrijk dat het thema wordt geformuleerd als een vraag om de burgers in de richting te sturen van een precieze problematiek en een vraagstellingslogica. De manier waarop het thema als vraag wordt verwoord, heeft een grote invloed op het proces. De subthema's die worden behandeld in subgroepen moeten ook worden geformuleerd als subvragen, om overlappingen tussen de subthema's te beperken en zo tot precieze voorstellen te komen. Een duidelijke en eenvoudige formulering van de (sub)thema's heeft een sterke en positieve invloed op de nauwkeurigheid van het werk van de burgers. Ze heeft ook gevolgen voor de inclusiviteit. Complex taalgebruik dreigt immers een minderwaardigheidsgevoel op te roepen.
+          
+          Idealiter gaat de vraag die het uitgangspunt vormt, gepaard met een vaststelling waarin de context van de besluitvorming wordt toegelicht. Dat kunnen de basisfeiten, de historiek en de belangrijkste omstandigheden zijn waarin de problematiek kadert en die aantonen dat het nodig is om het thema aan te pakken.
+      - slug: precision
+        title: Verduidelijking
+        content: Is het politieke dilemma dat aan het thema is gekoppeld, duidelijk gedefinieerd?
+        more: |
+          Participatieprocessen zijn bijzonder relevant wanneer het gaat om een politiek dilemma. Net daarom is het belangrijk om te duiden waarom bepaalde hete hangijzers al jaren muurvast zitten. Welke cultuurverschillen of politieke geschiedenis ligt hiervan aan de basis? Het homohuwelijk in Ierland is een goed voorbeeld van zo'n dilemma. Ook uitdagingen die een verandering in het economische of sociale gedrag vragen (zoals de klimaat- of de migratiecrisis) vallen binnen dat domein.
+          
+          Wanneer een participatieproces een dergelijk dilemma behandelt, is het heel belangrijk dat de bestaande meningsverschillen van bij het begin duidelijk zijn en dat burgers zich ervan bewust zijn dat hun werk verder mag gaan dan waar de conventionele politiek toe in staat is.
+    - slug: information
+      title: Informatie
+      content: Maakt de verstrekte informatie een relevant burgerproces en -resultaat mogelijk?
+      questions:
+      - slug: legitimacy
+        title: Legitiem
+        content: Is de verstrekte informatie representatief voor de meningen van de hele samenleving?
+        more: |
+          Het is onmogelijk om alle informatie die bestaat over een onderwerp te verstrekken of te verzamelen. Sowieso wordt de informatie gefilterd en raakt hierdoor gekleurd. Het uitgangspunt dat moet worden gevolgd om zo objectief mogelijk te zijn bij het verstrekken van informatie, is toegang te geven tot een representatief spectrum van alle meningen in de samenleving. Dat zet de deelnemers ertoe aan hun eigen mening te toetsen aan de verscheidenheid aan standpunten die buiten het panel bestaan. Ze kunnen hun standpunten dan veranderen of toelichten.
+      - slug: interactive
+        title: Interactief
+        content: Wordt de informatie op een interactieve manier verstrekt, waardoor de deelnemers de tegenstrijdigheden tussen de meningen van experts kunnen opmerken, hun ervaringen kunnen situeren in een ruimere context en de informatie kunnen opnemen in hun bestaande kennis?
+        more: |
+          Door een interactief kader te creëren, kunnen de deelnemers de informatie opnemen en correct gebruiken. Dat maakt de informatie die wordt verstrekt door de experts of de andere deelnemers zinvol. Hoe meer interacties er zijn, hoe meer ze worden gestuurd door de burger en hoe minder hiërarchisch ze zijn, hoe meer er rekening mee zal worden gehouden. Als deelnemers zich vrij voelen om samen de informatiebasis op te bouwen waarmee ze vervolgens hun voorstellen uitwerken en hun beslissingen nemen, is het resultaat van betere kwaliteit, omdat het meer kruisverwijzingen bevat en getoetst wordt aan verschillende realiteiten.
+      - slug: custom
+        title: Op maat
+        content: Komt de verstrekte informatie overeen met de vragen van de burgers en de behoefte aan begrip bij de deelnemers?
+        more: |
+          Naarmate de assemblee vordert, verandert de behoefte aan informatie. Vaak hebben de deelnemers meer details nodig wanneer ze het thema grondiger gaan bekijken. Als er bepaalde subthema's opduiken of als de oorspronkelijke denkrichting verandert, moeten er opnieuw basisfeiten worden aangereikt. Dat betekent dat het onmogelijk is om alle informatie die tijdens het proces moet worden verstrekt, vooraf voor te bereiden. Er is dus een zeker flexibiliteit nodig in de verspreiding van de informatie. Het is ook belangrijk om informatie uit verschillende bronnen, in verschillende formaten verstaanbaar te maken aan de hand van diagrammen, afbeeldingen, samenvattingen enzovoort.
+          
+          Om de informatie optimaal te beheren, kan je de groep vragen om zelf de informatie te verzamelen die ze nodig heeft. Wanneer het zeer diverse panels betreft is de begeleiding heel belangrijk want dan lopen de manieren waarop de informatie wordt beheerd nog verder uit elkaar. In dat geval zorgt de begeleiding ervoor dat alle deelnemers toegang hebben tot de informatiebronnen en weten hoe ze die informatie kunnen gebruiken.
+      - slug: applicable
+        title: Toepasselijk
+        content: Maakt de verstrekte informatie het mogelijk om de politieke kwesties (uit het verleden en van vandaag) te begrijpen, zodat de voorstellen van de burgers op een relevante manier kunnen worden toegepast?
+        more: |
+          Elk politiek thema gaat zijn eigen weg, met zijn eigen obstakels of vooraf bepaalde lectuur. Als burgers een bepaald thema kiezen, wil dat zeggen dat het huidige antwoord niet voldoet aan de behoeften van de bevolking.
+
+          Het is voor de burgers belangrijk om te begrijpen in welke historiek het thema kadert om te begrijpen waar er veranderingen mogelijk zijn. Ze moeten informatie ontvangen over de laatste politieke beslissingen die genomen zijn in het kader van het thema, hoe ze werden geïmplementeerd, of er obstakels zijn geweest enzovoort. Het komt erop aan een politieke en wetenschappelijke analyse te leveren in eenvoudige en klare taal, opdat de voorstellen van het panel een stuk relevanter zouden worden.
+  - slug: result
+    title: Resultaat
+    content: Leidt het proces tot maatschappelijke vooruitgang?
+    themes: 
+    - slug: product
+      title: Resultaat
+      content: Is het een sterk en implementeerbaar resultaat?
+      questions:
+      - slug: validation
+        title: Validering
+        content: werd het resultaat door minstens 85% van de deelnemers goedgekeurd?
+        more: |
+          Onze ervaring leert ons dat een stemming met drie opties het mogelijk maakt om ergens mee in te stemmen: 
+
+          - Ik ga akkoord.
+          - Ik heb mijn bedenkingen, maar ik verzet mij niet tegen de uitvoering.
+          - Ik heb een bezwaar. Ik wil niet dat dit voorstel wordt uitgevoerd, want het druist in tegen het gemeenschappelijke belang.
+
+          De drempel om een voorstel af te wijzen ligt op 15% bezwaren.
+      - slug: formulation
+        title: Formulering
+        content: Werden alle deelnemers betrokken bij het formuleren van het resultaat?
+        more: |
+          Het is mogelijk - en het gebeurt regelmatig - dat een voorstel het resultaat is van het werk van een minderheid van de groep. De methodes vragen immers om te werken in subgroepen, om dieper te kunnen ingaan op bepaalde subthema's. In elke subgroep kunnen de deelnemers hun mening geven en meewerken aan de collectieve opstelling van het voorstel. Na het testen van de instemming in de subgroepen is er gelegenheid om commentaar te leveren op het werk van de andere subgroepen en/of het werk plenair te wijzigen. Die feedback in beide richtingen geeft het overlegproces een zekere dynamiek.
+      - slug: aggregation
+        title: Informatie samenbrengen
+        content: Is het resultaat gebaseerd op informatie uit verschillende bronnen, waaronder de ervaringen van de burgers zelf?
+        more: |
+          Een van de manieren om de kwaliteit van de output van een burgerpanel te meten, is door na te gaan of het volledige spectrum van meningen van de samenleving in de resultaten wordt weerspiegeld. Vooral de integratie van verschillende informatiebronnen, zoals de dagelijkse ervaringen van de burgers en wetenschappelijke statistieken, zorgt voor een creatiever resultaat.
+      - slug: innovation
+        title: Innovatie
+        content: Draagt het resultaat op vernieuwende wijze bij aan het algemene belang?
+        more: |
+          Een van de punten om de collectieve creativiteit van de deelnemers te bepalen, is de capaciteit van de groep om voorstellen te doen die de conventionele politiek overstijgen: we willen meer dan compromissen, echte win-winvoorstellen. Dergelijke voorstellen moeten gebaseerd zijn op een allesomvattende analyse van het thema.
+
+          Om dat te bereiken, is een doorgedreven proces van overleg en creativiteit nodig. De groep moet erin slagen om de aloude, vastgeroeste standpunten te overstijgen. Ze moet de tijd nemen om het algemeen belang te bepalen, de tijd om het collectief functioneel te laten worden en de tijd om creativiteit te laten rijpen. De organisatie moet dat proces ondersteunen met respect, inclusiviteit, de ondersteuning van ideeën die in eerste instantie vergezocht lijken en creatieve en co-creatieve methodologieën.
+    - slug: followup
+      title: Opvolging
+      content: Zal het resultaat een impact hebben?
+      questions:
+      - slug: binding
+        title: Bindend
+        content: Kan de partij die het proces organiseert ervoor zorgen dat het resultaat wordt uitgevoerd?
+        more: |
+          De invloed van een panel is afhankelijk van de institutionele positionering van de partij die het participatieproces organiseert. Agora.Brussels vindt dat een burgerassemblee idealiter zelf wetgevende macht zou moeten hebben en dus (ondersteund door de nodige middelen om een hoogwaardig resultaat mogelijk te maken) een direct effect zou moeten kunnen hebben op de realisatie van het thema. Dat zou de deelnemers ongetwijfeld enorm motiveren.
+          
+          Als duidelijk is bepaald welke instelling de voorstellen zal ontvangen, is de impact van het werk van het panel beperkt tot de beslissende macht van die instelling (zo zal een aanbeveling voor de energie-efficiëntie in het Brussels Hoofdstedelijk Gewest geen gevolgen hebben in de andere twee Belgische gewesten).
+          
+          Bij burgerassemblees die buiten de politieke structuren worden georganiseerd, kunnen de resultaten worden omgezet in militante acties, zoals betogingen of memoranda. Die assemblees hebben dus lobbyingbevoegdheid.
+      - slug: recipient
+        title: Ontvanger
+        content: Heeft de institutionele ontvanger (bv. parlement, minister, schepen) zich ertoe verbonden om het resultaat te implementeren?
+        more: |
+          De impact van de aanbevelingen hangt in grote mate af van de positie die wordt ingenomen door de politieke spelers die als taak hebben het burgerlijk resultaat waar te maken. Burgerparticipatie is een democratische innovatie waarvan de legitimiteit nog steeds ter discussie staat. Bijgevolg hebben institutionele ontvangers veel speelruimte in de opvolging. 
+          
+          Het is belangrijk dat de betrokken politieke actoren zich vooraf inzetten bij het werk van de burgers. Dat akkoord moet transparant zijn en moet rekening houden met alle uitzonderingen. Op die manier kunnen de burgers bij het opstellen van hun aanbevelingen, hun voorstellen aanpassen aan verschillende toekomstige politieke situaties en realistische verwachtingen hebben over de impact van hun werk.
+          
+          Idealiter omvat het proces een burgercomité dat toezicht houdt op de uitvoering van het resultaat.
+      - slug: timing
+        title: Politiek tijdschema
+        content: Is het participatieproces afgestemd op de besluitvormingsprocessen met betrekking tot het thema om de impact ervan te vergemakkelijken?
+        more: |
+          Aangezien er participatieprocessen bestaan buiten de wetgevende structuren, is het belangrijk om het - zeer verschillende - ritme van burger- en institutionele besluitvormingsprocessen op elkaar af te stemmen. Zo kunnen de voorstellen van het panel op het juiste moment in de wetgevingscyclus komen. Een aanbeveling van burgers kan bijvoorbeeld worden overgenomen door politici om een nieuwe wet te lanceren of een wetgevingsproces opnieuw te starten, als het op een moment komt waarop alles vastzit.
+          
+          Als het thema al is besproken met het oog op een besluit, kunnen de voorstellen van het burgerpanel dienen om wijzigingen voor te stellen.
+      - slug: capacity
+        title: Ontwikkeling van de capaciteiten
+        content: Heeft het proces gezorgd voor een grotere capaciteit van de samenleving voor burgerparticipatie en de integratie van het resultaat?
+        more: |
+          Deelname aan een panel vergroot de kennis over burgerparticipatie en de capaciteit om deel te nemen aan collectieve besluitvormingsprocessen. Hoe meer betrokkenheid en studie door de deelnemers, hoe groter de impact van het participatieproces op de integratie in de burgerparticipatie, zowel tijdens als na het proces. Het is dan ook bijzonder nuttig om te zorgen voor een inclusieve en gastvrije sfeer. Het co-creatieve karakter van een proces heeft ook een grote impact op het leerproces van de deelnemers.
 fr: 
   chapters:
   - slug: structure
@@ -297,301 +595,3 @@ fr:
         content: Est-ce que la capacité sociétale de participation citoyenne et de l'intégration du résultat a été augmentée par le processus ?
         more: |
           Une participation à un panel accroît la connaissance de la participation citoyenne et la capacité à s'engager dans des processus décisionnels collectifs. Plus la mobilisation et l'apprentissage des participant·e·s est grande, plus le processus participatif aura d'impact sur l'intégration dans la participation citoyenne, pendant et après le processus. Il est donc particulièrement utile de veiller à la mise en place d'une atmosphère inclusive et bienveillante. Le caractère co-créatif d'un processus a aussi un grand effet sur l'apprentissage des participant·e·s.
-nl: 
-  chapters:
-  - slug: structure
-    title: Structuur
-    content: Geeft het proces iedereen de kans om ten volle deel te nemen?
-    themes: 
-    - slug: accessibility
-      title: Toegankelijkheid
-      content: Streeft het proces naar volledige inclusie?
-      questions:
-      - slug: database
-        title: Databank
-        content: worden de deelnemers gekozen op basis van precieze en volledige gegevens?
-        more: |
-          De gegevens die wordt gebruikt voor de selectie (loting of andere) zorgen ervoor dat het panel een goede weerspiegeling is van de bevolking. Dit is heel belangrijk omdat deelnemers zicht moeten hebben op de gevolgen van hun beslissingen. Zo zijn er bijvoorbeeld gewoonlijk meer gebruikers van het openbaar vervoer dan inwoners van een bepaalde administratieve regio.
-
-          De impact van beslissingen gaat vaak verder dan administratieve grenzen. Deelnemers van een participatieproces worden dus idealiter geselecteerd uit het ecosysteem dat de gevolgen van de aanbevelingen daadwerkelijk zal voelen.
-
-          Voor de selectie is het rijksregister de meest uitgebreide databank. Helaas is het moeilijk om toegang te krijgen tot dat register van burgers. Bovendien zijn de kwetsbaarste doelgroepen doorgaans ondervertegenwoordigd in databanken (ook in het rijksregister). Bijgevolg dreigt in de panels een ondervertegenwoordiging van de groepen die in de samenleving al het minst gehoord worden.
-
-          Agora.Brussels koos voor een innovatieve aanpak voor de loting door te werken met een databank die rekening houdt met de bewoonbare oppervlakte. Hoe meer woonoppervlakte, hoe meer kans dat er uitnodigingen werden opgestuurd.
-      - slug: representativeness
-        title: Representativiteit
-        content: Zorgt het selectieproces ervoor dat het panel de verscheidenheid aan ervaringen en meningen in de samenleving weerspiegelt?
-        more: |
-          Het is onmogelijk en zelfs contraproductief om te streven naar een representativiteit gebaseerd op de aanwezigheid van alle doelgroepen. Sommige doelgroepen en types personen zijn meer bereid dan andere om deel te nemen. Het is gemakkelijker om hoogopgeleide Belgische mannen ouder dan 50 te vinden dan mensen die het heel druk hebben, heel bevoorrecht of kansarm zijn of angststoornissen hebben. Bijgevolg moeten we streven naar de aanwezigheid van doelgroepen en profielen die de ervaringen en de meningen kennen van degenen die niet deelnemen. Bijvoorbeeld dichte familie, collega’s, personen die bereid zijn om deel te nemen en zich in een vergelijkbare situatie bevinden of hebben bevonden ...
-
-          Om die afwijkende profielen te bereiken, is Agora partnerschappen aangegaan met verenigingen die zulke profielen ondersteunen. Dan gaat het onder andere over hulpverenigingen voor mensen in moeilijke situaties of scholen voor beroepsonderwijs. Samen met hen hebben we specifieke lotingen georganiseerd om ook die burgers een plaats te geven in ons panel.
-      - slug: inclusion
-        title: Inclusie
-        content: Worden de bestaande barrières voor de deelnemers (toegankelijkheid op onder meer fysiek, taalkundig, mentaal en emotioneel vlak) weggewerkt, onder andere dankzij een aanzienlijke vergoeding?
-        more: |
-          Door barrières weg te werken, is een volledige en gelijke deelname mogelijk, vooral voor doelgroepen die het minst bereid zijn om deel te nemen. Daarom is het belangrijk om alle uitdagingen voor deelname in vraag te stellen en die ook gericht aan te pakken. Maak van bij het begin duidelijk dat je te voorziene en logistiek beheersbare obstakels uit de weg zal ruimen. Enkele mogelijkheden zijn taxikosten betalen, een crèche voorzien voor mensen met familiale verplichtingen, tolken inschakelen en het taalniveau vereenvoudigen door middel van specifieke woordenlijsten.
-
-          De psychologische barrières worden vaak onderschat. In onze assemblees hebben we een kader opgezet om bepaalde angsten te overwinnen: angst om de taal van de andere deelnemers niet te spreken, om de grenzen van het proces niet te kunnen onderscheiden (wat je moet vragen of delen met andere deelnemers, wat te maken heeft met het thema of niet), om een onbekende vrijwilliger op je kinderen te laten passen of om alleen te staan vanwege autisme. Voor al die personen moesten individuele oplossingen worden gezocht en daar zijn we deels in geslaagd. De enige manier om te zorgen voor maximale toegankelijkheid, is mensen individueel begeleiden en hun vertrouwen winnen zodat ze hun behoeften voldoende zullen delen om het avontuur voort te zetten.
-      - slug: stakeholders
-        title: Betrokken partijen
-        content: Zal het burgerparticipatief proces beroep doen op betrokken partijen om de impact van het resultaat en de maatschappelijke draagkracht om het resultaat te implementeren te vergroten?
-        more: |
-          Burgerparticipatie verbetert het besluitvormingsproces omdat ze rekening houdt met de behoeften van de personen en organisaties die de gevolgen ervan ondergaan. De beslissingen zijn dus realistischer en beter uit te voeren. In al hun diversiteit weten burgers immers beter wat hen ertoe drijft om een regel al dan niet te volgen.
-          
-          Daarvoor is niet alleen een grote verscheidenheid aan burgerprofielen nodig, maar ook de expertise van de spelers die een sleutelrol zullen spelen in de uitvoering van de beleidsbeslissing. Daarom moeten bepaalde intermediaire organen die alles kunnen blokkeren of in beweging zetten erbij betrokken worden, net zoals opinieleiders die een impact kunnen hebben op het gedrag van burgers en kunnen helpen om de aanbevelingen beter te formuleren.
-    - slug: organisation
-      title: Organisatie
-      content: Boezemt de organisatie vertrouwen in?
-      questions:
-      - slug: ressources
-        title: Middelen
-        content: Zijn er voldoende financiële, menselijke (zie 1. toegankelijkheid en 3. begeleiding) en inhoudelijke (zie 6. informatie) middelen om het werk van de burgers te ondersteunen?
-        more: |
-          Er zijn twee aspecten waarvoor veel middelen nodig zijn: zorgen voor toegankelijkheid en voor aanhoudende individuele begeleiding, zodat iedereen tot het einde kan deelnemen. Er zijn ook nog andere taken, zoals logistiek (locatie, catering, tolkwerk), de organisatie en de verspreiding van de informatie of de facilitatie van het overleg.
-      - slug: timing
-        title: Tijdschema
-        content: Maken de agenda en de werktijd (gevraagde fysieke en individuele tijd) het eenvoudig om deel te nemen?
-        more: |
-          Zoek de best mogelijke data door rekening te houden met schoolvakanties, feestdagen en religieuze agenda’s. Idealiter duren de sessies niet langer dan zeven uur per dag met lange pauzes. Als je twee opeenvolgende dagen kan inplannen, verloopt alles een stuk vlotter.
-
-          Het is mogelijk deelnemers individueel te laten voortwerken, maar best in beperkte mate. Weinig mensen zullen de tijd nemen/hebben en bepaalde doelgroepen zijn het niet gewend teksten met veel gegevens door te nemen en zelfstandig reflexieve taken uit te voeren.
-      - slug: logistics
-        title: Logistiek
-        content: Staan de locatie, de technologie en het materiaal ten dienste van het project? Worden de mensen hartelijk ontvangen?
-        more: |
-          Idealiter is de locatie neutraal, niet te institutioneel of symbolisch geladen en biedt ze een zeker comfort. Ze bevordert inclusie en het overlegproces is er mogelijk dankzij eenvoudige en gebruiksvriendelijke technologische ondersteuning. Het materiaal moet de mogelijkheid bieden om zich te concentreren op een complexe taak. Om aanbevelingen te kunnen formuleren moet aan alle individuele behoeften worden voldaan. Denk bijvoorbeeld aan specifieke diëten of koptelefoons die kunnen worden gebruikt met hoofddoeken. 
-          
-          Idealiter is de menselijke ondersteuning gepersonaliseerd en houdt ze rekening met de individuele behoeften.
-      - slug: institution
-        title: Organiserende instelling
-        content: Is de organiserende instelling transparant over haar intentie (politiek standpunt, gewenst resultaat, politieke impact enzovoort)?
-        more: |
-          Het is zinvol om te streven naar onpartijdigheid zodat de burgers zich kunnen aansluiten bij het proces. De deelnemers moeten vertrouwen hebben in het proces en de structuur die erachter zit om zich ten volle te kunnen inzetten. Het is dus belangrijk om transparant en begrijpelijk te communiceren over de reden waarom het proces wordt georganiseerd, de plaats van de organiserende instelling in de institutionele structuur, haar relatie met de overheid, de ontvanger van het resultaat van het participatieproces en diens relatie met de aanbevelingen (rechtstreeks beïnvloed door de voorstellen?).
-          
-          Via de organisatie van het proces geeft de organiserende instelling impliciet enkele waarden mee. Dat kan ertoe leiden dat bepaalde geselecteerde personen zichzelf zullen uitsluiten op het moment van de uitnodiging of tijdens het proces, omdat ze het gevoel hebben dat ze niet op het juiste moment op de juiste plaats zijn.
-          
-          Doorheen het hele proces spreekt het voor zich dat de burgers de organiserende instelling testen en beoordelen op basis van alles wat ze ervan waarnemen.
-  - slug: participation
-    title: Deelname
-    content: Nodigt het proces uit om ten volle deel te nemen?
-    themes:
-    - slug: accompaniement
-      title: Begeleiding
-      content: Wordt alles in het werk gesteld opdat mensen ten volle kunnen deelnemen?
-      questions:
-      - slug: meetings
-        title: Ontmoetingen
-        content: Wordt het collectieve werk ondersteund door een warme omkadering? Is de begeleiding aangepast aan de manier van ontmoeten (fysiek/online/hybride)?
-        more: |
-          Het is belangrijk dat de ontmoetingen op een professionele en duidelijk identificeerbare manier worden begeleid. De rollen van de begeleiders moeten gemakkelijk identificeerbaar zijn zodat de deelnemers er vlot een beroep op kunnen doen wanneer ze hulp nodig hebben. We gebruikten de rollen ‘organisatie’, ‘onthaal’, ‘facilitator’ en ‘hulpbron’ (die informatie verschaft over het besproken onderwerp).
-
-          Alle begeleiders (in het bijzonder de mensen van buiten de organisatie, zoals deskundigen) moeten erop worden gewezen dat ze de maatschappelijke voorrechten van bepaalde individuen/groepen niet mogen herhalen binnen de assemblee en dat ze elk type deelnemer respectvol en op dezelfde wijze moeten behandelen.
-
-          Elke manier van ontmoeten - fysiek/online/hybride - brengt uitdagingen met zich mee. Dankzij de muteknop is het online bijvoorbeeld gemakkelijker om iemand ononderbroken te laten praten en tijdens fysieke sessies is het dan weer gemakkelijker om mensen betrokken te houden.
-      - slug: communication
-        title: Communicatie
-        content: Boezemt de organisatie vertrouwen in dankzij duidelijke, transparante en gepersonaliseerde communicatie?
-        more: |
-          De manier waarop de organiserende instelling communiceert naar de deelnemers is een van de grootste uitdagingen en vraagt veel aandacht en middelen. De berichtgeving moet worden aangepast op drie belangrijke momenten:
-          
-          1. Voor en na de ontmoetingen;
-          2. Tijdens de ontmoetingen die plaatsvinden voor, tussen en na de werksessies;
-          3. Tijdens de werksessies.
-          
-          Voor elke gelegenheid is het belangrijk om het meest gepaste communicatiemiddel te kiezen naargelang de verschillende aanwezige profielen en hun wereldbeeld. Het is ook belangrijk om de juiste toon te kiezen om ervoor te zorgen dat iedereen zich beschikbaar opstelt met openheid van geest. In het algemeen moet de informatie op verschillende manieren worden herhaald om de kans te vergroten dat de verschillende profielen worden bereikt, naargelang de situaties en de behoeften.
-          
-          Uit ervaring weten we dat mensen verschillende en uiteenlopende relaties hebben met digitale communicatiemiddelen. Daarom moet worden uitgezocht wie met welk middel communiceert (sms, WhatsApp, e-mail) en in sommige gevallen moet dat worden aangevuld met telefoongesprekken. Voor communicatie buiten de werksessies is het belangrijk om kernachtige en eenvoudige taal en woordenschat te hanteren. De doeltreffendste toon is een lichte, nederige toon vol humor en erkenning.
-          
-          Tijdens werksessies in kleine groepen moeten de manier van uitdrukken en de toon doelgerichter zijn, met aandacht voor zowel het individu als de groep. Het is een meerwaarde transparant en authentiek te zijn. Het wordt steeds aangeraden om elk bericht een à twee keer te herhalen.
-      - slug: equity
-        title: Gelijkheid
-        content: Kan iedereen echt deelnemen dankzij gevoelige en pedagogische ondersteuning?
-        more: |
-          In een participatieproces kunnen alle uitdagingen opduiken die zich in de samenleving voordoen. Het is dan ook belangrijk om een kader van democratische waarden en overleg te creëren en te handhaven, om tot een beslissing van algemeen belang te komen.
-
-          Daarom is dit, heel kort, de boodschap die we gebruikten om de interacties in onze assemblees te omkaderen: “Dit proces zal werken als iedereen handelt vanuit het idee dat elke stem telt, dat het hier een meertalige ruimte is, dat actief luisteren cruciaal is voor een goed begrip, dat nieuwsgierigheid ons helpt om gemeenschappelijke invalshoeken te ontdekken en dat vertrouwen in onszelf en in anderen, evenals zorg voor onszelf en anderen, ons in staat stellen om samen vooruit te komen”.
-
-          Om binnen dat kader te kunnen handelen, is er ook een denkoefening en een leerproces nodig over wat we als individu niet kennen. Idealiter is een deel van een participatieproces gewijd aan dat leerproces. In onze assemblees hebben we geëxperimenteerd met duo’s, vertrouwensgroepen en brainstormwandelingen. Het belangrijkste is om een ruimte te creëren waarin het gedrag van iedereen in vraag kan worden gesteld. Zo kunnen we dominante verhoudingen overstijgen die eigen zijn aan elke groepsinteractie..
-      - slug: codesign
-        title: Co-design
-        content: Omvat het proces een co-creatieve modus operandi die deelnemers in staat stelt het proces mee uit te werken?
-        more: |
-          Co-design is bedoeld om de bevoegdheid van de organiserende instelling over de inhoud én de besluitvorming aan de burgers over te laten. Dat is ook de grootste uitdaging met het oog op facilitatie.
-
-          In principe is het mogelijk om burgers het hele ontwerp van een participatieproces te laten uitwerken. De grootste beperking daarvoor is dat de organiserende instelling zelf actief is binnen een institutioneel kader, wat eisen inhoudt op het vlak van waarden, principes, acties of resultaten. Bij Agora.Brussels was dit de verkiezingsbelofte om binnen het parlement een woordvoerder te hebben voor de aanbevelingen van de Assemblee, dankzij de verkiezing van een volksvertegenwoordiger. Een andere beperking is de tijd die dit kost. 
-          
-          We hebben de deelnemers vooral de mogelijkheid geboden om het werkingskader (zie [3. begeleiding - gelijkheid](organiser/accompaniement/equity/)) mee op te bouwen en aan te passen, de eerste thema's en vragen te formuleren en de subthema's te kiezen waaraan gewerkt zou worden.
-          
-          De wensen van onze deelnemers op het vlak van co-design hadden betrekking op de werkorganisatie (hoe groot zijn de subgroepen en hoe worden ze verdeeld? Hoe plenair werken? Waaraan werktijd besteden? enz.) Die vragen opnemen vraagt veel tijd, organisatie, structuur en aandacht voor details. En de groep moet in staat zijn erg zelfstandig te kunnen werken. Er moet een evenwicht worden gevonden tussen de manier van organiseren en van beslissingen nemen over de thema’s.
-          
-          Wanneer we co-design willen opnemen in een proces, mogen we niet vergeten dat bepaalde persoonlijkheden gemakkelijk ontmoedigd en gefrustreerd raken door collectieve besluitingvormingsprocessen of gewoonweg overstelpt worden. Bijgevolg is het risico erg groot dat mensen uit bepaalde doelgroepen zich terugtrekken.
-    - slug: facilitation
-      title: Facilitatie
-      content: Schept de omkadering van het burgerwerk omstandigheden waarin gestreefd kan worden naar het algemene belang?
-      questions:
-      - slug: deliberation
-        title: Overleg
-        content: Leidt de omkadering voor de interactie in werkgroepen tot een uitwisseling van uiteenlopende meningen om daarna te evolueren naar het algemene belang?
-        more: |
-          Om het overleg te bevorderen, is het nodig om zich te baseren op waarden die uitdrukkelijk geformuleerd zijn in een bekend en gevalideerd kader. De verwerking van feiten en ervaringen bevordert een individueel en collectief begrip tijdens de gesprekken.. Collectief begrip bestaat uit een consensus over de feiten en over wat wenselijk is. Het is niet de bedoeling dat iedereen zich achter één oordeel schaart, maar wel dat iedereen eenzelfde algemene richting nastreeft. Bijvoorbeeld: "Er staan te veel gebouwen leeg en er is meer huisvesting nodig voor daklozen" en niet "Het was een slechte stedelijke strategie om kantoorgebouwen te bouwen terwijl er eindeloze wachtlijsten zijn voor sociale huisvesting".
-
-          Om tot een dergelijke consensus te komen, is het nodig dat de verschillende feiten en ervaringen eerst beschreven worden. Daarna kunnen vragen worden gesteld en meningen worden geuit. Tot slot worden de vaststellingen gerangschikt volgens de mate van overeenstemming. Dat resultaat kan dan worden onderzocht vanuit de waarde ervan voor het algemene belang en verder in die richting worden ontwikkeld.
-
-          De organisatie moet de groep door al die fasen begeleiden en ervoor zorgen dat iedereen echt deelneemt - niet noodzakelijk in gelijke mate, maar voldoende om het resultaat mee vorm te geven. Concreet zorgt de organisatie ervoor dat de groep het proces in haar eigen tempo en binnen de voorziene tijd doorloopt. Het programma wordt voortdurend aangepast via specifieke procedures en benaderingen die bedoeld zijn om de verschillen op te lossen. De organisatie moet het thema, de vragen en de problemen op een duidelijke en constructieve manier herformuleren om de vorderingen samen te vatten en de richting te verduidelijken. Tot slot is het belangrijk om na te gaan of iedereen akkoord is en samen het resultaat te verbeteren, rekening houdend met de standpunten van minderheidsgroepen.
-      - slug: posture
-        title: Houding
-        content: Houdt de organisatie rekening met de verschillen en slaagt ze erin om iedereen bij het proces te betrekken?
-        more: |
-          Om elke deelnemer echt te betrekken, is het noodzakelijk om de groep te stimuleren om elkaar tijdens alle interacties ten volle te respecteren. Dat vormt de basis om vertrouwen te ontwikkelen en echt informatie, meningen, ervaringen en engagement te delen. Enkel met vertrouwen en betrokkenheid kan het overlegproces zijn meerwaarde aantonen en de deelnemers de kans bieden om heel bewust standpunten uit te wisselen. Pas dan wordt het mogelijk om samen te kiezen voor het algemeen belang.
-      - slug: approach
-        title: Benadering
-        content: Past de organisatie inclusieve technieken toe waarbij de verschillende soorten intelligentie worden ingezet?
-        more: |
-          De meeste facilitatietechnieken richten zich tot een publiek dat als standaard kan worden beschouwd en in staat is tot interactie binnen een groep. Meedoen aan een participatieproces kan om verschillende redenen neurodivergente toestanden uitlokken (de sociale stress om alleen te zijn in een groep onbekenden, de druk om beslissingen te nemen voor de hele bevolking enz.) Ook andere tijdelijke factoren zoals armoede, werkloosheid, overbezetting of onderbezetting, verslavingen en ziekten kunnen een rol spelen. Daarom is het van cruciaal belang om verschillende facilitatietechnieken te gebruiken zodat ervaringsdeskundigheid en neurodivergentie zinvol kunnen  bijdragen aan het overleg.
-      - slug: functioning
-        title: (Dis)functioneren binnen de groep
-        content: Zorgt de organisatie voor een co-creatieve dynamiek? Vormt ze een tegengewicht voor de groepswerkingen die uiteenlopende standpunten onderdrukken (bijvoorbeeld dominantieverhoudingen of groepsdenken)?
-        more: |
-          Co-creatie is tegenwoordig helaas geen courante praktijk, integendeel. In een participatieproces leidt een coöperatief kader (zie [3. begeleiding - gelijkheid](organiser/accompaniement/equity/)) het gedrag van de deelnemers naar co-creatie. Als we onder druk staan, bijvoorbeeld wanneer we voorstellen moeten formuleren en erover moeten stemmen, kan competitief gedrag evenwel gemakkelijk weer de bovenhand nemen. De facilitatie moet ten allen tijde waakzaam rekening houden met deze neiging.
-
-          En aangezien de mens een kuddedier is, kunnen bepaalde groepsdynamieken de interactie beïnvloeden: 
-
-          - sympathie voelen voor een persoon met wie ik in de pauze heb gebabbeld en die persoon niet willen tegenspreken;
-          - niet geïdentificeerd willen worden als lid van een bepaalde groep en die groep daarom vurig tegenspreken;
-          - zich superieur voelen ten opzichte van iemand en dat laten voelen.
-
-          Al dat gedrag heeft een invloed op het eindresultaat.
-
-          Een slimme facilitator merkt dat soort gedrag op, toomt het in of benoemt het indien nodig zodat de groep het kan identificeren en het direct kan aanpakken. De organisatie moet zich bewust zijn van de bestaande maatschappelijke en individuele privileges tussen mensen, nederigheid en fouten maken promoten, erkennen en de manier van werken aanpassen. En de organisatie moet vooral dominantie tussen deelnemers durven benoemen en de dynamiek sturen naar co-creatie.
-  - slug: content
-    title: Inhoud
-    content: Bevordert de inhoud van het proces een waardevolle impact op de samenleving?
-    themes:
-    - slug: theme
-      title: Thema
-      content: Maakt het gekozen thema het werk van de assemblee mogelijk en nuttig?
-      questions:
-      - slug: selection
-        title: Keuze
-        content: Gaan toekomstige deelnemers aan het participatieproces akkoord met de manier waarop het thema wordt gekozen? Is er interesse voor het thema?
-        more: |
-          Het thema en de keuze ervan bepalen in grote mate de waargenomen legitimiteit en bijgevolg de betrokkenheid van de deelnemers bij het proces. De legitimiteit hangt af van wie het thema heeft gekozen, hoe en waarom, maar ook van de actualiteit en interesse van individuen en de samenleving. Tot slot spelen ook andere factoren mee die een invloed kunnen hebben op de beslissing van de burger en het resultaat van het participatieproces. Idealiter wordt het thema besproken, voorgesteld en gekozen door representatieve burgers.
-      - slug: field
-        title: Toepassingsgebied
-        content: Is de instelling waarvoor het resultaat bedoeld is, bevoegd voor het besproken onderwerp?
-        more: |
-          Aan het einde van de participatieprocessen wordt het resultaat van het werk van de burgers doorgaans voorgelegd aan een politieke instelling. Vaak hebben de ontvangende instellingen niet voldoende bevoegdheden om wetten te maken of de burgervoorstellen uit te voeren. Dit komt hetzij doordat burgers in hun voorstellen geen rekening houden met de bevoegdheidsverdeling over verschillende bestuursniveaus, hetzij doordat de ontvangende instelling slechts bevoegd is voor een klein deel van het thema uit het burgervoorstel. 
-          
-          Het is dan ook belangrijk dat het proces een analyse bevat van het toepassingsgebied van het thema en de politieke bevoegdheid van de ontvangende instelling. Op die manier kan een werkinhoud worden bepaald met duidelijk afgebakende grenzen.
-      - slug: question
-        title: Vraag als uitgangspunt
-        content: Is het thema geformuleerd in de vorm van een vraag, in eenvoudige en duidelijke taal en met een duidelijk afgebakende besluitvormingscontext?
-        more: |
-          Het is belangrijk dat het thema wordt geformuleerd als een vraag om de burgers in de richting te sturen van een precieze problematiek en een vraagstellingslogica. De manier waarop het thema als vraag wordt verwoord, heeft een grote invloed op het proces. De subthema’s die worden behandeld in subgroepen moeten ook worden geformuleerd als subvragen, om overlappingen tussen de subthema’s te beperken en zo tot precieze voorstellen te komen. Een duidelijke en eenvoudige formulering van de (sub)thema’s heeft een sterke en positieve invloed op de nauwkeurigheid van het werk van de burgers. Ze heeft ook gevolgen voor de inclusiviteit. Complex taalgebruik dreigt immers een minderwaardigheidsgevoel op te roepen.
-          
-          Idealiter gaat de vraag die het uitgangspunt vormt, gepaard met een vaststelling waarin de context van de besluitvorming wordt toegelicht. Dat kunnen de basisfeiten, de historiek en de belangrijkste omstandigheden zijn waarin de problematiek kadert en die aantonen dat het nodig is om het thema aan te pakken.
-      - slug: precision
-        title: Verduidelijking
-        content: Is het politieke dilemma dat aan het thema is gekoppeld, duidelijk gedefinieerd?
-        more: |
-          Participatieprocessen zijn bijzonder relevant wanneer het gaat om een politiek dilemma. Net daarom is het belangrijk om te duiden waarom bepaalde hete hangijzers al jaren muurvast zitten. Welke cultuurverschillen of politieke geschiedenis ligt hiervan aan de basis? Het homohuwelijk in Ierland is een goed voorbeeld van zo’n dilemma. Ook uitdagingen die een verandering in het economische of sociale gedrag vragen (zoals de klimaat- of de migratiecrisis) vallen binnen dat domein.
-          
-          Wanneer een participatieproces een dergelijk dilemma behandelt, is het heel belangrijk dat de bestaande meningsverschillen van bij het begin duidelijk zijn en dat burgers zich ervan bewust zijn dat hun werk verder mag gaan dan waar de conventionele politiek toe in staat is.
-    - slug: information
-      title: Informatie
-      content: Maakt de verstrekte informatie een relevant burgerproces en -resultaat mogelijk?
-      questions:
-      - slug: legitimacy
-        title: Legitiem
-        content: Is de verstrekte informatie representatief voor de meningen van de hele samenleving?
-        more: |
-          Het is onmogelijk om alle informatie die bestaat over een onderwerp te verstrekken of te verzamelen. Sowieso wordt de informatie gefilterd en raakt hierdoor gekleurd. Het uitgangspunt dat moet worden gevolgd om zo objectief mogelijk te zijn bij het verstrekken van informatie, is toegang te geven tot een representatief spectrum van alle meningen in de samenleving. Dat zet de deelnemers ertoe aan hun eigen mening te toetsen aan de verscheidenheid aan standpunten die buiten het panel bestaan. Ze kunnen hun standpunten dan veranderen of toelichten.
-      - slug: interactive
-        title: Interactief
-        content: Wordt de informatie op een interactieve manier verstrekt, waardoor de deelnemers de tegenstrijdigheden tussen de meningen van experts kunnen opmerken, hun ervaringen kunnen situeren in een ruimere context en de informatie kunnen opnemen in hun bestaande kennis?
-        more: |
-          Door een interactief kader te creëren, kunnen de deelnemers de informatie opnemen en correct gebruiken. Dat maakt de informatie die wordt verstrekt door de experts of de andere deelnemers zinvol. Hoe meer interacties er zijn, hoe meer ze worden gestuurd door de burger en hoe minder hiërarchisch ze zijn, hoe meer er rekening mee zal worden gehouden. Als deelnemers zich vrij voelen om samen de informatiebasis op te bouwen waarmee ze vervolgens hun voorstellen uitwerken en hun beslissingen nemen, is het resultaat van betere kwaliteit, omdat het meer kruisverwijzingen bevat en getoetst wordt aan verschillende realiteiten.
-      - slug: custom
-        title: Op maat
-        content: Komt de verstrekte informatie overeen met de vragen van de burgers en de behoefte aan begrip bij de deelnemers?
-        more: |
-          Naarmate de assemblee vordert, verandert de behoefte aan informatie. Vaak hebben de deelnemers meer details nodig wanneer ze het thema grondiger gaan bekijken. Als er bepaalde subthema’s opduiken of als de oorspronkelijke denkrichting verandert, moeten er opnieuw basisfeiten worden aangereikt. Dat betekent dat het onmogelijk is om alle informatie die tijdens het proces moet worden verstrekt, vooraf voor te bereiden. Er is dus een zeker flexibiliteit nodig in de verspreiding van de informatie. Het is ook belangrijk om informatie uit verschillende bronnen, in verschillende formaten verstaanbaar te maken aan de hand van diagrammen, afbeeldingen, samenvattingen enzovoort.
-          
-          Om de informatie optimaal te beheren, kan je de groep vragen om zelf de informatie te verzamelen die ze nodig heeft. Wanneer het zeer diverse panels betreft is de begeleiding heel belangrijk want dan lopen de manieren waarop de informatie wordt beheerd nog verder uit elkaar. In dat geval zorgt de begeleiding ervoor dat alle deelnemers toegang hebben tot de informatiebronnen en weten hoe ze die informatie kunnen gebruiken.
-      - slug: applicable
-        title: Toepasselijk
-        content: Maakt de verstrekte informatie het mogelijk om de politieke kwesties (uit het verleden en van vandaag) te begrijpen, zodat de voorstellen van de burgers op een relevante manier kunnen worden toegepast?
-        more: |
-          Elk politiek thema gaat zijn eigen weg, met zijn eigen obstakels of vooraf bepaalde lectuur. Als burgers een bepaald thema kiezen, wil dat zeggen dat het huidige antwoord niet voldoet aan de behoeften van de bevolking.
-
-          Het is voor de burgers belangrijk om te begrijpen in welke historiek het thema kadert om te begrijpen waar er veranderingen mogelijk zijn. Ze moeten informatie ontvangen over de laatste politieke beslissingen die genomen zijn in het kader van het thema, hoe ze werden geïmplementeerd, of er obstakels zijn geweest enzovoort. Het komt erop aan een politieke en wetenschappelijke analyse te leveren in eenvoudige en klare taal, opdat de voorstellen van het panel een stuk relevanter zouden worden.
-  - slug: result
-    title: Resultaat
-    content: Leidt het proces tot maatschappelijke vooruitgang?
-    themes: 
-    - slug: product
-      title: Resultaat
-      content: Is het een sterk en implementeerbaar resultaat?
-      questions:
-      - slug: validation
-        title: Validering
-        content: werd het resultaat door minstens 85% van de deelnemers goedgekeurd?
-        more: |
-          Onze ervaring leert ons dat een stemming met drie opties het mogelijk maakt om ergens mee in te stemmen: 
-
-          - Ik ga akkoord.
-          - Ik heb mijn bedenkingen, maar ik verzet mij niet tegen de uitvoering.
-          - Ik heb een bezwaar. Ik wil niet dat dit voorstel wordt uitgevoerd, want het druist in tegen het gemeenschappelijke belang.
-
-          De drempel om een voorstel af te wijzen ligt op 15% bezwaren.
-      - slug: formulation
-        title: Formulering
-        content: Werden alle deelnemers betrokken bij het formuleren van het resultaat?
-        more: |
-          Het is mogelijk - en het gebeurt regelmatig - dat een voorstel het resultaat is van het werk van een minderheid van de groep. De methodes vragen immers om te werken in subgroepen, om dieper te kunnen ingaan op bepaalde subthema’s. In elke subgroep kunnen de deelnemers hun mening geven en meewerken aan de collectieve opstelling van het voorstel. Na het testen van de instemming in de subgroepen is er gelegenheid om commentaar te leveren op het werk van de andere subgroepen en/of het werk plenair te wijzigen. Die feedback in beide richtingen geeft het overlegproces een zekere dynamiek.
-      - slug: aggregation
-        title: Informatie samenbrengen
-        content: Is het resultaat gebaseerd op informatie uit verschillende bronnen, waaronder de ervaringen van de burgers zelf?
-        more: |
-          Een van de manieren om de kwaliteit van de output van een burgerpanel te meten, is door na te gaan of het volledige spectrum van meningen van de samenleving in de resultaten wordt weerspiegeld. Vooral de integratie van verschillende informatiebronnen, zoals de dagelijkse ervaringen van de burgers en wetenschappelijke statistieken, zorgt voor een creatiever resultaat.
-      - slug: innovation
-        title: Innovatie
-        content: Draagt het resultaat op vernieuwende wijze bij aan het algemene belang?
-        more: |
-          Een van de punten om de collectieve creativiteit van de deelnemers te bepalen, is de capaciteit van de groep om voorstellen te doen die de conventionele politiek overstijgen: we willen meer dan compromissen, echte win-winvoorstellen. Dergelijke voorstellen moeten gebaseerd zijn op een allesomvattende analyse van het thema.
-
-          Om dat te bereiken, is een doorgedreven proces van overleg en creativiteit nodig. De groep moet erin slagen om de aloude, vastgeroeste standpunten te overstijgen. Ze moet de tijd nemen om het algemeen belang te bepalen, de tijd om het collectief functioneel te laten worden en de tijd om creativiteit te laten rijpen. De organisatie moet dat proces ondersteunen met respect, inclusiviteit, de ondersteuning van ideeën die in eerste instantie vergezocht lijken en creatieve en co-creatieve methodologieën.
-    - slug: followup
-      title: Opvolging
-      content: Zal het resultaat een impact hebben?
-      questions:
-      - slug: binding
-        title: Bindend
-        content: Kan de partij die het proces organiseert ervoor zorgen dat het resultaat wordt uitgevoerd?
-        more: |
-          De invloed van een panel is afhankelijk van de institutionele positionering van de partij die het participatieproces organiseert. Agora.Brussels vindt dat een burgerassemblee idealiter zelf wetgevende macht zou moeten hebben en dus (ondersteund door de nodige middelen om een hoogwaardig resultaat mogelijk te maken) een direct effect zou moeten kunnen hebben op de realisatie van het thema. Dat zou de deelnemers ongetwijfeld enorm motiveren.
-          
-          Als duidelijk is bepaald welke instelling de voorstellen zal ontvangen, is de impact van het werk van het panel beperkt tot de beslissende macht van die instelling (zo zal een aanbeveling voor de energie-efficiëntie in het Brussels Hoofdstedelijk Gewest geen gevolgen hebben in de andere twee Belgische gewesten).
-          
-          Bij burgerassemblees die buiten de politieke structuren worden georganiseerd, kunnen de resultaten worden omgezet in militante acties, zoals betogingen of memoranda. Die assemblees hebben dus lobbyingbevoegdheid.
-      - slug: recipient
-        title: Ontvanger
-        content: Heeft de institutionele ontvanger (bv. parlement, minister, schepen) zich ertoe verbonden om het resultaat te implementeren?
-        more: |
-          De impact van de aanbevelingen hangt in grote mate af van de positie die wordt ingenomen door de politieke spelers die als taak hebben het burgerlijk resultaat waar te maken. Burgerparticipatie is een democratische innovatie waarvan de legitimiteit nog steeds ter discussie staat. Bijgevolg hebben institutionele ontvangers veel speelruimte in de opvolging. 
-          
-          Het is belangrijk dat de betrokken politieke actoren zich vooraf inzetten bij het werk van de burgers. Dat akkoord moet transparant zijn en moet rekening houden met alle uitzonderingen. Op die manier kunnen de burgers bij het opstellen van hun aanbevelingen, hun voorstellen aanpassen aan verschillende toekomstige politieke situaties en realistische verwachtingen hebben over de impact van hun werk.
-          
-          Idealiter omvat het proces een burgercomité dat toezicht houdt op de uitvoering van het resultaat.
-      - slug: timing
-        title: Politiek tijdschema
-        content: Is het participatieproces afgestemd op de besluitvormingsprocessen met betrekking tot het thema om de impact ervan te vergemakkelijken?
-        more: |
-          Aangezien er participatieprocessen bestaan buiten de wetgevende structuren, is het belangrijk om het - zeer verschillende - ritme van burger- en institutionele besluitvormingsprocessen op elkaar af te stemmen. Zo kunnen de voorstellen van het panel op het juiste moment in de wetgevingscyclus komen. Een aanbeveling van burgers kan bijvoorbeeld worden overgenomen door politici om een nieuwe wet te lanceren of een wetgevingsproces opnieuw te starten, als het op een moment komt waarop alles vastzit.
-          
-          Als het thema al is besproken met het oog op een besluit, kunnen de voorstellen van het burgerpanel dienen om wijzigingen voor te stellen.
-      - slug: capacity
-        title: Ontwikkeling van de capaciteiten
-        content: Heeft het proces gezorgd voor een grotere capaciteit van de samenleving voor burgerparticipatie en de integratie van het resultaat?
-        more: |
-          Deelname aan een panel vergroot de kennis over burgerparticipatie en de capaciteit om deel te nemen aan collectieve besluitvormingsprocessen. Hoe meer betrokkenheid en studie door de deelnemers, hoe groter de impact van het participatieproces op de integratie in de burgerparticipatie, zowel tijdens als na het proces. Het is dan ook bijzonder nuttig om te zorgen voor een inclusieve en gastvrije sfeer. Het co-creatieve karakter van een proces heeft ook een grote impact op het leerproces van de deelnemers.
