@@ -1,4 +1,5 @@
 <script lang="ts">
+	import lang from '$lib/stores/lang.js';
 	import participantAnswers from '$lib/stores/participantAnswers.js';
 	import organiserAnswers from '$lib/stores/organiserAnswers.js';
 	import { createEventDispatcher } from 'svelte';
@@ -9,10 +10,10 @@
 	export let data: any;
 
 	const options = ['yes', 'unsure', 'no'];
-	const optionsTranslated = new Map([
-		['yes', data.pagesContent.general.yes],
-		['unsure', data.pagesContent.general.unsure],
-		['no', data.pagesContent.general.no]
+	$: optionsTranslated = new Map([
+		['yes', data.pagesContent[$lang].general.yes],
+		['unsure', data.pagesContent[$lang].general.unsure],
+		['no', data.pagesContent[$lang].general.no]
 	]);
 
 	// Define answer and look up existing answer in store

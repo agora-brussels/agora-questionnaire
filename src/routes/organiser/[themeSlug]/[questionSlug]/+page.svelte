@@ -10,30 +10,31 @@
 
 	export let data;
 
-	$: theme = data.organiserContent[$lang].themes.find(
+	$: organiserContentLangImproved = data.improveOrganiserContentLang(data.organiserContent[$lang]);
+	$: theme = organiserContentLangImproved.themes.find(
 		(theme: any) => theme.slug === data.params.themeSlug
 	);
 
-	$: themeIndex = data.organiserContent[$lang].themes.indexOf(theme);
+	$: themeIndex = organiserContentLangImproved.themes.indexOf(theme);
 
 	let previousThemeSlug: string | undefined;
 	let previousThemeFirstQuestionSlug: string | undefined;
 	$: if (themeIndex == 0) {
 		previousThemeSlug = undefined;
 	} else {
-		previousThemeSlug = data.organiserContent[$lang].themes[themeIndex - 1].slug;
+		previousThemeSlug = organiserContentLangImproved.themes[themeIndex - 1].slug;
 		previousThemeFirstQuestionSlug =
-			data.organiserContent[$lang].themes[themeIndex - 1].questions[0].slug;
+			organiserContentLangImproved.themes[themeIndex - 1].questions[0].slug;
 	}
 
 	let nextThemeSlug: string | undefined;
 	let nextThemeFirstQuestionSlug: string | undefined;
-	$: if (themeIndex + 1 == data.organiserContent[$lang].themes.length) {
+	$: if (themeIndex + 1 == organiserContentLangImproved.themes.length) {
 		nextThemeSlug = undefined;
 	} else {
-		nextThemeSlug = data.organiserContent[$lang].themes[themeIndex + 1].slug;
+		nextThemeSlug = organiserContentLangImproved.themes[themeIndex + 1].slug;
 		nextThemeFirstQuestionSlug =
-			data.organiserContent[$lang].themes[themeIndex + 1].questions[0].slug;
+			organiserContentLangImproved.themes[themeIndex + 1].questions[0].slug;
 	}
 
 	$: question = theme.questions.find((question: any) => question.slug === data.params.questionSlug);

@@ -1,16 +1,17 @@
 <script lang="ts">
+	import lang from '$lib/stores/lang.js';
 	import { base } from '$app/paths';
 	import Indicator from '$lib/components/Indicator.svelte';
 
 	export let currentQuestionSlug = '';
 
-	console.log(currentQuestionSlug);
-
 	export let data: any;
+
+	$: organiserContentLangImproved = data.improveOrganiserContentLang(data.organiserContent[$lang]);
 </script>
 
 <div class="chapter-overview-grid-container">
-	{#each data.organiserContent.chapters as chapter (chapter.slug)}
+	{#each organiserContentLangImproved.chapters as chapter (chapter.slug)}
 		<div>
 			<h5>{chapter.title}</h5>
 			<div class="theme-overview-grid-container">

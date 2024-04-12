@@ -1,3 +1,71 @@
+nl:
+  hint: Beantwoord de drie vragen van dit thema om je te helpen je te positioneren over je deelname.
+  themes:
+  - slug: accessibility
+    title: Toegankelijkheid
+    content: Om ervoor te zorgen dat iedereen ten volle kan deelnemen
+    questions:
+    - slug: representativeness
+      title: Representativiteit
+      content: Heeft iedereen evenveel kans gehad om geselecteerd te worden, bijvoorbeeld door middel van een loting? Zorgt het selectieproces ervoor dat de verschillende ervaringen en meningen in de samenleving ook vertegenwoordigd zijn in de assemblee?
+    - slug: inclusion
+      title: Inclusie
+      content: Heeft de organisatie ervoor gezorgd dat barrières die bepaalde mensen verhinderen om deel te nemen (bezoldiging en toegankelijkheid op onder meer fysiek, mentaal, emotioneel en taalkundig vlak) werden weggewerkt of getemperd?
+    - slug: stakeholders
+      title: Betrokken partijen
+      content: Worden spelers uit het veld uitgenodigd om het resultaat te bekrachtigen en mee in te staan voor de uitvoering?
+  - slug: organisation
+    title: Organisatie
+    content: Om vertrouwen in te boezemen
+    questions:
+    - slug: temporality
+      title: Tijdschema
+      content: Maken de agenda en de duur van het proces het eenvoudig om deel te nemen?
+    - slug: logistics
+      title: Logistiek
+      content: Lijken de locatie en de menselijke en materiële ondersteuning geschikt en uitnodigend?
+    - slug: institution
+      title: Organiserende instelling
+      content: Is de instelling transparant over haar bedoelingen (politiek standpunt, gewenst resultaat, politieke impact, …)?
+  - slug: accompaniement
+    title: Begeleiding
+    content: Voor maximale deelname
+    questions:
+    - slug: meetings
+      title: Ontmoetingen
+      content: Wordt het collectieve werk ondersteund door een warme omkadering? Is de begeleiding aangepast aan de manier van ontmoeten (fysiek/online/hybride)?
+    - slug: communication
+      title: Communicatie
+      content: Is de communicatie duidelijk en begrijpelijk voor iedereen? Boezemt ze vertrouwen in?
+    - slug: equity
+      title: Gelijkheid
+      content: Communiceert de organisatie inclusief en respectvol? Maakt ze gebruik van verschillende soorten communicatie (mondeling, schriftelijk, symbolen, positionering in de ruimte, …)?
+  - slug: theme
+    title:  Thema en informatie
+    content: Voor haalbaar en nuttig burgerwerk
+    questions:
+    - slug: formuation
+      title: Formulering van het thema
+      content: Is het thema geformuleerd in vraagvorm, in eenvoudige en duidelijke taal, die helpt om tot gedetailleerde voorstellen / beslissingen te komen?
+    - slug: information
+      title: Informatie
+      content: Beantwoordt de verstrekte informatie exact aan de ideeën en vragen van de deelnemers? Biedt ze ook meer duidelijkheid? 
+    - slug: exchange
+      title: Interactie
+      content: Wordt de informatie interactief verstrekt en helpt ze om de complexiteit van het thema te begrijpen? Legt ze tegenstrijdigheden tussen de meningen van de experts bloot?
+  - slug: 
+    title: Product en opvolging
+    content: Voor een geïntegreerd en krachtig resultaat
+    questions:
+    - slug: deliberation
+      title: Overleg
+      content: Neemt iedereen deel aan de gesprekken? Wordt het algemeen belang duidelijk tijdens de gesprekken?
+    - slug: 
+      title: Validatie
+      content: Wordt het resultaat bekrachtigd volgens een duidelijk proces waarbij het de bedoeling is om rekening te houden met ieders mening (niet meer dan 10% bezwaren)?
+    - slug: recipient
+      title: Ontvanger
+      content: Wie is de institutionele ontvanger (bv. parlement, minister, schepen) en heeft die zich ertoe verbonden om het resultaat te implementeren?
 fr: 
   hint: Réponds au trois questions de cette thématique pour t'aider à te positionner sur ta participation.
   themes: 

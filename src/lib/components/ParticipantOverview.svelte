@@ -1,12 +1,16 @@
 <script lang="ts">
+	import lang from '$lib/stores/lang.js';
 	import { base } from '$app/paths';
 	import Indicator from '$lib/components/Indicator.svelte';
 
 	export let data: any;
+
+	$: participantContentLang = data.participantContent[$lang];
+	$: console.log(participantContentLang);
 </script>
 
 <div class="overview-grid-container">
-	{#each data.participantContent.themes as theme (theme.slug)}
+	{#each participantContentLang.themes as theme (theme.slug)}
 		<div>
 			<h6>
 				<a style="text-decoration:none; color: #646b79" href="{base}/participant/{theme.slug}"

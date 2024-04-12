@@ -11,7 +11,7 @@ type OrganiserContent = {
 };
 
 export const load = (async () => {
-	function improveOrganiserContent(organiserContent: any): OrganiserContent {
+	function improveOrganiserContentLang(organiserContent: any): OrganiserContent {
 		organiserContent = {
 			...organiserContent,
 			chapters: organiserContent.chapters.map((chapter: any) => {
@@ -54,7 +54,7 @@ export const load = (async () => {
 		pagesContent,
 		participantContent,
 		organiserContent,
-		improveOrganiserContent
+		improveOrganiserContentLang
 	};
 }) satisfies LayoutLoad;
 
