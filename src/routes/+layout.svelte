@@ -1,4 +1,7 @@
 <script lang="ts">
+	import '@picocss/pico';
+	import '../app.css';
+
 	import { micromark } from 'micromark';
 
 	import lang from '$lib/stores/lang.js';
