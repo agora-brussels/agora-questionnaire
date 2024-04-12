@@ -4,6 +4,7 @@
 
 	export let audience: string = '';
 	export let questionSlug: string = '';
+	export let forcedAnswer: string | undefined = undefined;
 
 	const options = ['yes', 'unsure', 'no'];
 	const colors = ['#419491', '#919191', '#ed1566'];
@@ -14,7 +15,7 @@
 	let answer: string;
 	let color: string;
 
-	$: answer = $answers[questionSlug];
+	$: answer = forcedAnswer || $answers[questionSlug];
 	$: color = options.indexOf(answer) != -1 ? colors[options.indexOf(answer)] : defaultColor;
 </script>
 

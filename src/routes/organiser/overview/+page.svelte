@@ -7,6 +7,7 @@
 	import organiserAnswers from '$lib/stores/organiserAnswers.js';
 	import img from '$lib/img/31-100.jpg';
 	import OrganiserOverview from '$lib/components/OrganiserOverview.svelte';
+	import Legend from '$lib/components/Legend.svelte';
 
 	export let data;
 
@@ -19,6 +20,7 @@
 		<p>{@html micromark(data.pagesContent[$lang].organiserOverview.content)}</p>
 
 		<OrganiserOverview {data} />
+		<Legend {data} />
 
 		<button
 			on:click={() => {

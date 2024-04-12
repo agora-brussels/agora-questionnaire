@@ -6,6 +6,7 @@
 	import Question from '$lib/components/Question.svelte';
 	import Title from '$lib/components/Title.svelte';
 	import ParticipantOverview from '$lib/components/ParticipantOverview.svelte';
+	import Legend from '$lib/components/Legend.svelte';
 
 	export let data;
 
@@ -39,6 +40,7 @@
 	</div>
 
 	<ParticipantOverview {data} />
+	<Legend {data} />
 
 	<hr />
 

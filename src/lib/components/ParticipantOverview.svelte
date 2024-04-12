@@ -6,7 +6,6 @@
 	export let data: any;
 
 	$: participantContentLang = data.participantContent[$lang];
-	$: console.log(participantContentLang);
 </script>
 
 <div class="overview-grid-container">

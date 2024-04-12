@@ -6,6 +6,7 @@ nl:
     yes: Ja
     unsure: Onzeker
     no: Nee
+    legend: Legende
     more: Meer weten
     chapter: Hoofdstuk
     theme: Thema
@@ -122,6 +123,7 @@ fr:
     yes: Oui
     unsure: Incertain
     no: Non
+    legend: Légende
     more: En savoir plus
     chapter: Chapitre
     theme: Thème

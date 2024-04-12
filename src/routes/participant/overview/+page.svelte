@@ -7,6 +7,7 @@
 	import participantAnswers from '$lib/stores/participantAnswers.js';
 	import img from '$lib/img/31-100.jpg';
 	import ParticipantOverview from '$lib/components/ParticipantOverview.svelte';
+	import Legend from '$lib/components/Legend.svelte';
 
 	export let data;
 
@@ -19,6 +20,7 @@
 		<p>{@html micromark(data.pagesContent[$lang].participantOverview.content)}</p>
 
 		<ParticipantOverview {data} />
+		<Legend {data} />
 
 		<button
 			on:click={() => {
