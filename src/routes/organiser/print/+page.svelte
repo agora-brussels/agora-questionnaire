@@ -7,11 +7,13 @@
 	import Question from '$lib/components/Question.svelte';
 	import OrganiserOverview from '$lib/components/OrganiserOverview.svelte';
 
+	export let data;
+
+	$: organiserContentLangImproved = data.improveOrganiserContentLang(data.organiserContent[$lang]);
+
 	onMount(() => {
 		window.print();
 	});
-
-	export let data;
 </script>
 
 <div class="print-grid-container">
@@ -26,7 +28,7 @@
 	<hr />
 
 	<div>
-		{#each data.organiserContent[$lang].themes as theme (theme.slug)}
+		{#each organiserContentLangImproved.themes as theme (theme.slug)}
 			<div style="margin-top: 2rem; margin-bottom: 2rem">
 				<Title
 					chapterTitle={theme.chapterTitle}

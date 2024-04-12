@@ -22,7 +22,7 @@
 	</div>
 
 	<div>
-		{#each data.participantContent.themes as theme (theme.slug)}
+		{#each data.participantContent[$lang].themes as theme (theme.slug)}
 			<div style="margin-top: 4rem; margin-bottom: 4rem">
 				<Title themeTitle={theme.title} themeContent={theme.content} {data} />
 
