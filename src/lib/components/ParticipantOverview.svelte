@@ -46,4 +46,9 @@
 			grid-template-columns: repeat(2, 1fr);
 		}
 	}
+	@media print {
+		.overview-grid-container {
+			border-style: none;
+		}
+	}
 </style>

@@ -1,8 +1,12 @@
 :root {
   @font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-  }
+    font-family: 'agrandir';
+    src: url('/fonts/agrandir-regular.eot')
+}
+
+  p {
+    font-family: 'agrandir';
+  } 
   
   main.container{
     /* outline-style: solid; 
@@ -48,7 +52,13 @@
 
   @media print {
     --pico-font-size: 70%;
-}
+    article, header, footer {
+      border-style: none;
+    }
+    main.container {
+      border-style: none;
+    }
+  }
 }
 
 /**

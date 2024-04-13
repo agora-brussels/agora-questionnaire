@@ -13,10 +13,11 @@
 </script>
 
 <div
-	style="margin-top: 1rem;
-margin-bottom: 1rem;
-padding: 1rem;
-border-style: none none none solid;"
+	class="legend-container"
+	style="
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;"
 >
 	<h6>{data.pagesContent[$lang].general.legend}</h6>
 	<div style="display: flex;">
@@ -32,3 +33,14 @@ border-style: none none none solid;"
 		{/each}
 	</div>
 </div>
+
+<style>
+	.legend-container {
+		border-style: none none none solid;
+	}
+	@media print {
+		.legend-container {
+			border-style: none;
+		}
+	}
+</style>

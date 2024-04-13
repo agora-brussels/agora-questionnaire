@@ -66,6 +66,11 @@
 			grid-template-columns: repeat(1, 1fr);
 		}
 	}
+	@media print {
+		.chapter-overview-grid-container {
+			border-style: none;
+		}
+	}
 
 	.theme-overview-grid-container {
 		display: grid;
