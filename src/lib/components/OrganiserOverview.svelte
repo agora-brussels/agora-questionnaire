@@ -28,7 +28,7 @@
 										margin: 0.1rem; 
 										padding-top: 0.2rem; 
 										padding-left: 0.25rem; 
-										border-radius: 0.25rem; 
+										border-radius: 0px; 
 										border-width: 0.0625rem;
   										border-color: rgba(24, 28, 37, 0.5);
   										border-style:{currentQuestionSlug == question.slug ? 'solid' : undefined};
@@ -52,8 +52,10 @@
 
 <style>
 	.chapter-overview-grid-container {
-		margin-top: 2rem;
-		margin-bottom: 2rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		padding: 1rem;
+		border-style: none none solid solid;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-column-gap: 0.3rem;

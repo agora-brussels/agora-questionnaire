@@ -26,7 +26,12 @@
 			</div>
 		</div>
 	</header>
-	<main style="margin-left:6rem; margin-top: 2rem">
+	<main
+		class="main-question"
+		style="
+		margin-top: 2rem;
+		"
+	>
 		<div>{@html micromark(question.content)}</div>
 		<Options {audience} {data} questionSlug={question.slug} />
 		{#if question.more}
@@ -37,3 +42,15 @@
 		{/if}
 	</main>
 </article>
+
+<style>
+	.main-question {
+		margin-left: 6rem;
+	}
+
+	@media screen and (max-width: 768px) {
+		.main-question {
+			margin-left: 1rem;
+		}
+	}
+</style>

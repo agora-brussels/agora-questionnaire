@@ -14,7 +14,7 @@
 		<p>{@html micromark(data.pagesContent[$lang].organiserAbout.content)}</p>
 		<img src={licence} alt="by-nd" width="200" />
 	</div>
-	<img style="margin-top: 2rem; max-width: 300px; border-radius:0.25rem" src={agora} alt="People" />
+	<img style="margin-top: 2rem; max-width: 300px; border-radius:0px" src={agora} alt="People" />
 </div>
 
 <style>

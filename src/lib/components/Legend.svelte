@@ -12,16 +12,23 @@
 	]);
 </script>
 
-<h6>{data.pagesContent[$lang].general.legend}</h6>
-<div style="display: flex; margin-bottom: 2rem;">
-	{#each options as option}
-		<div style="display: flex; margin: 0.5rem">
-			<div style="width: 1.5rem">
-				<Indicator forcedAnswer={option} />
+<div
+	style="margin-top: 1rem;
+margin-bottom: 1rem;
+padding: 1rem;
+border-style: none none none solid;"
+>
+	<h6>{data.pagesContent[$lang].general.legend}</h6>
+	<div style="display: flex;">
+		{#each options as option}
+			<div style="display: flex; margin: 0.5rem">
+				<div style="width: 1.5rem">
+					<Indicator forcedAnswer={option} />
+				</div>
+				<div style="width: 4rem; font-size: smaller ">
+					{optionsTranslated.get(option)}
+				</div>
 			</div>
-			<div style="width: 4rem; font-size: smaller ">
-				{optionsTranslated.get(option)}
-			</div>
-		</div>
-	{/each}
+		{/each}
+	</div>
 </div>

@@ -1,5 +1,54 @@
 :root {
-    --pico-border-radius: 2rem;
+  @font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+  
+  main.container{
+    /* outline-style: solid; 
+    outline-color: black;
+    outline-offset: 2rem; */
+    border-style: none;
+  }
+  @media (min-width: 768px) {
+    main.container {
+      border-style: none solid solid solid;
+      padding: 2rem
+    }
+  }
+  
+  /* nav{
+    border-style: none none solid none;
+  } */
+
+  article {
+    box-shadow: none;
+    border-style: solid none solid solid;
+    border-color: black
+  }
+  article header, footer {
+    border-color: black;
+    background-color: white;
+  }
+  article header {
+    border-style: none none solid none;
+  }
+  article footer {
+    border-style: solid none none none;
+  }
+
+  select {
+    background-color: white;
+    border-color: black
+  }
+
+  button, select, article, header, footer {
+    border-radius: 0px;
+  }
+
+  @media print {
+    --pico-font-size: 70%;
+}
 }
 
 /**

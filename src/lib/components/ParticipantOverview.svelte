@@ -32,8 +32,10 @@
 
 <style>
 	.overview-grid-container {
-		margin-top: 2rem;
-		margin-bottom: 2rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		padding: 1rem;
+		border-style: none none solid solid;
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-column-gap: 1rem;

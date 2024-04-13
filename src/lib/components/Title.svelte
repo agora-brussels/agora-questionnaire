@@ -12,7 +12,7 @@
 
 <div
 	style="
-		margin-left: 1rem; 
+		padding-left: 1rem; 
 		margin-bottom: 1rem; 
 		display: grid;
 		grid-template-columns: 5rem auto;

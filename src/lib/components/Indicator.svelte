@@ -25,7 +25,7 @@
 	.dot {
 		height: 1rem;
 		width: 1rem;
-		border-radius: 20%;
+		border-radius: 0px;
 		margin-right: 0.25rem;
 		display: inline-block;
 	}
