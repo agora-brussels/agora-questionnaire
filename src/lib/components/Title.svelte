@@ -15,8 +15,8 @@
 		padding-left: 1rem; 
 		margin-bottom: 1rem; 
 		display: grid;
-		grid-template-columns: 4rem auto;
-		grid-column-gap: 1rem;"
+		grid-template-columns: 5rem auto;
+		grid-column-gap: 0rem;"
 >
 	{#if chapterTitle}
 		<h6 style="font-weight:300; font-stretch: condensed">

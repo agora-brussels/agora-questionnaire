@@ -55,7 +55,8 @@
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 		padding: 1rem;
-		border-style: none none solid solid;
+		border-style: solid;
+		border-width: 1px;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-column-gap: 0.3rem;

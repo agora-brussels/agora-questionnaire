@@ -19,7 +19,7 @@
     margin-bottom: 1rem;
     padding: 1rem;"
 >
-	<h6>{data.pagesContent[$lang].general.legend}</h6>
+	<h6 style="font-size:smaller">{data.pagesContent[$lang].general.legend}</h6>
 	<div style="display: flex;">
 		{#each options as option}
 			<div style="display: flex; margin: 0.5rem">
@@ -36,11 +36,13 @@
 
 <style>
 	.legend-container {
-		border-style: none none none solid;
+		border-style: solid;
+		border-width: 1px;
 	}
 	@media print {
 		.legend-container {
 			border-style: none;
+			border-width: 1px;
 		}
 	}
 </style>

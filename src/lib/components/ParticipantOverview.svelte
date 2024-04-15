@@ -11,7 +11,7 @@
 <div class="overview-grid-container">
 	{#each participantContentLang.themes as theme (theme.slug)}
 		<div>
-			<h6>
+			<h6 style="font-size:smaller">
 				<a
 					style="text-decoration:none; color: var(--pico-text-color)"
 					href="{base}/participant/{theme.slug}">{theme.title}</a
@@ -22,7 +22,7 @@
 					<div style="width: 1.5rem">
 						<Indicator audience="participant" questionSlug={question.slug} />
 					</div>
-					<div style="width: 8rem">
+					<div style="width: 8rem; font-size:smaller">
 						{question.title}
 					</div>
 				</div>
@@ -36,11 +36,12 @@
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 		padding: 1rem;
-		border-style: none none solid solid;
+		border-style: solid;
+		border-width: 1px;
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		grid-column-gap: 1rem;
-		grid-row-gap: 2rem;
+		grid-column-gap: 0.3rem;
+		grid-row-gap: 0.3rem;
 	}
 	@media screen and (max-width: 768px) {
 		.overview-grid-container {

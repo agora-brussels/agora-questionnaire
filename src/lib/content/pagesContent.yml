@@ -61,7 +61,7 @@ nl:
     cancel: Annuleren
     print: Een samenvatting afdrukken
   organiser:
-    title: Een pannel organiseren
+    title: Gids voor burgerassemblee's
     content: |
       Wil je als organisatie een proces van burgerparticipatie opstarten? Fantastisch! 
 
@@ -178,7 +178,7 @@ fr:
     cancel: Annuler
     print: Imprimer un compte-rendu
   organiser:
-    title: Organiser un panel
+    title: Guide pour assemblées citoyennes
     content: |
       Vous souhaitez, comme organisation, lancer un processus de participation citoyenne ? Super ! 
 

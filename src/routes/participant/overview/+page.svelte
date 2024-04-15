@@ -17,7 +17,9 @@
 <div class="grid-container">
 	<div>
 		<h2>{data.pagesContent[$lang].participantOverview.title}</h2>
-		<p>{@html micromark(data.pagesContent[$lang].participantOverview.content)}</p>
+		<p style="margin-bottom: 2rem">
+			{@html micromark(data.pagesContent[$lang].participantOverview.content)}
+		</p>
 
 		<ParticipantOverview {data} />
 		<Legend {data} />

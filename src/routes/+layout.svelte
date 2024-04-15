@@ -1,6 +1,6 @@
 <script lang="ts">
-	import '@picocss/pico';
-	import '../app.css';
+	import '$lib/styles/pico.cyan.css';
+	import '$lib/styles/app.css';
 
 	import { micromark } from 'micromark';
 

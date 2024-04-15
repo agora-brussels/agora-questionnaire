@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'Agrandir';
+	src: url('/fonts/Agrandir Variable.tff') format('ttf');
+	font-display: swap;
+}
+
+:root {
+	/* Fonts */
+
+	--pico-font-family: 'Agrandir';
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		--pico-color: var(--pico-color);
+	}
+
+	nav a,
+	nav select {
+		font-stretch: condensed;
+		font-weight: 100;
+		--pico-color: var(--pico-color);
+	}
+
+	@media print {
+		--pico-font-size: 70%;
+
+		button:not(.outline) {
+			text-decoration: underline;
+			--pico-color: var(--pico-color);
+		}
+	}
+
+	/* Roundness */
+
+	button,
+	select,
+	article,
+	header,
+	footer {
+		border-radius: 0px;
+	}
+
+	/* Borders */
+
+	article {
+		box-shadow: none;
+		border-style: solid;
+		border-width: 1px;
+		border-color: var(--pico-color);
+	}
+	article header,
+	footer {
+		border-color: var(--pico-color);
+		background-color: white;
+	}
+	article header {
+		border-style: none none solid none;
+	}
+	article footer {
+		border-style: solid none none none;
+	}
+	select {
+		background-color: white;
+		border-color: var(--pico-color);
+	}
+
+	@media print {
+		article {
+			box-shadow: none;
+		}
+		article,
+		header,
+		footer {
+			border-style: none;
+		}
+		main.container {
+			border-style: none;
+		}
+	}
+}
