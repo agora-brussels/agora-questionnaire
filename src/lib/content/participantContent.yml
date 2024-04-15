@@ -1,5 +1,4 @@
 nl:
-  hint: Beantwoord de drie vragen van dit thema om je te helpen je te positioneren over je deelname.
   themes:
   - slug: accessibility
     title: Toegankelijkheid
@@ -67,7 +66,6 @@ nl:
       title: Ontvanger
       content: Wie is de institutionele ontvanger (bv. parlement, minister, schepen) en heeft die zich ertoe verbonden om het resultaat te implementeren?
 fr: 
-  hint: Réponds au trois questions de cette thématique pour t'aider à te positionner sur ta participation.
   themes: 
     - slug: accessibility
       title: Accessibilité

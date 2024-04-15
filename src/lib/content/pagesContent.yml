@@ -15,6 +15,7 @@ nl:
     nextTheme: Volgende thema
     question: Vraag
     navigateToQuestion: Navigeer naar een vraag
+    participantHint: Beantwoord de drie vragen van dit thema om je te helpen beslissen over je deelname.
     footer: Een tool van [Agora.Brussels](https://agora.brussels).
   home:
     pretitle: Uitgeloot? Twijfel je?
@@ -124,6 +125,7 @@ fr:
     nextTheme: Prochain thème
     question: Question
     navigateToQuestion: Naviguer vers une question
+    participantHint: 
     footer: Un outil de [Agora.Brussels](https://agora.brussels).
   home:
     pretitle: Tiré·e au sort? Tu hésites?

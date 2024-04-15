@@ -34,7 +34,7 @@
 	}
 </script>
 
-<Hint hint={data.participantContent[$lang].hint} {img} />
+<Hint hint={data.pagesContent[$lang].general.participantHint} {img} />
 
 <Title themeTitle={theme.title} themeContent={theme.content} {data} />
 
