@@ -12,8 +12,9 @@
 	{#each participantContentLang.themes as theme (theme.slug)}
 		<div>
 			<h6>
-				<a style="text-decoration:none; color: #646b79" href="{base}/participant/{theme.slug}"
-					>{theme.title}</a
+				<a
+					style="text-decoration:none; color: var(--pico-text-color)"
+					href="{base}/participant/{theme.slug}">{theme.title}</a
 				>
 			</h6>
 			{#each theme.questions as question (question.slug)}

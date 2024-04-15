@@ -13,24 +13,24 @@
 <div class="chapter-overview-grid-container">
 	{#each organiserContentLangImproved.chapters as chapter (chapter.slug)}
 		<div>
-			<h5>{chapter.title}</h5>
+			<h6 style="font-weight:600; font-size:smaller">{chapter.title.toLocaleUpperCase()}</h6>
 			<div class="theme-overview-grid-container">
 				{#each chapter.themes as theme (theme.slug)}
 					<div>
-						<h6>{theme.title}</h6>
+						<h3 style="font-weight:600; font-size:smaller">{theme.title}</h3>
 						{#each theme.questions as question (question.slug)}
 							<a
-								style="text-decoration:none; color: #373c44"
+								style="text-decoration:none; color: var(--pico-text-color)"
 								href="{base}/organiser/{theme.slug}/{question.slug}"
 								><div
 									style="
 										display: flex; 
 										margin: 0.1rem; 
-										padding-top: 0.2rem; 
-										padding-left: 0.25rem; 
+										padding-top: 0.4rem; 
+										padding-left: 0.4rem; 
 										border-radius: 0px; 
 										border-width: 0.0625rem;
-  										border-color: rgba(24, 28, 37, 0.5);
+										border-color: var(--pico-secodary);
   										border-style:{currentQuestionSlug == question.slug ? 'solid' : undefined};
 										"
 								>

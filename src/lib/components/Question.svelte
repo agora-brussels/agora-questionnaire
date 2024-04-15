@@ -15,13 +15,13 @@
 		<div
 			style="
 		display: grid;
-		grid-template-columns: 5rem auto;
+		grid-template-columns: 4rem auto;
 		grid-column-gap: 1rem;"
 		>
-			<div style="font-weight:300">
+			<div style="font-weight:300; font-stretch: condensed">
 				{data.pagesContent[$lang].general.question}
 			</div>
-			<div>
+			<div style="font-weight:600">
 				{question.title}
 			</div>
 		</div>
@@ -45,7 +45,7 @@
 
 <style>
 	.main-question {
-		margin-left: 6rem;
+		margin-left: 5rem;
 	}
 
 	@media screen and (max-width: 768px) {
