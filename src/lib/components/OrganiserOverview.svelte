@@ -13,7 +13,7 @@
 <div class="chapter-overview-grid-container">
 	{#each organiserContentLangImproved.chapters as chapter (chapter.slug)}
 		<div>
-			<h6 style="font-weight:600; font-size:smaller">{chapter.title.toLocaleUpperCase()}</h6>
+			<h2 style="font-weight:600; font-size:smaller">{chapter.title.toLocaleUpperCase()}</h2>
 			<div class="theme-overview-grid-container">
 				{#each chapter.themes as theme (theme.slug)}
 					<div>
@@ -25,7 +25,7 @@
 								><div
 									style="
 										display: flex; 
-										margin: 0.1rem; 
+										margin: 0.0rem; 
 										padding-top: 0.4rem; 
 										padding-left: 0.4rem; 
 										border-radius: 0px; 
@@ -34,10 +34,10 @@
   										border-style:{currentQuestionSlug == question.slug ? 'solid' : undefined};
 										"
 								>
-									<div style="width: 1.5rem">
+									<div style="width: 1.4rem">
 										<Indicator audience="organiser" questionSlug={question.slug} />
 									</div>
-									<div style="width: 8.2rem; font-size:smaller">
+									<div style="width: 7.4rem; font-size:smaller; font-stretch: condensed;">
 										{question.title}
 									</div>
 								</div></a

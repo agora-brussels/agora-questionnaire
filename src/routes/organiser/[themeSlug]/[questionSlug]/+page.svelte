@@ -51,6 +51,7 @@
 
 <Title
 	chapterTitle={question.chapterTitle}
+	chapterContent={question.chapterContent}
 	themeTitle={question.themeTitle}
 	themeContent={question.themeContent}
 	{data}

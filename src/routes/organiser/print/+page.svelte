@@ -33,6 +33,7 @@
 			<div style="margin-top: 2rem; margin-bottom: 2rem">
 				<Title
 					chapterTitle={theme.chapterTitle}
+					chapterContent={theme.chapterContent}
 					themeTitle={theme.title}
 					themeContent={theme.content}
 					{data}

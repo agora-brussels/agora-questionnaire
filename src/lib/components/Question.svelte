@@ -19,7 +19,7 @@
 		grid-column-gap: 1rem;"
 		>
 			<div style="font-weight:300; font-stretch: condensed">
-				{data.pagesContent[$lang].general.question}
+				{data.pagesContent[$lang].general.question.toLocaleUpperCase()}
 			</div>
 			<div style="font-weight:600">
 				{question.title}
@@ -32,12 +32,12 @@
 		margin-top: 2rem;
 		"
 	>
-		<div>{@html micromark(question.content)}</div>
+		<div style="font-weight:bold; margin-bottom:1rem">{question.content}</div>
 		<Options {audience} {data} questionSlug={question.slug} />
 		{#if question.more}
-			<div style="margin:1rem; max-width: 600px">
-				<p style="margin-bottom:1rem">{data.pagesContent[$lang].general.more}</p>
-				<div style="font-size: smaller">{@html micromark(question.more)}</div>
+			<div style="margin-top:2rem; max-width: 600px">
+				<!-- <p style="margin-bottom:1rem">{data.pagesContent[$lang].general.more}</p> -->
+				<div style="">{@html micromark(question.more)}</div>
 			</div>
 		{/if}
 	</main>
