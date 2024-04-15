@@ -3,6 +3,8 @@
 	import { base } from '$app/paths';
 	import Indicator from '$lib/components/Indicator.svelte';
 
+	export let currentThemeSlug = '';
+
 	export let data: any;
 
 	$: participantContentLang = data.participantContent[$lang];
@@ -14,7 +16,26 @@
 			<h6 style="font-size:smaller">
 				<a
 					style="text-decoration:none; color: var(--pico-text-color)"
-					href="{base}/participant/{theme.slug}">{theme.title}</a
+					href="{base}/participant/{theme.slug}"
+					><div
+						style="
+						display: flex; 
+						margin: 0.0rem; 
+						margin-top: 0.5rem; 
+						padding-top: 0.5rem; 
+						padding-left: 0.5rem; 
+						padding-right: 0.5rem; 
+						padding-bottom: 0.5rem; 
+						border-radius: 0px; 
+						border-width: 0.0625rem;
+						border-color: var(--pico-secodary);
+						border-style:solid;
+						color: {currentThemeSlug == theme.slug ? 'var(--pico-primary)' : undefined};
+						font-weight: {currentThemeSlug == theme.slug ? '600' : undefined};
+						"
+					>
+						{theme.title}
+					</div></a
 				>
 			</h6>
 			{#each theme.questions as question (question.slug)}
@@ -40,8 +61,8 @@
 		border-width: 1px;
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		grid-column-gap: 0.3rem;
-		grid-row-gap: 0.3rem;
+		grid-column-gap: 1rem;
+		grid-row-gap: 1rem;
 	}
 	@media screen and (max-width: 768px) {
 		.overview-grid-container {

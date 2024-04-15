@@ -20,28 +20,32 @@
 						<h3 style="font-weight:600; font-size:smaller">{theme.title}</h3>
 						{#each theme.questions as question (question.slug)}
 							<a
-								style="text-decoration:none; color: var(--pico-text-color)"
+								style="text-decoration:none; color: var(--pico-text-color);"
 								href="{base}/organiser/{theme.slug}/{question.slug}"
 								><div
 									style="
-										display: flex; 
-										margin: 0.0rem; 
-										padding-top: 0.4rem; 
-										padding-left: 0.4rem; 
-										border-radius: 0px; 
-										border-width: 0.0625rem;
-										border-color: var(--pico-secodary);
-  										border-style:{currentQuestionSlug == question.slug ? 'solid' : undefined};
-										"
+											display: flex; 
+											margin: 0.0rem; 
+											margin-top: 0.4rem; 
+											padding-top: 0.4rem; 
+											padding-left: 0.4rem; 
+											padding-right: 0.4rem; 
+											border-radius: 0px; 
+											border-width: 0.0625rem;
+											border-color: var(--pico-secodary);
+											border-style:solid;
+											color: {currentQuestionSlug == question.slug ? 'var(--pico-primary)' : undefined};
+											font-weight: {currentQuestionSlug == question.slug ? '600' : undefined};
+											"
 								>
 									<div style="width: 1.4rem">
 										<Indicator audience="organiser" questionSlug={question.slug} />
 									</div>
-									<div style="width: 7.4rem; font-size:smaller; font-stretch: condensed;">
+									<div style="font-size:smaller; font-stretch: condensed;">
 										{question.title}
 									</div>
-								</div></a
-							>
+								</div>
+							</a>
 						{/each}
 					</div>
 				{/each}
@@ -59,8 +63,8 @@
 		border-width: 1px;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		grid-column-gap: 0.3rem;
-		grid-row-gap: 0.3rem;
+		grid-column-gap: 0.5rem;
+		grid-row-gap: 1rem;
 	}
 	@media screen and (max-width: 768px) {
 		.chapter-overview-grid-container {
@@ -76,8 +80,8 @@
 	.theme-overview-grid-container {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		grid-column-gap: 0rem;
-		grid-row-gap: 0.3rem;
+		grid-column-gap: 0.5rem;
+		grid-row-gap: 0rem;
 	}
 	@media screen and (max-width: 768px) {
 		.theme-overview-grid-container {

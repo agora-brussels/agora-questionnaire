@@ -10,6 +10,7 @@
 	import Title from '$lib/components/Title.svelte';
 
 	import img from '$lib/img/14-100.jpg';
+	import ParticipantOverview from '$lib/components/ParticipantOverview.svelte';
 
 	export let data;
 
@@ -65,3 +66,5 @@
 		}}
 	/>
 </nav>
+
+<ParticipantOverview {data} currentThemeSlug={theme.slug} />
