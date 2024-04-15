@@ -1,6 +1,8 @@
 <script lang="ts">
-	import lang, { langs } from '$lib/stores/lang.js';
+	import lang from '$lib/stores/lang.js';
 	import { base } from '$app/paths';
+
+	import Lang from '$lib/components/Lang.svelte';
 
 	export let data;
 </script>
@@ -26,11 +28,7 @@
 				>
 			</li>
 			<li>
-				<select bind:value={$lang}>
-					{#each langs as l}
-						<option value={l}>{l.toUpperCase()}</option>
-					{/each}
-				</select>
+				<Lang />
 			</li>
 		</ul>
 	</nav>
