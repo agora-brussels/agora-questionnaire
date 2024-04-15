@@ -1,6 +1,8 @@
 nl: 
   general:
     home: Welkom
+    participant: Deelnemer
+    organiser: Organisator
     about: Over
     overview: Mijn antwoorden
     yes: Ja
@@ -111,6 +113,8 @@ nl:
 fr: 
   general:
     home: Accueil
+    participant: Participant·e
+    organiser: Organisation
     about: A propos
     overview: Mes réponses
     yes: Oui
@@ -125,7 +129,7 @@ fr:
     nextTheme: Prochain thème
     question: Question
     navigateToQuestion: Naviguer vers une question
-    participantHint: 
+    participantHint: Réponds au trois questions de cette thématique pour t'aider à te positionner sur ta participation.
     footer: Un outil de [Agora.Brussels](https://agora.brussels).
   home:
     pretitle: Tiré·e au sort? Tu hésites?
