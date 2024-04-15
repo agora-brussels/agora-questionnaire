@@ -12,7 +12,7 @@
 <div class="grid-container">
 	<div>
 		<h2>{data.pagesContent[$lang].organiser.title}</h2>
-		<p>{@html micromark(data.pagesContent[$lang].organiser.content)}</p>
+		<p style="margin-bottom:2rem">{@html micromark(data.pagesContent[$lang].organiser.content)}</p>
 		<a href="{base}/organiser/accessibility/database"
 			><button>{data.pagesContent[$lang].organiser.button}</button></a
 		>
