@@ -52,14 +52,14 @@ nl:
     - slug: exchange
       title: Interactie
       content: Wordt de informatie interactief verstrekt en helpt ze om de complexiteit van het thema te begrijpen? Legt ze tegenstrijdigheden tussen de meningen van de experts bloot?
-  - slug: 
+  - slug: product
     title: Product en opvolging
     content: Voor een geïntegreerd en krachtig resultaat
     questions:
     - slug: deliberation
       title: Overleg
       content: Neemt iedereen deel aan de gesprekken? Wordt het algemeen belang duidelijk tijdens de gesprekken?
-    - slug: 
+    - slug: validation
       title: Validatie
       content: Wordt het resultaat bekrachtigd volgens een duidelijk proces waarbij het de bedoeling is om rekening te houden met ieders mening (niet meer dan 10% bezwaren)?
     - slug: recipient
