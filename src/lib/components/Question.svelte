@@ -32,12 +32,15 @@
 		margin-top: 2rem;
 		"
 	>
-		<div style="font-weight:bold; margin-bottom:1rem">{question.content}</div>
+		<!-- Note: font-weight is not applying -->
+		<div style="font-weight:bold; margin-bottom:1rem">
+			{@html micromark(question.content)}
+		</div>
 		<Options {audience} {data} questionSlug={question.slug} />
 		{#if question.more}
 			<div style="margin-top:2rem; max-width: 600px">
 				<!-- <p style="margin-bottom:1rem">{data.pagesContent[$lang].general.more}</p> -->
-				<div style="">{@html micromark(question.more)}</div>
+				<div>{@html micromark(question.more)}</div>
 			</div>
 		{/if}
 	</main>

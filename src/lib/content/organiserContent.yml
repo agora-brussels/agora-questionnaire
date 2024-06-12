@@ -46,7 +46,7 @@ nl:
       questions:
       - slug: ressources
         title: Middelen
-        content: Zijn er voldoende financiële, menselijke (zie 1. toegankelijkheid en 3. begeleiding) en inhoudelijke (zie 6. informatie) middelen om het werk van de burgers te ondersteunen?
+        content: Zijn er voldoende financiële, menselijke (zie [toegankelijkheid](/organiser/accessibility/database/) en [begeleiding](/organiser/accompaniement/meetings/)) en inhoudelijke (zie [informatie](/organiser/information/legitimacy)) middelen om het werk van de burgers te ondersteunen?
         more: |
           Er zijn twee aspecten waarvoor veel middelen nodig zijn: zorgen voor toegankelijkheid en voor aanhoudende individuele begeleiding, zodat iedereen tot het einde kan deelnemen. Er zijn ook nog andere taken, zoals logistiek (locatie, catering, tolkwerk), de organisatie en de verspreiding van de informatie of de facilitatie van het overleg.
       - slug: timing
@@ -121,11 +121,11 @@ nl:
 
           In principe is het mogelijk om burgers het hele ontwerp van een participatieproces te laten uitwerken. De grootste beperking daarvoor is dat de organiserende instelling zelf actief is binnen een institutioneel kader, wat eisen inhoudt op het vlak van waarden, principes, acties of resultaten. Bij Agora.Brussels was dit de verkiezingsbelofte om binnen het parlement een woordvoerder te hebben voor de aanbevelingen van de Assemblee, dankzij de verkiezing van een volksvertegenwoordiger. Een andere beperking is de tijd die dit kost. 
           
-          We hebben de deelnemers vooral de mogelijkheid geboden om het werkingskader (zie [3. begeleiding - gelijkheid](/organiser/'/)) mee op te bouwen en aan te passen, de eerste thema's en vragen te formuleren en de subthema's te kiezen waaraan gewerkt zou worden.
+          We hebben de deelnemers vooral de mogelijkheid geboden om het werkingskader (zie [begeleiding - gelijkheid](/organiser/equity/)) mee op te bouwen en aan te passen, de eerste thema's en vragen te formuleren en de subthema's te kiezen waaraan gewerkt zou worden.
           
           De wensen van onze deelnemers op het vlak van co-design hadden betrekking op de werkorganisatie (hoe groot zijn de subgroepen en hoe worden ze verdeeld? Hoe plenair werken? Waaraan werktijd besteden? enz.) Die vragen opnemen vraagt veel tijd, organisatie, structuur en aandacht voor details. En de groep moet in staat zijn erg zelfstandig te kunnen werken. Er moet een evenwicht worden gevonden tussen de manier van organiseren en van beslissingen nemen over de thema's.
           
-          Wanneer we co-design willen opnemen in een proces, mogen we niet vergeten dat bepaalde persoonlijkheden gemakkelijk ontmoedigd en gefrustreerd raken door collectieve besluitingvormingsprocessen of gewoonweg overstelpt worden. Bijgevolg is het risico erg groot dat mensen uit bepaalde doelgroepen zich terugtrekken.
+          Wanneer we co-design willen opnemen in een proces, mogen we niet vergeten dat bepaalde persoonlijkheden gemakkelijk ontmoedigd en gefrustreerd raken door collectieve besluitvormingsprocessen of gewoonweg overstelpt worden. Bijgevolg is het risico erg groot dat mensen uit bepaalde doelgroepen zich terugtrekken.
     - slug: facilitation
       title: Facilitatie
       content: Schept de omkadering van het burgerwerk omstandigheden waarin gestreefd kan worden naar het algemene belang?
@@ -153,7 +153,7 @@ nl:
         title: (Dis)functioneren binnen de groep
         content: Zorgt de organisatie voor een co-creatieve dynamiek? Vormt ze een tegengewicht voor de groepswerkingen die uiteenlopende standpunten onderdrukken (bijvoorbeeld dominantieverhoudingen of groepsdenken)?
         more: |
-          Co-creatie is tegenwoordig helaas geen courante praktijk, integendeel. In een participatieproces leidt een coöperatief kader (zie [3. begeleiding - gelijkheid](/organiser/accompaniement/equity/)) het gedrag van de deelnemers naar co-creatie. Als we onder druk staan, bijvoorbeeld wanneer we voorstellen moeten formuleren en erover moeten stemmen, kan competitief gedrag evenwel gemakkelijk weer de bovenhand nemen. De facilitatie moet ten allen tijde waakzaam rekening houden met deze neiging.
+          Co-creatie is tegenwoordig helaas geen courante praktijk, integendeel. In een participatieproces leidt een coöperatief kader (zie [begeleiding - gelijkheid](/organiser/accompaniement/equity/)) het gedrag van de deelnemers naar co-creatie. Als we onder druk staan, bijvoorbeeld wanneer we voorstellen moeten formuleren en erover moeten stemmen, kan competitief gedrag evenwel gemakkelijk weer de bovenhand nemen. De facilitatie moet ten allen tijde waakzaam rekening houden met deze neiging.
 
           En aangezien de mens een kuddedier is, kunnen bepaalde groepsdynamieken de interactie beïnvloeden: 
 
@@ -188,7 +188,7 @@ nl:
         title: Vraag als uitgangspunt
         content: Is het thema geformuleerd in de vorm van een vraag, in eenvoudige en duidelijke taal en met een duidelijk afgebakende besluitvormingscontext?
         more: |
-          Het is belangrijk dat het thema wordt geformuleerd als een vraag om de burgers in de richting te sturen van een precieze problematiek en een vraagstellingslogica. De manier waarop het thema als vraag wordt verwoord, heeft een grote invloed op het proces. De subthema's die worden behandeld in subgroepen moeten ook worden geformuleerd als subvragen, om overlappingen tussen de subthema's te beperken en zo tot precieze voorstellen te komen. Een duidelijke en eenvoudige formulering van de (sub)thema's heeft een sterke en positieve invloed op de nauwkeurigheid van het werk van de burgers. Ze heeft ook gevolgen voor de inclusiviteit. Complex taalgebruik dreigt immers een minderwaardigheidsgevoel op te roepen.
+          Het is belangrijk dat het thema wordt geformuleerd als een vraag om de burgers in de richting te sturen van een precieze problematiek en een vraagstellingslogica. De manier waarop het thema als vraag wordt verwoord, heeft een grote invloed op het proces. De subthema's die worden behandeld in subgroepen moeten ook worden geformuleerd als subvragen, om overlappingen tussen de subthema's te beperken en zo tot precieze voorstellen te komen. Een duidelijke en eenvoudige formulering van de (sub)thema's heeft een sterke en positieve invloed op de nauwkeurigheid van het werk van de burgers. Ze heeft ook gevolgen voor de inclusiviteit. Complex taalgebruik dreigt immers een minderwaardigheidsgevoel op te roepen en de neiging om zichzelf uit te sluiten.
           
           Idealiter gaat de vraag die het uitgangspunt vormt, gepaard met een vaststelling waarin de context van de besluitvorming wordt toegelicht. Dat kunnen de basisfeiten, de historiek en de belangrijkste omstandigheden zijn waarin de problematiek kadert en die aantonen dat het nodig is om het thema aan te pakken.
       - slug: precision
@@ -310,9 +310,9 @@ fr:
         title: Base de données
         content: Est-ce que les participant·e·s sont choisi·e·s sur base de données précises et complètes ?
         more: |
-          La base de données utilisée pour la sélection (tirage au sort ou autre) est le facteur déterminant pour garantir que le panel intègre la diversité des réalités rencontrées par la population et soit apte à identifier les impacts des décisions prises. Par exemple, les utilisateur·rice·s des transports en commun sont souvent une population plus large que les habitant·e·s d'un district administratif.
+          La base de données utilisée pour la sélection (tirage au sort ou autre) est le facteur déterminant pour garantir un panel qui intègre la diversité des réalités rencontrées par la population et qui soit apte à identifier les impacts des décisions prises. Par exemple, les utilisateur·rice·s des transports en commun sont souvent une population plus large que les habitant·e·s d'un district administratif.
           
-          Les implications des décisions vont souvent au-delà des frontières administratives. La sélection des participant·e·s d'un processus participatif se fait donc idéalement sur l'écosystème qui vit les implications des recommandations.
+          Les implications des décisions vont souvent au-delà des frontières administratives. La sélection des participant·e·s d'un processus participatif se fait donc idéalement sur base del'écosystème qui vit les implications des recommandations.
           
           Pour sélectionner des citoyen·ne·s, le registre national est la base de données la plus complète qui existe. Malheureusement, l'accès au registre n'est pas facile à obtenir. En outre, les publics fragilisés sont en général sous-représentés dans les bases de données (y compris le registre). En conséquence, les panels risquent de sous-représenter celleux dont les voix sont déjà les moins entendues dans la société.
           
@@ -323,7 +323,7 @@ fr:
         more: |
           Il est impossible, voire contreproductif de viser une représentativité basée sur la présence de tous les publics. Certains publics et personnalités sont plus disposés que d'autres à une participation. Il sera plus facile de trouver des hommes, belges, ayant plus de 50 ans et un diplôme supérieur que des personnes très occupées, très privilégiées ou très défavorisées, avec des troubles d'anxiété. En conséquence, il faut s'appuyer sur la présence des publics et profils qui connaissent le vécu et les opinions de celleux qui ne participent pas. Par exemple, la famille proche, les collègues, des personnes disposées à participer qui se trouvent ou ont vécu des situations semblables, etc.
           
-          Pour atteindre ces profils plus éloignés, Agora a mis en place des partenariats avec des associations dont ils sont bénéficiaires. Il s'agissait par exemple d'associations de soutien pour les personnes en précarité ou des écoles professionnelles. Nous avons organisé avec elles des tirages au sort spécifiques pour intégrer ces profils dans notre panel.
+          Pour atteindre ces profils plus éloignés, Agora a mis en place des partenariats avec des associations dont ces profils sont bénéficiaires. Il s'agissait par exemple d'associations de soutien pour les personnes en précarité ou des écoles professionnelles. Nous avons organisé avec elles des tirages au sort spécifiques pour intégrer ces profils dans notre panel.
           
       - slug: inclusion
         title: Inclusion
@@ -331,7 +331,7 @@ fr:
         more: |
           Lever les barrières permet une participation complète et égale, surtout pour les publics les moins disposés à la participation. C'est pourquoi il est important de questionner individuellement les défis liés à la participation, pour pouvoir y répondre de manière personnalisée. Communiquez dès le début clairement que vous veillerez à enlever les barrières prévisibles et gérables logistiquement comme, par exemple, payer le coût d'un taxi, fournir un espace crèche pour les personnes ayant des obligations familiales, assurer l'interprétation ou simplifier le niveau linguistique avec des lexiques spécifiques.
           
-          Les barrières psychologiques sont en général sous-estimées. Dans nos assemblées, nous avons mis en place le cadre pour que certaines peurs puissent être dépassées : celle de ne parler aucune des langues communes aux autres participant·e·s; celle de ne pas arriver à distinguer les limites du processus (ce qu'il fallait demander ou partager avec les autres participant·e·s, ce qui était lié au thème ou pas); celle de laisser un·e bénévole inconnu·e s'occuper de ses enfants; ou encore celle d'être isolé·e à cause de son fonctionnement / vécu autistique. Pour chacune de ces personnes, il fallait chercher des solutions individuelles, et nous avons en partie réussi. La seule façon de maximiser l'accessibilité est d'accompagner les personnes individuellement et de gagner leur confiance afin qu'elles partagent suffisamment quels sont leurs besoins pour poursuivre l'aventure.
+          Les barrières psychologiques sont en général sous-estimées. Dans nos assemblées, nous avons mis en place le cadre pour que certaines peurs puissent être dépassées : celle de ne parler aucune des langues communes aux autres participant·e·s; celle de ne pas arriver à distinguer les limites du processus (ce qu'il fallait demander ou partager avec les autres participant·e·s, ce qui était lié au thème ou pas); celle de laisser un·e bénévole inconnu·e s'occuper de ses enfants; ou encore celle d'être isolé·e à cause de son fonctionnement / vécu autistique. Pour chacune de ces personnes, il fallait chercher des solutions individuelles et nous avons en partie réussi. La seule façon de maximiser l'accessibilité est d'accompagner les personnes individuellement et de gagner leur confiance afin qu'elles partagent suffisamment quels sont leurs besoins pour poursuivre l'aventure.
       - slug: stakeholders
         title: Parties prenantes
         content: Le processus prévoit-il d'inclure les parties prenantes pour augmenter l'impact du résultat et la capacité sociétale d'implémentation du résultat ?
@@ -345,7 +345,7 @@ fr:
       questions:
       - slug: ressources
         title: Ressources
-        content: Les supports financier, humain (cf. 1. accessibilité et 3. accompagnement) et de contenu (cf. 6. information) sont-ils assez importants pour soutenir le travail citoyen ?
+        content: Les supports financier, humain (cf. [accessibilité](/organiser/accessibility/database/) et [accompagnement](/organiser/accompaniement/meetings/)) et de contenu (cf. [information](/organiser/information/legitimacy)) sont-ils assez importants pour soutenir le travail citoyen ?
         more: |
           Deux aspects demandent beaucoup de ressources : assurer l'accessibilité et fournir un accompagnement individuel soutenu qui permet à tous·tes de participer jusqu'au bout. D'autres postes sont à prévoir comme la logistique (lieu, catering, interprétation), l'organisation de l'information et sa diffusion ou encore la facilitation de la délibération.
       - slug: timing
@@ -366,7 +366,7 @@ fr:
         title: Institution organisatrice
         content: L'institution organisatrice est-elle transparente quant à son intention (positionnement politique, résultat désiré, impact politique, etc.) ?
         more: |
-          Il est pertinent de vouloir tendre à l'impartialité pour permettre aux citoyen·ne·s de s'affilier au processus. Les participant·e·s doivent avoir confiance dans le processus et la structure qui le met en place pour s'investir pleinement. Il est donc important de communiquer de façon transparente et compréhensible la raison pour laquelle le processus est organisé, la place de l'institution organisatrice dans la structure institutionnelle, sa relation avec le cadre politique, le récepteur du produit du processus participatif, sa relation aux recommandations (est-elle directement impactée par les propositions?).
+          Il est pertinent de vouloir tendre à l'impartialité pour permettre aux citoyen·ne·s de s'affilier au processus. Les participant·e·s doivent avoir confiance dans le processus et la structure qui le met en place pour s'investir pleinement. Il est donc important de communiquer de façon transparente et compréhensible la raison pour laquelle le processus est organisé, la place de l'institution organisatrice dans la vie institutionnelle, sa relation avec le cadre politique, le récepteur du produit du processus participatif, sa relation aux recommandations (est-elle directement impactée par les propositions?).
           
           L'institution organisatrice communique implicitement des valeurs à travers l'organisation du processus. Ceci peut provoquer l'auto-exclusion des certaines personnes sélectionnées dès l'invitation et au cours du processus car elles ne se sentent pas au bon endroit au bon moment.
           
@@ -407,7 +407,7 @@ fr:
         title: Équité
         content: Est-ce qu'une vraie participation par tous·tes est soutenue par un accompagnement teinté de sensibilité et de pédagogie ?
         more: |
-          Dans un processus de participation citoyenne, tous les enjeux présents dans la société peuvent émerger. C'est pourquoi construire et maintenir un cadre de valeurs démocratiques et de délibération est essentiel, il permet une convergence vers une décision d'intérêt général.
+          Dans un processus de participation citoyenne, tous les enjeux présents dans la société peuvent émerger. C'est pourquoi construire et maintenir un cadre de valeurs démocratiques et de délibération est essentiel. Il permet une convergence vers une décision d'intérêt général.
           
           Voici, en très court, le discours que nous tenions pour cadrer les interactions dans nos assemblées : “Ce processus va marcher si tout le monde agit selon l'idée que chaque voix compte, qu'ici, c'est une espace multilingue, que l'écoute active est essentielle pour la bonne compréhension, que la curiosité nous aide à découvrir des démarches communes et que la confiance en soi et dans les autres ainsi que le soin de soi-même et des autres permettent d'avancer ensemble.”
           
@@ -418,9 +418,9 @@ fr:
         more: |
           Le co-design vise un vrai passage de pouvoir de l'institution organisatrice vers les citoyen·ne·s, non seulement par rapport au contenu mais aussi par rapport au mode décisionnel. C'est aussi le plus grand défi pour la facilitation.
 
-          En principe, il est possible de permettre aux citoyen·ne·s de construire tout le design d'un processus participatif. La limite principale à cette réalité est que l'institution organisatrice est elle-même active dans un cadre institutionnel, ce qui implique des exigences en termes de valeurs, principes, actions ou résultats. Dans le cas d'Agora.Brussels, c'est la promesse électorale d'avoir, au sein du parlement, un porte-parole des recommandations de l'Assemblée, grâce à l'élection d'un député. Un autre frein est la maîtrise du temps. 
+          En principe, il est possible de permettre aux citoyen·ne·s de construire tout le design d'un processus participatif. La difficulté principale à cette réalité est que l'institution organisatrice est elle-même active dans un cadre institutionnel, ce qui implique des exigences en termes de valeurs, principes, actions ou résultats. Dans le cas d'Agora.Brussels, c'est la promesse électorale d'avoir, au sein du parlement, un porte-parole des recommandations de l'Assemblée, grâce à l'élection d'un député. Un autre frein est la maîtrise du temps. 
           
-          Nous avons principalement permis aux participant·e·s de co-construire et d'adapter le cadre de fonctionnement (cf. [3. accompagnement - équité](/organiser/accompaniement/equity/)), de formuler les thèmes et questions de départ et de choisir les sous-thèmes travaillés.
+          Nous avons principalement permis aux participant·e·s de co-construire et d'adapter le cadre de fonctionnement (cf. [accompagnement - équité](/organiser/accompaniement/equity/)), de formuler les thèmes et questions de départ et de choisir les sous-thèmes travaillés.
           
           Les souhaits de co-design exprimés par nos participant·e·s étaient liés aux modalités de travail (Quelle taille et quelle distribution en sous-groupe ? Comment travailler en plénière ? A quoi dédier le temps de travail ? etc.) Intégrer ces demandes exige beaucoup de temps, d'organisation, de structure et d'attention au détail. Et le groupe doit faire preuve de capacités de (auto-)facilitation très élevées. Il faut trouver un équilibre entre comment s'organiser et arriver aux décisions par rapport aux thèmes.
           
@@ -435,7 +435,7 @@ fr:
         more: |
           Pour faciliter la délibération, il est nécessaire de s'appuyer sur des valeurs explicitées dans un cadre connu et validé. Cela favorise l'émergence, lors des échanges, d'une compréhension individuelle et collective, via l'intégration d'informations factuelles et de vécu. La compréhension collective consiste en un consensus à propos des faits et de ce qui est préférable. Il ne s'agit pas d'adopter un seul jugement par tous·tes, mais de s'aligner sur une direction générale. Par exemple, “Il y a trop de bâtiments vides et il faut plus de logement pour les sans domicile fixe” plutôt que “C'était une mauvaise stratégie urbaine de construire des immeubles de bureaux, quand les listes d'attentes de logements sociaux sont interminables.”
 
-          Pour arriver à une telle direction consensuelle, il est nécessaire que les informations et les vécus divergents soient d'abord décrits. Vient ensuite l'expression de questions et avis. Enfin, des constats sont priorisés selon leur degré de consensus. Ce résultat peut alors être examiné sous l'angle de sa valeur d'intérêt général et développé davantage en cette direction.
+          Pour arriver à une telle direction consensuelle, il est nécessaire que les informations et les vécus divergents soient d'abord décrits. Vient ensuite l'expression de questions et d'avis. Enfin, des constats sont priorisés selon leur degré de consensus. Ce résultat peut alors être examiné sous l'angle de sa valeur d'intérêt général et développé davantage en cette direction.
 
           La facilitation doit guider le groupe au long de ces étapes en faisant en sorte que chaque personne participe réellement - pas nécessairement de manière égale, mais suffisamment pour avoir façonné en partie le résultat. Concrètement, la facilitation fait en sorte que le groupe parcourt le déroulé à son propre rythme et dans le temps prévu. Le programme est continuellement adapté via des procédures spécifiques et des approches qui visent à résoudre les divergences. La facilitation doit reformuler le thème, les questions, les problèmes d'une façon compréhensible et constructive pour résumer l'avancement et clarifier la direction. Finalement, il est important de tester le consentement et d'améliorer le résultat en tenant compte des avis minoritaires.
       - slug: posture
@@ -452,7 +452,7 @@ fr:
         title: (Dys)fonctionnement au sein du groupe
         content: La facilitation crée-t-elle une dynamique co-créative ? Contrebalance-t-elle les fonctionnements de groupe qui oppriment la divergence de points de vue (par exemple, les rapports de domination ou le groupthink) ?
         more: |
-          La co-création n'est malheureusement pas un usage promu de nos jours, que du contraire. Dans un processus participatif, un cadre coopératif (voir [3. accompagnement - équité](/organiser/accompaniement/equity/)) guide le comportement des participant·e·s vers la co-création. Mais, dans les moments de pression, quand il faut formuler et voter les propositions, par exemple, le comportement compétitif peut reprendre facilement le dessus. La facilitation doit être attentive à constamment intégrer cette tendance.
+          La co-création n'est malheureusement pas un usage promu de nos jours, que du contraire. Dans un processus participatif, un cadre coopératif (voir [accompagnement - équité](/organiser/accompaniement/equity/)) guide le comportement des participant·e·s vers la co-création. Mais, dans les moments de pression, quand il faut formuler et voter les propositions, par exemple, le comportement compétitif peut reprendre facilement le dessus. La facilitation doit être attentive à constamment intégrer cette tendance.
           
           De plus, comme l'humain est un animal grégaire, certaines dynamiques de groupes peuvent influer sur les échanges : 
           
@@ -473,28 +473,28 @@ fr:
       questions:
       - slug: selection
         title: Sélection
-        content: La façon dont le thème est choisi est-elle légitime selon les futur·es participant·e·s au processus participatif ? Y a-t-il de l'intérêt pour le thème ?
+        content: La façon dont le thème est choisi est-elle légitime selon les futur·e·s participant·e·s au processus participatif ? Y a-t-il de l'intérêt pour le thème ?
         more: |
           Le thème et sa sélection déterminent en grande partie la légitimité perçue et, par conséquent, l'engagement des participant·e·s dans le processus. La légitimité dépend de qui a choisi le thème, comment et pourquoi, mais aussi de l'actualité et de l'intérêt que les individus et la société lui portent. Enfin, d'autres facteurs interviennent et peuvent avoir l'influence sur la décision citoyenne et le résultat du processus participatif. Idéalement, le thème fait l'objet d'une discussion, d'une proposition et d'une sélection par des citoyen·ne·s représentatif·ve·s.
       - slug: field
         title: Champs d'application
         content: La compétence traitée est-elle dans les mains de l'institution destinataire du résultat ?
         more: |
-          A la fin des processus participatifs, le résultat du travail citoyen est en général remis à une institution politique. Souvent, les institutions destinataires n'ont pas toutes les compétences nécessaires pour légiférer ou implémenter les propositions citoyennes : soit parce que les propositions citoyennes ne tiennent pas compte du fait que les compétences sont éclatées sur plusieurs niveaux de pouvoir; soit parce que les thématiques sont interdépendantes et l'institution destinataire ne gère qu'une petite partie de la thématique. 
+          A la fin des processus participatifs, le résultat du travail citoyen est en général remis à une instance politique. Souvent, les institutions destinataires n'ont pas toutes les compétences nécessaires pour légiférer ou implémenter les propositions citoyennes : soit parce que les propositions citoyennes ne tiennent pas compte du fait que les compétences sont éclatées sur plusieurs niveaux de pouvoir; soit parce que les thématiques sont interdépendantes et l'institution destinataire ne gère qu'une petite partie de la thématique. 
           
           Il est essentiel donc que le processus intègre une analyse du champ d'application du thème et de la position politique de l'institution destinataire. Cela permettra de définir un contenu de travail dont les contours sont clairement délimités.
       - slug: question
         title: Question de départ
         content: Le thème est-il formulé sous forme de question, dans un langage simple et clair avec un contexte décisionnel bien précisé ?
         more: |
-          Il est important que le thème soit formulé comme une question pour orienter les citoyen·ne·s vers une problématique précise et une logique de questionnement. La manière dont le thème est questionné a une grande influence sur le processus. Les sous-thèmes traités en sous-groupes doivent aussi être formulés comme des sous-questions, pour minimiser les chevauchements entre les sous-thèmes et donner la possibilité d'arriver à des propositions précises. Une formulation claire et simple des (sous-)thèmes influence fortement et positivement la précision du travail citoyen. Elle a aussi une implication sur l'inclusivité car un langage complexe risque de générer un sentiment d'infériorité.
+          Il est important que le thème soit formulé comme une question pour orienter les citoyen·ne·s vers une problématique précise et une logique de questionnement. La manière dont le thème est questionné a une grande influence sur le processus. Les sous-thèmes traités en sous-groupes doivent aussi être formulés comme des sous-questions, pour minimiser les chevauchements entre les sous-thèmes et donner la possibilité d'arriver à des propositions précises. Une formulation claire et simple des (sous-)thèmes influence fortement et positivement la précision du travail citoyen. Elle a aussi une implication sur l'inclusivité car un langage complexe risque de générer un sentiment d'infériorité et un phénomène d'auto-exclusion.
           
           La question de départ est idéalement accompagnée par un constat qui précise le contexte décisionnel. Cela peut inclure les faits de base, un historique et les conditions clés qui façonnent la problématique et démontrent le besoin de traiter la thématique.
       - slug: precision
         title: Précision
         content: Le dilemme politique lié au thème est-il bien défini ?
         more: |
-          Les processus participatifs sont particulièrement pertinents quand il s'agit d'un dilemme politique. C'est-à-dire? Aucune solution ne peut donc être trouvée dans le cadre politique classique car la culture ou l'historique politique font qu'il est inimaginable de sortir des lignes d'opinions qui ont toujours été défendues. Le mariage homosexuel en Irlande est un bon exemple d'un tel dilemme. Des défis qui demandent un changement du comportement économique ou social (comme la crise climatique ou migratoire) sont également dans ce scope.
+          Les processus participatifs sont particulièrement pertinents quand il s'agit d'un dilemme politique. C'est-à-dire? Aucune solution ne peut être trouvée dans le cadre politique classique car la culture ou l'historique politique font qu'il est inimaginable de sortir des lignes d'opinions qui ont toujours été défendues. Le mariage homosexuel en Irlande est un bon exemple d'un tel dilemme. Des défis qui demandent un changement du comportement économique ou social (comme la crise climatique ou migratoire) sont également dans ce scope.
           
           Quand un processus participatif traite un tel dilemme, il est très important que les lignes d'opinions qui existent soient bien claires, dès le départ, et que les citoyen·ne·s se rendent compte que leur travail peut aller au-delà de ce que la politique conventionnelle est capable de produire.
     - slug: information
@@ -505,17 +505,17 @@ fr:
         title: Légitime
         content: L'information fournie est-elle représentative des avis de toute la société ?
         more: |
-          Il est impossible de fournir ou d'emmagasiner toute l'information existante sur un sujet. C'est pourquoi l'information qui est fournie est filtrée et en conséquence colorée. Le principe à suivre pour être le plus objectif possible dans les moments d'informations, est de donner accès à un spectre représentatif de tous les avis de la société. Cela pousse les participant·e·s à confronter leurs propres avis à la pluralité des opinions qui existent en dehors du panel. Iels peuvent alors changer ou préciser leurs opinions.
+          Il est impossible de fournir ou d'emmagasiner toute l'information existante sur un sujet. C'est pourquoi l'information qui est fournie est filtrée et en conséquence colorée. Le principe à suivre pour être le plus objectif possible dans les moments d'informations est de donner accès à un spectre représentatif de tous les avis de la société. Cela pousse les participant·e·s à confronter leurs propres avis à la pluralité des opinions qui existent en dehors du panel. Iels peuvent alors changer ou préciser leurs opinions.
       - slug: interactive
         title: Interactive
-        content: L'information est-elle fournie d'une façon interactive qui permet aux participant·e·s de noter les contradictions entre les avis d'experts, de situer leur vécu dans un contexte plus généralisé et d'intégrer les infos dans leurs connaissances existantes ?
+        content: L'information est-elle fournie d'une façon interactive qui permet aux participant·e·s de noter les contradictions entre les avis d'expert·e·s, de situer leur vécu dans un contexte plus généralisé et d'intégrer les infos dans leurs connaissances existantes ?
         more: |
           Créer un cadre interactif permet aux participant·e·s d'assimiler l'information et de l'utiliser correctement. Cela donne du sens aux informations reçues, que ce soit de personnes expertes ou d'autres participant·e·s. Plus les interactions sont fréquentes, suscitées par les citoyen·ne·s et non-hiérarchiques, plus elles seront prises en compte. Si les participant·e·s se sentent libres de co-construire la base d'information avec laquelle iels construisent ensuite leurs propositions et prennent leurs décisions, la qualité du résultat est plus élevée car plus croisée et vérifiée selon différentes réalités.
       - slug: custom
         title: Sur mesure
         content: L'information fournie correspond-elle aux  questionnements citoyens et aux besoins de compréhension des participant·e·s ?
         more: |
-          Tout au long de l'assemblée, les besoins d'information changent. Souvent, les participant·e·s ont besoin de plus de détails quand ils abordent le thème plus en profondeur. Si certains sous-thèmes apparaissent ou si la direction initiale change, il faut apporter à nouveau des faits de base. Ça signifie qu'il est impossible de préparer à l'avance tous les détails de l'information à fournir durant le processus. Il faut donc garder de la flexibilité dans la diffusion de l'information. Il est également important de rendre intelligible des informations issues de sources différentes, sous des formats différents, en utilisant des diagrammes, des images, des résumés, etc.
+          Tout au long de l'assemblée, les besoins d'information changent. Souvent, les participant·e·s ont besoin de plus de détails quand iels abordent le thème plus en profondeur. Si certains sous-thèmes apparaissent ou si la direction initiale change, il faut apporter à nouveau des faits de base. Ça signifie qu'il est impossible de préparer à l'avance tous les détails de l'information à fournir durant le processus. Il faut donc garder de la flexibilité dans la diffusion de l'information. Il est également important de rendre intelligible des informations issues de sources différentes, sous des formats différents, en utilisant des diagrammes, des images, des résumés, etc.
           
           Pour optimiser la gestion de l'information, vous pouvez inviter le groupe à rassembler lui-même les informations dont il a besoin. Cet accompagnement est particulièrement important avec des panels très diversifiés car les différences de gestion des informations sont alors plus grandes. Dans ce cas, l'accompagnement veille à rendre accessibles à tous.tes les participant.e.s les sources d'informations et l'utilisation des ces informations.
       - slug: applicable
@@ -569,9 +569,9 @@ fr:
         title: Contraignant
         content: Est-ce que la structure organisatrice du processus peut pousser à une mise en œuvre du  résultat ?
         more: |
-          L'influence d'un panel dépend du positionnement institutionnel de la structure  qui organise le processus participatif. Selon l'idéal d'Agora.Brussels, une assemblée citoyenne aurait elle-même un pouvoir législatif et pourrait donc (soutenue des nécessaires ressources pour permettre un résultat de haute qualité) avoir un effet direct sur la réalité du thème. Ceci serait certainement le plus grand facteur de motivation pour les participant·e·s.
+          L'influence d'un panel dépend du positionnement institutionnel de la structure qui organise le processus participatif. Selon l'idéal d'Agora.Brussels, une assemblée citoyenne aurait elle-même un pouvoir législatif et pourrait donc (soutenue des nécessaires ressources pour permettre un résultat de haute qualité) avoir un effet direct sur la réalité du thème. Ceci serait certainement le plus grand facteur de motivation pour les participant·e·s.
           
-          Si une institution est clairement identifiée comme destinataire des propositions, l'impact du travail du panel sera alors limité au pouvoir décisionnel de cette institution (par exemple, une recommandation faite pour l'efficacité énergétique en Région Bruxelles-Capitale n'aura pas d'effet dans les deux autres régions de la Belgique).
+          Si une institution est clairement identifiée comme destinataire des propositions, l'impact du travail du panel sera alors limité au pouvoir décisionnel de cette institution (par exemple, une recommandation faite pour l'efficacité énergétique en Région de Bruxelles-Capitale n'aura pas d'effet dans les deux autres régions de la Belgique).
           
           Dans le cas des assemblées citoyennes organisées hors des structures politiques, les résultats peuvent être transformés en actions militantes, comme des manifestations ou des mémorandums. Ces assemblées ont donc un pouvoir de lobbying.
       - slug: recipient
@@ -587,7 +587,7 @@ fr:
         title: Temporalité politique
         content: Le processus participatif est-il aligné sur les processus décisionnels liés au thème pour en faciliter l'impact?
         more: |
-          Comme les processus participatifs existent en dehors des structures législatives, c'est important d'aligner les rythmes - très différents - des processus décisionnels citoyens et des institutions. Cela doit permettre aux propositions du panel d'arriver à un moment pertinent dans le cycle législatif. Une recommandation citoyenne peut, par exemple, être reprise par le politique pour initier une nouvelle loi ou relancer un processus législatif, si elle arrive dans un moment de blocage.
+          Comme les processus participatifs existent en dehors des structures législatives, c'est important d'aligner les rythmes - très différents - des processus décisionnels des citoyens et des institutions. Cela doit permettre aux propositions du panel d'arriver à un moment pertinent dans le cycle législatif. Une recommandation citoyenne peut, par exemple, être reprise par le politique pour initier une nouvelle loi ou relancer un processus législatif, si elle arrive dans un moment de blocage.
           
           Si la thématique a déjà fait l'objet de discussion en vue d'une décision, les propositions du panel citoyen peuvent servir à proposer des amendements.
       - slug: capacity
