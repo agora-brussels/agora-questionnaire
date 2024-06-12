@@ -15,7 +15,7 @@
 		<div
 			style="
 		display: grid;
-		grid-template-columns: 4rem auto;
+		grid-template-columns: 5rem auto;
 		grid-column-gap: 1rem;"
 		>
 			<div style="font-weight:300; font-stretch: condensed">

@@ -14,7 +14,7 @@
 		padding-left: 1rem; 
 		margin-bottom: 1rem; 
 		display: grid;
-		grid-template-columns: 5rem auto;
+		grid-template-columns: 6rem auto;
 		grid-column-gap: 0rem;
 		align-items: flex-end;
 		max-width: 800px"
