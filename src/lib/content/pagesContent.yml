@@ -19,6 +19,7 @@ nl:
     navigateToQuestion: Navigeer naar een vraag
     participantHint: Beantwoord de drie vragen van dit thema om je te helpen beslissen over je deelname.
     footer: Een tool van [Agora.Brussels](https://agora.brussels).
+    reuse: Hergebruik
   home:
     pretitle: Uitgeloot? Twijfel je?
     title: Beslis over je deelname aan een burgerpanel!
@@ -40,13 +41,11 @@ nl:
 
       In de loop der jaren hebben we veel geleerd en getwijfeld. Soms zijn we gestruikeld over dingen die we anders hadden moeten aanpakken. Om organisaties met gelijkaardige doelstellingen als Agora.Brussels te ondersteunen, willen we onze werkwijze delen. Via dit instrument, dat bestaat uit een versie voor toekomstige deelnemers en een voor organisatoren, wil Agora.Brussels deze ervaringen delen en nuttig maken.
 
-      Dit instrument bouwt voort op inzichten van honderden assemblisten. Dank voor jullie inzet! Gebaseerd op een tekst van Ana Adzersen werd deze digitale versie van de vragenlijst gemaakt door Manuel Claeys Bouuaert. Betül Sefika heeft gezorgd voor een printbare versie van de vragenlijst. Françoise Lepers heeft de tekst nagelezen, en de medewerkers van Agora.Brussels (per januari - mei 2024) hebben de ontwikkeling van dit project gecoördineerd.
-
-      ##### Hergebruik
-      
+      Dit instrument bouwt voort op inzichten van honderden assemblisten. Dank voor jullie inzet! De tekst is van de hand van Ana Adzersen met eindredactie door Françoise Lepers, François-Xavier Lefebvre en Sixtine Bérard. Manuel Claeys Bouuaert verzorgde de digitale versie en Betül Sefika stond in voor de vormgeving en illustraties. Johannes Grillet heeft  de ontwikkeling van dit project gecoördineerd.
+    reuse: |
       Deze tool is gepubliceerd onder een [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.nl) licentie. Het is dus toegestaan om dit materiaal te delen (kopiëren, verspreiden en door te geven op welke manier en in welk formaat dan ook) op voorwaarde van naamsvermelding en zonder afgeleide werken te maken. 
       
-      De broncode van deze site is beschikbaar [op Github](https://github.com/agora-brussels/agora-questionnaire/). De gegevens voor de vragen zijn in gestructureerde vorm [hier](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content) toegankelijk.
+      De broncode van deze website is beschikbaar [op Github](https://github.com/agora-brussels/agora-questionnaire/). De gegevens voor de vragen zijn in gestructureerde vorm [hier](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content) toegankelijk. Voor wie zelf een burgerassemblee wil organiseren is er ook [een printbare versie van de vragenlijst](/organiser/about/#reuse).
   participantOverview:
     title: Een keuze maken op basis van je antwoorden
     content: |
@@ -76,7 +75,7 @@ nl:
 
       Daarom denken we dat deze vragenlijst nuttig is. Net als wij zal ook jouw organisatie moeten improviseren. Dat zal vlot verlopen als je hebt geanticipeerd op de talrijke uitdagingen die komen kijken bij de organisatie van een participatieproces.
 
-      De vragenlijst bevat 32 vragen, die werden verdeeld over vier grote thema’s:
+      De vragenlijst bevat 32 vragen, die werden verdeeld over vier grote thema's:
       - De structuur
       - De deelnemers
       - De inhoud
@@ -91,13 +90,13 @@ nl:
 
       In de loop der jaren hebben we veel geleerd en getwijfeld. Soms zijn we gestruikeld over dingen die we anders hadden moeten aanpakken. Om organisaties met gelijkaardige doelstellingen als Agora.Brussels te ondersteunen, willen we onze werkwijze delen. Via dit instrument, dat bestaat uit een versie voor toekomstige deelnemers en een voor organisatoren, wil Agora.Brussels deze ervaringen delen en nuttig maken.
 
-      Dit instrument bouwt voort op inzichten van honderden assemblisten. Dank voor jullie inzet! Gebaseerd op een tekst van Ana Adzersen werd deze digitale versie van de vragenlijst gemaakt door Manuel Claeys Bouuaert. Betül Sefika heeft gezorgd voor een printbare versie van de vragenlijst. Françoise Lepers heeft de tekst nagelezen, en de medewerkers van Agora.Brussels (per januari - mei 2024) hebben de ontwikkeling van dit project gecoördineerd.
-
-      ##### Hergebruik
-      
+      Dit instrument bouwt voort op inzichten van honderden assemblisten. Dank voor jullie inzet! De tekst is van de hand van Ana Adzersen met eindredactie door Françoise Lepers, François-Xavier Lefebvre en Sixtine Bérard. Manuel Claeys Bouuaert verzorgde de digitale versie en Betül Sefika stond in voor de vormgeving en illustraties. Johannes Grillet heeft de ontwikkeling van dit project gecoördineerd.
+    reuse: |
       Deze tool is gepubliceerd onder een [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.nl) licentie. Het is dus toegestaan om dit materiaal te delen (kopiëren, verspreiden en door te geven op welke manier en in welk formaat dan ook) op voorwaarde van naamsvermelding en zonder afgeleide werken te maken. 
       
-      De broncode van deze site is beschikbaar [op Github](https://github.com/agora-brussels/agora-questionnaire/). De gegevens voor de vragen zijn in gestructureerde vorm [hier](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content) toegankelijk.
+      [Download de vragenlijst hier](/pdf/Gids_voor_burgerassemblees.pdf) en print ze als boekje (booklet: op A4 papier en plooien naar A5 met twee nietjes in de rug). De [tweetalige versie](/pdf/Gids_voor_burgerassemblees_Guide_des_assemblées_citoyennes.pdf) (boekje van 68 pagina's) is beschikbaar in de politieke afdeling van Brusselse universiteiten en enkele openbare bibliotheken.
+      
+      De broncode van deze website is beschikbaar [op Github](https://github.com/agora-brussels/agora-questionnaire/). De gegevens voor de vragen zijn in gestructureerde vorm [hier](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content) toegankelijk.
   organiserOverview:
     title: Antwoorden
     content: |
@@ -131,11 +130,12 @@ fr:
     navigateToQuestion: Naviguer vers une question
     participantHint: Réponds au trois questions de cette thématique pour t'aider à te positionner sur ta participation.
     footer: Un outil de [Agora.Brussels](https://agora.brussels).
+    reuse: Réutilisation
   home:
     pretitle: Tiré·e au sort? Tu hésites?
-    title: Décide sur ta participation à un panel citoyen!
+    title: Participer à un panel
     content: |
-      Tu as été invité·e à un projet de participation ou à une assemblée citoyenne ? Tu veux pouvoir choisir en connaissance de cause d'accepter ou non cette invitation ? Ce questionnaire a été élaboré pour t'aider avec ça. À travers 15 questions, il te permettra d'identifier si le projet est inclusif, bienveillant et efficace.
+      **Tu as été invité·e à un projet de participation ou à une assemblée citoyenne ?** Tu veux pouvoir choisir en connaissance de cause d'accepter ou non cette invitation ? Ce questionnaire a été élaboré pour t'aider avec ça. À travers 15 questions, il te permettra d'identifier si le projet est inclusif, bienveillant et efficace.
 
       *On te conseille de lire toutes les informations que tu as reçues concernant l'invitation avant de commencer.*
     button: Je participe au panel citoyen (ou pas) ?
@@ -152,13 +152,11 @@ fr:
 
       Au fil des ans, nous avons beaucoup appris et douté et avons parfois trébuché sur des choses que nous aurions dû envisager différemment. Pour soutenir les organisations ayant des objectifs similaires à ceux d'Agora.Brussels, nous voulons partager notre méthode de travail. Via cet outil, avec sa partie pour futurs participant·e·s et pour futurs organisateur·rice·s, Agora.Brussels veut partager et rendre utile ces apprentissages. 
 
-      Cet outil s'appuie sur les réflexions résultant de l'implication de centaines d'assemblistes. Merci pour vos efforts, assemblistes! Basée sur un texte d'Ana Adzersen, la version numérique du questionnaire a été créée par Manuel Claeys Bouuaert. Betül Sefika a fourni une version imprimable du questionnaire. Françoise Lepers a relu le texte, et les collaborateurs d'Agora.Brussels (de janvier à mai 2024) ont coordonné le développement de ce projet. 
-      
-      ##### Réutilisation
-
+      Cet outil s'appuie sur les réflexions résultant de l'implication de centaines d'assemblistes. Merci pour vos efforts, assemblistes! Ana Adzersen a écrit le texte qui a été relu par Françoise Lepers, François-Xavier Lefebvre et Sixtine Bérard. Manuel Claeys Bouuaert a élaboré la version numérique du questionnaire et Betül Sefika a soigné la mise en forme et les illustrations. Johannes Grillet a coordonné le développement de ce projet.
+    reuse: |
       Cet outil est publié sous licence [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.fr). Vous êtes donc autorisé·e à partager ce matériel (le copier, distribuer et communiquer par tous moyens et sous tous formats) selon les conditions suivantes: attribution, pas de modifications.
       
-      Le code source de ce site est accessible [sur GitHub](https://github.com/agora-brussels/agora-questionnaire/). Les données des questions sont accessibles sous forme structurée [ici](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content).
+      Le code source de ce site est accessible [sur GitHub](https://github.com/agora-brussels/agora-questionnaire/). Les données des questions sont accessibles sous forme structurée [ici](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content). Une [version imprimable du questionnaire](/organiser/about/#reuse) est également disponible pour les organisations qui souhaitent organiser une assemblée citoyenne.
   participantOverview:
     title: Faire un choix suite à ces réponses
     content: |
@@ -203,11 +201,11 @@ fr:
 
       Au fil des ans, nous avons beaucoup appris et douté et avons parfois trébuché sur des choses que nous aurions dû envisager différemment. Pour soutenir les organisations ayant des objectifs similaires à ceux d'Agora.Brussels, nous voulons partager notre méthode de travail. Via cet outil, avec sa partie pour futurs participant·e·s et pour futurs organisateur·rice·s, Agora.Brussels veut partager et rendre utile ces apprentissages. 
 
-      Cet outil s'appuie sur les réflexions résultant de l'implication de centaines d'assemblistes. Merci pour vos efforts, assemblistes! Basée sur un texte d'Ana Adzersen, la version numérique du questionnaire a été créée par Manuel Claeys Bouuaert. Betül Sefika a fourni une version imprimable du questionnaire. Françoise Lepers a relu le texte, et les collaborateurs d'Agora.Brussels (de janvier à mai 2024) ont coordonné le développement de ce projet.
-      
-      ##### Réutilisation
-
+      Cet outil s'appuie sur les réflexions résultant de l'implication de centaines d'assemblistes. Merci pour vos efforts, assemblistes!, Ana Adzersen a écrit le texte qui a été relu par Françoise Lepers, François-Xavier Lefebvre et Sixtine Bérard. Manuel Claeys Bouuaert a élaboré la version numérique du questionnaire et Betül Sefika a soigné la mise en forme et les illustrations.  Johannes Grillet a coordonné le développement de ce projet.
+    reuse: |
       Cet outil est publié sous licence [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.fr). Vous êtes donc autorisé·e à partager ce matériel (le copier, distribuer et communiquer par tous moyens et sous tous formats) selon les conditions suivantes: attribution, pas de modifications.
+      
+      [Téléchargez le questionnaire ici](/pdf/Guide_des_assemblées_citoyennes.pdf) et imprimez-le sous forme de livret (booklet : sur papier A4 et plié en A5 avec deux agrafes au dos). [La version bilingue](/pdf/Gids_voor_burgerassemblees_Guide_des_assemblées_citoyennes.pdf) (livret de 68 pages) est disponible au département politique des universités bruxelloises et dans certaines bibliothèques.
       
       Le code source de ce site est accessible [sur GitHub](https://github.com/agora-brussels/agora-questionnaire/). Les données des questions sont accessibles sous forme structurée [ici](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content).
   organiserOverview:

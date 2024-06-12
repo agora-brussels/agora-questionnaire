@@ -12,6 +12,8 @@
 	<div>
 		<h2>{data.pagesContent[$lang].organiserAbout.title}</h2>
 		<p>{@html micromark(data.pagesContent[$lang].organiserAbout.content)}</p>
+		<h4 id="reuse">{data.pagesContent[$lang].general.reuse}</h4>
+		<p>{@html micromark(data.pagesContent[$lang].organiserAbout.reuse)}</p>
 		<img src={licence} alt="by-nd" width="200" />
 	</div>
 	<img style="margin-top: 2rem; max-width: 300px; border-radius:0px" src={agora} alt="People" />
