@@ -52,5 +52,6 @@
 		font-weight: 300;
 		font-stretch: condensed;
 		font-size: 1rem;
+		line-height: 1.5;
 	}
 </style>

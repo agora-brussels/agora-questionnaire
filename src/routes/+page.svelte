@@ -8,7 +8,7 @@
 </script>
 
 <div class="grid-container">
-	<div>
+	<div style="margin-bottom: 1rem">
 		<h6>{data.pagesContent[$lang].home.pretitle}</h6>
 		<h1>{data.pagesContent[$lang].home.title}</h1>
 		<p>{@html micromark(data.pagesContent[$lang].home.content)}</p>

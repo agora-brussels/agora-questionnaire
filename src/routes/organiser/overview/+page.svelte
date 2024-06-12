@@ -15,7 +15,7 @@
 </script>
 
 <div class="grid-container">
-	<div>
+	<div style="margin-bottom:1rem">
 		<h2>{data.pagesContent[$lang].organiserOverview.title}</h2>
 		<p style="margin-bottom: 2rem">
 			{@html micromark(data.pagesContent[$lang].organiserOverview.content)}
@@ -70,6 +70,11 @@
 <style>
 	p {
 		max-width: 600px;
+	}
+
+	button {
+		margin-right: 0.5rem;
+		margin-bottom: 0.5rem;
 	}
 
 	.grid-container {

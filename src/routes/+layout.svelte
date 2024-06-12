@@ -77,10 +77,12 @@
 	<slot />
 </main>
 
-<footer class="container">
+<footer class="container" style="background-color:var(--pico-background-color);">
 	<nav
-		style="font-size: small;
-	margin-top: 100px;"
+		style="
+			font-size: small;
+			margin-top: 100px;
+			"
 	>
 		<ul></ul>
 		<ul>

@@ -22,7 +22,7 @@ nl:
     reuse: Hergebruik
   home:
     pretitle: Uitgeloot? Twijfel je?
-    title: Beslis over je deelname aan een burgerpanel!
+    title: Deelnemen aan een panel
     content: |
       Ben je uitgenodigd om deel te nemen aan een burgerpanel of burgerassemblee? Wil je een weloverwogen keuze kunnen maken om al dan niet op de uitnodiging in te gaan? Deze vragenlijst is ontworpen om je daarbij te helpen. Aan de hand van 15 vragen kun je nagaan of het project inclusief, zorgzaam en effectief is.
 
@@ -135,7 +135,7 @@ fr:
     pretitle: Tiré·e au sort? Tu hésites?
     title: Participer à un panel
     content: |
-      **Tu as été invité·e à un projet de participation ou à une assemblée citoyenne ?** Tu veux pouvoir choisir en connaissance de cause d'accepter ou non cette invitation ? Ce questionnaire a été élaboré pour t'aider avec ça. À travers 15 questions, il te permettra d'identifier si le projet est inclusif, bienveillant et efficace.
+      Tu as été invité·e à un projet de participation ou à une assemblée citoyenne ? Tu veux pouvoir choisir en connaissance de cause d'accepter ou non cette invitation ? Ce questionnaire a été élaboré pour t'aider avec ça. À travers 15 questions, il te permettra d'identifier si le projet est inclusif, bienveillant et efficace.
 
       *On te conseille de lire toutes les informations que tu as reçues concernant l'invitation avant de commencer.*
     button: Je participe au panel citoyen (ou pas) ?

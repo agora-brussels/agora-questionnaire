@@ -10,7 +10,7 @@
 </script>
 
 <div class="grid-container">
-	<div>
+	<div style="margin-bottom:1rem">
 		<h2>{data.pagesContent[$lang].organiser.title}</h2>
 		<p style="margin-bottom:2rem">{@html micromark(data.pagesContent[$lang].organiser.content)}</p>
 		<a href="{base}/organiser/accessibility/database"
