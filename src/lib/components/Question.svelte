@@ -48,7 +48,7 @@
 
 <style>
 	.main-question {
-		margin-left: 5rem;
+		margin-left: 6rem;
 	}
 
 	@media screen and (max-width: 768px) {
