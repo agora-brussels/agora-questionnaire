@@ -12,7 +12,7 @@ nl:
         title: Databank
         content: Worden de deelnemers gekozen op basis van precieze en volledige gegevens?
         more: |
-          De gegevens die wordt gebruikt voor de selectie (loting of andere) zorgen ervoor dat het panel een goede weerspiegeling is van de bevolking. Dit is heel belangrijk omdat deelnemers zicht moeten hebben op de gevolgen van hun beslissingen. Zo zijn er bijvoorbeeld gewoonlijk meer gebruikers van het openbaar vervoer dan inwoners van een bepaalde administratieve regio.
+          De gegevens die worden gebruikt voor de selectie (loting of andere) zorgen ervoor dat het panel een goede weerspiegeling is van de bevolking. Dit is heel belangrijk omdat deelnemers zicht moeten hebben op de gevolgen van hun beslissingen. Zo zijn er bijvoorbeeld gewoonlijk meer gebruikers van het openbaar vervoer dan inwoners van een bepaalde administratieve regio.
 
           De impact van beslissingen gaat vaak verder dan administratieve grenzen. Deelnemers van een participatieproces worden dus idealiter geselecteerd uit het ecosysteem dat de gevolgen van de aanbevelingen daadwerkelijk zal voelen.
 
@@ -236,7 +236,7 @@ nl:
       questions:
       - slug: validation
         title: Validering
-        content: werd het resultaat door minstens 85% van de deelnemers goedgekeurd?
+        content: Werd het resultaat door minstens 85% van de deelnemers goedgekeurd?
         more: |
           Onze ervaring leert ons dat een stemming met drie opties het mogelijk maakt om ergens mee in te stemmen: 
 

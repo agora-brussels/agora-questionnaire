@@ -34,10 +34,12 @@
 	});
 </script>
 
-<div style="margin-top: 20px; max-width: 600px" role="group">
-	{#each options as option}
-		<button class={answer === option ? '' : 'outline'} on:click={select(option)}
-			>{optionsTranslated.get(option)}</button
-		>
-	{/each}
+<div>
+	<div style="margin-top: 20px; max-width: 600px" role="group">
+		{#each options as option}
+			<button class={answer === option ? '' : 'outline'} on:click={select(option)}
+				>{optionsTranslated.get(option)}</button
+			>
+		{/each}
+	</div>
 </div>

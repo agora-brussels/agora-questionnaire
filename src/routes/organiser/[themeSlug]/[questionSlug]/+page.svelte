@@ -80,7 +80,7 @@
 />
 
 {#key question.slug}
-	<Question audience="organiser" {question} {data} />
+	<Question audience="organiser" {question} {data} img={svg} />
 {/key}
 
 <nav style="margin-top: 2rem; margin-bottom: 4rem">
@@ -125,18 +125,3 @@
 </nav>
 
 <OrganiserOverview {data} currentQuestionSlug={question.slug} />
-
-{#if svg}
-	<div>
-		<img
-			src={svg}
-			alt="People"
-			style="display: block;
-				margin-left: auto;
-				margin-right: auto;
-				width: 40%;
-				min-width: 20rem;
-				transform: scale(1)"
-		/>
-	</div>
-{/if}

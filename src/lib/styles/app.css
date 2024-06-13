@@ -100,9 +100,11 @@
 @media only screen and (prefers-color-scheme: dark) {
 	:root:not([data-theme]) {
 		--pico-background-color: #2e2e2e;
+		--pico-card-background-color: var(--pico-background-color);
 	}
 }
 
 [data-theme='dark'] {
 	--pico-background-color: #2e2e2e;
+	--pico-card-background-color: var(--pico-background-color);
 }

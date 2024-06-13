@@ -6,6 +6,7 @@
 
 	export let question: any;
 	export let audience: string;
+	export let img: string = '';
 
 	export let data: any;
 </script>
@@ -30,6 +31,7 @@
 		class="main-question"
 		style="
 		margin-top: 2rem;
+		min-height: {img ? '32rem' : undefined}
 		"
 	>
 		<!-- Note: font-weight is not applying -->
@@ -37,6 +39,22 @@
 			{@html micromark(question.content)}
 		</div>
 		<Options {audience} {data} questionSlug={question.slug} />
+		{#if img}
+			<img
+				src={img}
+				alt=""
+				style="float: right;
+				margin-top: 2rem;
+				margin-left: 1rem;
+				margin-right: -1rem;
+				margin-bottom: 1rem;
+				min-height: 150px;
+				max-height: 20rem;
+				min-width: 150px;
+				width: 50%;
+				transform: scale(1)"
+			/>
+		{/if}
 		{#if question.more}
 			<div style="margin-top:2rem; max-width: 600px">
 				<!-- <p style="margin-bottom:1rem">{data.pagesContent[$lang].general.more}</p> -->
