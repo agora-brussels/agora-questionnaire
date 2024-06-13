@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Agrandir';
-	src: url('/fonts/Agrandir Variable.woff') format('woff');
+	src: url('/fonts/Agrandir-Regular.woff') format('woff');
 	font-display: swap;
 }
 
@@ -29,6 +29,10 @@
 
 	@media screen and (max-width: 768px) {
 		--pico-font-size: 80%;
+		nav a,
+		nav select {
+			font-size: var(--pico-font-size);
+		}
 	}
 
 	@media print {
@@ -87,4 +91,14 @@
 			border-style: none;
 		}
 	}
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+	:root:not([data-theme]) {
+		--pico-background-color: #2e2e2e;
+	}
+}
+
+[data-theme='dark'] {
+	--pico-background-color: #2e2e2e;
 }

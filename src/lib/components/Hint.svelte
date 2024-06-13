@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let hint: string;
-	export let img: string = '';
 </script>
 
 {#if hint}
@@ -13,8 +12,5 @@
 				</div>
 			</div>
 		</article>
-		{#if img}
-			<img src={img} alt="People" style="height: 150px; margin-left: 2rem" />
-		{/if}
 	</div>
 {/if}

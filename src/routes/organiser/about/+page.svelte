@@ -21,7 +21,7 @@
 		<p>{@html micromark(data.pagesContent[$lang].organiserAbout.reuse)}</p>
 		<a href={licenceLink}><img src={licence} alt="by-nd" width="200" /></a>
 	</div>
-	<img style="margin-top: 2rem; max-width: 300px; border-radius:0px" src={agora} alt="People" />
+	<img style="margin-top: 2rem; max-width: 300px; border-radius:0px" src={agora} alt="Agora" />
 </div>
 
 <style>

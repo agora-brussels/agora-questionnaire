@@ -5,7 +5,7 @@
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
 	import participantAnswers from '$lib/stores/participantAnswers.js';
-	import img from '$lib/img/31-100.jpg';
+	import svg from '$lib/svg/welcome.svg';
 	import ParticipantOverview from '$lib/components/ParticipantOverview.svelte';
 	import Legend from '$lib/components/Legend.svelte';
 
@@ -39,8 +39,8 @@
 	</div>
 
 	<img
-		src={img}
-		alt="People"
+		src={svg}
+		alt="Welcome"
 		style="width: 100%;
 		max-width: 800px;"
 	/>

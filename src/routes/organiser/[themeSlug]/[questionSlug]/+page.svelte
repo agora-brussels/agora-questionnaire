@@ -8,6 +8,26 @@
 	import Question from '$lib/components/Question.svelte';
 	import NavButton from '$lib/components/NavButton.svelte';
 
+	import accessibilitySvg from '$lib/svg/accessibility.svg';
+	import accompaniementSvg from '$lib/svg/accompaniement.svg';
+	import facilitationSvg from '$lib/svg/facilitation.svg';
+	import followupSvg from '$lib/svg/followup.svg';
+	import informationSvg from '$lib/svg/information.svg';
+	import organisationSvg from '$lib/svg/organisation.svg';
+	import productSvg from '$lib/svg/product.svg';
+	import themeSvg from '$lib/svg/theme.svg';
+
+	const svgs = [
+		{ name: 'accessibility', svg: accessibilitySvg },
+		{ name: 'accompaniement', svg: accompaniementSvg },
+		{ name: 'facilitation', svg: facilitationSvg },
+		{ name: 'followup', svg: followupSvg },
+		{ name: 'information', svg: informationSvg },
+		{ name: 'organisation', svg: organisationSvg },
+		{ name: 'product', svg: productSvg },
+		{ name: 'theme', svg: themeSvg }
+	];
+
 	export let data;
 
 	$: organiserContentLangImproved = data.improveOrganiserContentLang(data.organiserContent[$lang]);
@@ -47,6 +67,8 @@
 	} else {
 		nextQuestionSlug = theme.questions[questionIndex + 1].slug;
 	}
+
+	$: svg = svgs.find((svg) => svg.name == theme.slug)?.svg || '';
 </script>
 
 <Title
@@ -103,3 +125,18 @@
 </nav>
 
 <OrganiserOverview {data} currentQuestionSlug={question.slug} />
+
+{#if svg}
+	<div>
+		<img
+			src={svg}
+			alt="People"
+			style="display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 40%;
+				min-width: 20rem;
+				transform: scale(1)"
+		/>
+	</div>
+{/if}

@@ -2,7 +2,7 @@
 	import { micromark } from 'micromark';
 
 	import lang from '$lib/stores/lang.js';
-	import img from '$lib/img/32-100.jpg';
+	import welcome from '$lib/svg/welcome.svg';
 
 	export let data;
 </script>
@@ -21,7 +21,7 @@
 			<a href="organiser">{data.pagesContent[$lang].home.alt_button}</a>
 		</small>
 	</div>
-	<img src={img} alt="People" />
+	<img src={welcome} alt="Welcome" />
 </div>
 
 <style>

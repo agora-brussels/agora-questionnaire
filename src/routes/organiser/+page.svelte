@@ -4,7 +4,7 @@
 	import lang from '$lib/stores/lang.js';
 	import { base } from '$app/paths';
 
-	import img from '$lib/img/31-100.jpg';
+	import svg from '$lib/svg/welcome.svg';
 
 	export let data;
 </script>
@@ -17,7 +17,7 @@
 			><button>{data.pagesContent[$lang].organiser.button}</button></a
 		>
 	</div>
-	<img src={img} alt="People" />
+	<img src={svg} alt="Welcome" />
 </div>
 
 <style>
