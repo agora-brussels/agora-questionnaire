@@ -1,13 +1,17 @@
 @font-face {
 	font-family: 'Agrandir';
-	src: url('/fonts/Agrandir-Regular.woff') format('woff');
-	font-display: swap;
+	src: url('/fonts/Agrandir-Regular.eot'); /* IE9 Compat Modes */
+	src:
+		local(''),
+		url('/fonts/Agrandir-Regular.woff2') format('woff2'),
+		/* Super Modern Browsers */ url('/fonts/Agrandir-Regular.woff') format('woff'),
+		/* Modern Browsers */ url('/fonts/Agrandir-Regular.ttf') format('truetype');
+	/* Safari, Android, iOS */
 }
 
 :root {
 	/* Fonts */
 
-	/* --pico-font-family: 'Agrandir'; */
 	font-family: 'Agrandir', var(--pico-font-family);
 
 	h1,
