@@ -18,7 +18,7 @@ nl:
     question: Vraag
     navigateToQuestion: Navigeer naar een vraag
     participantHint: Beantwoord de drie vragen van dit thema om je te helpen beslissen over je deelname.
-    footer: Een tool van [Agora.Brussels](https://agora.brussels).
+    footer: Een tool van Agora.Brussels.
     reuse: Hergebruik
   home:
     pretitle: Uitgeloot? Twijfel je?
@@ -129,7 +129,7 @@ fr:
     question: Question
     navigateToQuestion: Naviguer vers une question
     participantHint: Réponds au trois questions de cette thématique pour t'aider à te positionner sur ta participation.
-    footer: Un outil de [Agora.Brussels](https://agora.brussels).
+    footer: Un outil de Agora.Brussels.
     reuse: Réutilisation
   home:
     pretitle: Tiré·e au sort? Tu hésites?

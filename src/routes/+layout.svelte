@@ -80,13 +80,15 @@
 <footer class="container" style="background-color:var(--pico-background-color);">
 	<nav
 		style="
-			font-size: small;
-			margin-top: 100px;
+			font-size: smaller;
+			margin-top: 2rem;
 			"
 	>
 		<ul></ul>
 		<ul>
-			<li>{@html micromark(data.pagesContent[$lang].general.footer)}</li>
+			<li>
+				<a href="https://{$lang}.agora.brussels">{data.pagesContent[$lang].general.footer}</a>
+			</li>
 		</ul>
 		<ul></ul>
 	</nav>
