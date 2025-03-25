@@ -17,6 +17,8 @@
 	<div>
 		<h2>{data.pagesContent[$lang].organiserAbout.title}</h2>
 		<p>{@html micromark(data.pagesContent[$lang].organiserAbout.content)}</p>
+		<h4 id="reuse">{data.pagesContent[$lang].general.day}</h4>
+		<p>{@html micromark(data.pagesContent[$lang].organiserAbout.day)}</p>
 		<h4 id="reuse">{data.pagesContent[$lang].general.reuse}</h4>
 		<p>{@html micromark(data.pagesContent[$lang].organiserAbout.reuse)}</p>
 		<a href={licenceLink}><img src={licence} alt="by-nd" width="200" /></a>

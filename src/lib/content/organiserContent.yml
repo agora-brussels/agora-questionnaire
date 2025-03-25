@@ -19,6 +19,7 @@ nl:
           Voor de selectie is het rijksregister de meest uitgebreide databank. Helaas is het moeilijk om toegang te krijgen tot dat register van burgers. Bovendien zijn de kwetsbaarste doelgroepen doorgaans ondervertegenwoordigd in databanken (ook in het rijksregister). Bijgevolg dreigt in de panels een ondervertegenwoordiging van de groepen die in de samenleving al het minst gehoord worden.
 
           Agora.Brussels koos voor een innovatieve aanpak voor de loting door te werken met een databank die rekening houdt met de bewoonbare oppervlakte. Hoe meer woonoppervlakte, hoe meer kans dat er uitnodigingen werden opgestuurd.
+        day: 3
       - slug: representativeness
         title: Representativiteit
         content: Zorgt het selectieproces ervoor dat het panel de verscheidenheid aan ervaringen en meningen in de samenleving weerspiegelt?
@@ -33,6 +34,7 @@ nl:
           Door barrières weg te werken, is een volledige en gelijke deelname mogelijk, vooral voor doelgroepen die het minst bereid zijn om deel te nemen. Daarom is het belangrijk om alle uitdagingen voor deelname in vraag te stellen en die ook gericht aan te pakken. Maak van bij het begin duidelijk dat je te voorziene en logistiek beheersbare obstakels uit de weg zal ruimen. Enkele mogelijkheden zijn taxikosten betalen, een crèche voorzien voor mensen met familiale verplichtingen, tolken inschakelen en het taalniveau vereenvoudigen door middel van specifieke woordenlijsten.
 
           De psychologische barrières worden vaak onderschat. In onze assemblees hebben we een kader opgezet om bepaalde angsten te overwinnen: angst om de taal van de andere deelnemers niet te spreken, om de grenzen van het proces niet te kunnen onderscheiden (wat je moet vragen of delen met andere deelnemers, wat te maken heeft met het thema of niet), om een onbekende vrijwilliger op je kinderen te laten passen of om alleen te staan vanwege autisme. Voor al die personen moesten individuele oplossingen worden gezocht en daar zijn we deels in geslaagd. De enige manier om te zorgen voor maximale toegankelijkheid, is mensen individueel begeleiden en hun vertrouwen winnen zodat ze hun behoeften voldoende zullen delen om het avontuur voort te zetten.
+        day: 5
       - slug: stakeholders
         title: Betrokken partijen
         content: Zal het burgerparticipatief proces beroep doen op betrokken partijen om de impact van het resultaat en de maatschappelijke draagkracht om het resultaat te implementeren te vergroten?
@@ -56,6 +58,7 @@ nl:
           Zoek de best mogelijke data door rekening te houden met schoolvakanties, feestdagen en religieuze agenda's. Idealiter duren de sessies niet langer dan zeven uur per dag met lange pauzes. Als je twee opeenvolgende dagen kan inplannen, verloopt alles een stuk vlotter.
 
           Het is mogelijk deelnemers individueel te laten voortwerken, maar best in beperkte mate. Weinig mensen zullen de tijd nemen/hebben en bepaalde doelgroepen zijn het niet gewend teksten met veel gegevens door te nemen en zelfstandig reflexieve taken uit te voeren.
+        day: 8
       - slug: logistics
         title: Logistiek
         content: Staan de locatie, de technologie en het materiaal ten dienste van het project? Worden de mensen hartelijk ontvangen?
@@ -63,6 +66,7 @@ nl:
           Idealiter is de locatie neutraal, niet te institutioneel of symbolisch geladen en biedt ze een zeker comfort. Ze bevordert inclusie en het overlegproces is er mogelijk dankzij eenvoudige en gebruiksvriendelijke technologische ondersteuning. Het materiaal moet de mogelijkheid bieden om zich te concentreren op een complexe taak. Om aanbevelingen te kunnen formuleren moet aan alle individuele behoeften worden voldaan. Denk bijvoorbeeld aan specifieke diëten of koptelefoons die kunnen worden gebruikt met hoofddoeken. 
           
           Idealiter is de menselijke ondersteuning gepersonaliseerd en houdt ze rekening met de individuele behoeften.
+        day: 6
       - slug: institution
         title: Organiserende instelling
         content: Is de organiserende instelling transparant over haar intentie (politiek standpunt, gewenst resultaat, politieke impact enzovoort)?
@@ -89,6 +93,7 @@ nl:
           Alle begeleiders (in het bijzonder de mensen van buiten de organisatie, zoals deskundigen) moeten erop worden gewezen dat ze de maatschappelijke voorrechten van bepaalde individuen/groepen niet mogen herhalen binnen de assemblee en dat ze elk type deelnemer respectvol en op dezelfde wijze moeten behandelen.
 
           Elke manier van ontmoeten - fysiek/online/hybride - brengt uitdagingen met zich mee. Dankzij de muteknop is het online bijvoorbeeld gemakkelijker om iemand ononderbroken te laten praten en tijdens fysieke sessies is het dan weer gemakkelijker om mensen betrokken te houden.
+        day: 4
       - slug: communication
         title: Communicatie
         content: Boezemt de organisatie vertrouwen in dankzij duidelijke, transparante en gepersonaliseerde communicatie?
@@ -104,6 +109,7 @@ nl:
           Uit ervaring weten we dat mensen verschillende en uiteenlopende relaties hebben met digitale communicatiemiddelen. Daarom moet worden uitgezocht wie met welk middel communiceert (sms, WhatsApp, e-mail) en in sommige gevallen moet dat worden aangevuld met telefoongesprekken. Voor communicatie buiten de werksessies is het belangrijk om kernachtige en eenvoudige taal en woordenschat te hanteren. De doeltreffendste toon is een lichte, nederige toon vol humor en erkenning.
           
           Tijdens werksessies in kleine groepen moeten de manier van uitdrukken en de toon doelgerichter zijn, met aandacht voor zowel het individu als de groep. Het is een meerwaarde transparant en authentiek te zijn. Het wordt steeds aangeraden om elk bericht een à twee keer te herhalen.
+        day: 12
       - slug: equity
         title: Gelijkheid
         content: Kan iedereen echt deelnemen dankzij gevoelige en pedagogische ondersteuning?
@@ -177,6 +183,7 @@ nl:
         content: Gaan toekomstige deelnemers aan het participatieproces akkoord met de manier waarop het thema wordt gekozen? Is er interesse voor het thema?
         more: |
           Het thema en de keuze ervan bepalen in grote mate de waargenomen legitimiteit en bijgevolg de betrokkenheid van de deelnemers bij het proces. De legitimiteit hangt af van wie het thema heeft gekozen, hoe en waarom, maar ook van de actualiteit en interesse van individuen en de samenleving. Tot slot spelen ook andere factoren mee die een invloed kunnen hebben op de beslissing van de burger en het resultaat van het participatieproces. Idealiter wordt het thema besproken, voorgesteld en gekozen door representatieve burgers.
+        day: 2
       - slug: field
         title: Toepassingsgebied
         content: Is de instelling waarvoor het resultaat bedoeld is, bevoegd voor het besproken onderwerp?
@@ -207,6 +214,7 @@ nl:
         content: Is de verstrekte informatie representatief voor de meningen van de hele samenleving?
         more: |
           Het is onmogelijk om alle informatie die bestaat over een onderwerp te verstrekken of te verzamelen. Sowieso wordt de informatie gefilterd en raakt hierdoor gekleurd. Het uitgangspunt dat moet worden gevolgd om zo objectief mogelijk te zijn bij het verstrekken van informatie, is toegang te geven tot een representatief spectrum van alle meningen in de samenleving. Dat zet de deelnemers ertoe aan hun eigen mening te toetsen aan de verscheidenheid aan standpunten die buiten het panel bestaan. Ze kunnen hun standpunten dan veranderen of toelichten.
+        day: 7
       - slug: interactive
         title: Interactief
         content: Wordt de informatie op een interactieve manier verstrekt, waardoor de deelnemers de tegenstrijdigheden tussen de meningen van experts kunnen opmerken, hun ervaringen kunnen situeren in een ruimere context en de informatie kunnen opnemen in hun bestaande kennis?
@@ -245,11 +253,13 @@ nl:
           - Ik heb een bezwaar. Ik wil niet dat dit voorstel wordt uitgevoerd, want het druist in tegen het gemeenschappelijke belang.
 
           De drempel om een voorstel af te wijzen ligt op 15% bezwaren.
+        day: 10
       - slug: formulation
         title: Formulering
         content: Werden alle deelnemers betrokken bij het formuleren van het resultaat?
         more: |
           Het is mogelijk - en het gebeurt regelmatig - dat een voorstel het resultaat is van het werk van een minderheid van de groep. De methodes vragen immers om te werken in subgroepen, om dieper te kunnen ingaan op bepaalde subthema's. In elke subgroep kunnen de deelnemers hun mening geven en meewerken aan de collectieve opstelling van het voorstel. Na het testen van de instemming in de subgroepen is er gelegenheid om commentaar te leveren op het werk van de andere subgroepen en/of het werk plenair te wijzigen. Die feedback in beide richtingen geeft het overlegproces een zekere dynamiek.
+        day: 9
       - slug: aggregation
         title: Informatie samenbrengen
         content: Is het resultaat gebaseerd op informatie uit verschillende bronnen, waaronder de ervaringen van de burgers zelf?
@@ -317,6 +327,7 @@ fr:
           Pour sélectionner des citoyen·ne·s, le registre national est la base de données la plus complète qui existe. Malheureusement, l'accès au registre n'est pas facile à obtenir. En outre, les publics fragilisés sont en général sous-représentés dans les bases de données (y compris le registre). En conséquence, les panels risquent de sous-représenter celleux dont les voix sont déjà les moins entendues dans la société.
           
           Agora.Brussels a innové en créant une base de données pour son tirage au sort tenant compte de la superficie des habitats. Plus celle-ci était importante, plus la chance d'y poster des invitations était grande.
+        day: 3
       - slug: representativeness
         title: Représentativité
         content: Le processus de sélection garantit-il la présence dans le panel de la diversité de vécus et d'opinions qui existe dans la société ?
@@ -332,6 +343,7 @@ fr:
           Lever les barrières permet une participation complète et égale, surtout pour les publics les moins disposés à la participation. C'est pourquoi il est important de questionner individuellement les défis liés à la participation, pour pouvoir y répondre de manière personnalisée. Communiquez dès le début clairement que vous veillerez à enlever les barrières prévisibles et gérables logistiquement comme, par exemple, payer le coût d'un taxi, fournir un espace crèche pour les personnes ayant des obligations familiales, assurer l'interprétation ou simplifier le niveau linguistique avec des lexiques spécifiques.
           
           Les barrières psychologiques sont en général sous-estimées. Dans nos assemblées, nous avons mis en place le cadre pour que certaines peurs puissent être dépassées : celle de ne parler aucune des langues communes aux autres participant·e·s; celle de ne pas arriver à distinguer les limites du processus (ce qu'il fallait demander ou partager avec les autres participant·e·s, ce qui était lié au thème ou pas); celle de laisser un·e bénévole inconnu·e s'occuper de ses enfants; ou encore celle d'être isolé·e à cause de son fonctionnement / vécu autistique. Pour chacune de ces personnes, il fallait chercher des solutions individuelles et nous avons en partie réussi. La seule façon de maximiser l'accessibilité est d'accompagner les personnes individuellement et de gagner leur confiance afin qu'elles partagent suffisamment quels sont leurs besoins pour poursuivre l'aventure.
+        day: 5
       - slug: stakeholders
         title: Parties prenantes
         content: Le processus prévoit-il d'inclure les parties prenantes pour augmenter l'impact du résultat et la capacité sociétale d'implémentation du résultat ?
@@ -355,6 +367,7 @@ fr:
           Pour trouver les meilleures dates, faites attention aux congés scolaires, jours fériés et agendas religieux. Idéalement, les séances ne dépassent pas 7 heures par jour avec de longues pauses. Il est très porteur pour l'avancement du travail de programmer deux jours d'affilés.
           
           Proposer aux participant·e·s de continuer le travail individuellement est possible, mais il vaut mieux le limiter. Peu de gens vont prendre/avoir le temps et certains publics sont peu habitués à lire des textes contenant beaucoup de données et à effectuer des tâches réflexives en solitaire.
+        day: 8
       - slug: logistics
         title: Logistique
         content: Est-ce que le lieu, la technologie, le matériel sont au service du projet ? L'accueil humain est-il bienveillant ?
@@ -362,6 +375,7 @@ fr:
           Idéalement, le lieu est neutre, pas trop marqué institutionnellement ou symboliquement, et d'un certain confort. Il favorise l'inclusion et le processus de délibération y est possible notamment grâce à un support technologique simple et évident à utiliser. Le matériel doit permettre de se centrer sur une tâche complexe : délivrer des recommandations. Il tient compte des besoins individuels (par exemple des casques d'écoute utilisable avec des voiles). 
           
           Idéalement, le soutien humain est personnalisé et respectueux des besoins individuels.
+        day: 6
       - slug: institution
         title: Institution organisatrice
         content: L'institution organisatrice est-elle transparente quant à son intention (positionnement politique, résultat désiré, impact politique, etc.) ?
@@ -388,6 +402,7 @@ fr:
           Tous·tes les accompagnateur·rice·s (spécialement les personnes externes à l'organisation, comme les personnes expertes) doivent être sensibilisées à ne pas reproduire aux sein de l'assemblée les privilèges sociétaux de certains individus/groupes et à agir d'une façon respectueuse et égale avec n'importe quel profil de participant·e·s qu'iels rencontrent.
           
           Chaque mode de rencontre - présentiel / en ligne / hybride - a ses défis. Par exemple, il est plus facile de garantir la possibilité de s'exprimer sans être interrompu·e dans les sessions en ligne grâce au mode silencieux; il est plus facile de garder les gens engagés jusqu'à la fin de la session en présentiel.
+        day: 4
       - slug: communication
         title: Communication
         content: L'organisation crée-t-elle de la confiance grâce à une communication compréhensible, transparente et personnalisée ?
@@ -403,6 +418,7 @@ fr:
           Suivant notre expérience, les personnes ont des rappports variés et divergents aux moyens de communication digitale. Il faut donc chercher à connaître qui communique avec quoi (texto, whatsapp, email) et dans certains cas  compléter avec des appels téléphoniques. Pour les communications hors des sessions de travail, il est essentiel d'être concis et d'utiliser un langage et un vocabulaire simple. Et le ton qui marche, c'est un ton léger, humble, incluant de l'humour et beaucoup de reconnaissance.
           
           Lors des sessions de travail en petit groupe, la façon de s'exprimer et le ton doivent être davantage ciblés, en faisant attention aux individualités mais aussi au collectif. Il est utile d'être transparent et authentique. En toute occasion, il est conseillé de répéter chaque communication une à deux fois.
+        day: 12
       - slug: equity
         title: Équité
         content: Est-ce qu'une vraie participation par tous·tes est soutenue par un accompagnement teinté de sensibilité et de pédagogie ?
@@ -476,6 +492,7 @@ fr:
         content: La façon dont le thème est choisi est-elle légitime selon les futur·e·s participant·e·s au processus participatif ? Y a-t-il de l'intérêt pour le thème ?
         more: |
           Le thème et sa sélection déterminent en grande partie la légitimité perçue et, par conséquent, l'engagement des participant·e·s dans le processus. La légitimité dépend de qui a choisi le thème, comment et pourquoi, mais aussi de l'actualité et de l'intérêt que les individus et la société lui portent. Enfin, d'autres facteurs interviennent et peuvent avoir l'influence sur la décision citoyenne et le résultat du processus participatif. Idéalement, le thème fait l'objet d'une discussion, d'une proposition et d'une sélection par des citoyen·ne·s représentatif·ve·s.
+        day: 2
       - slug: field
         title: Champs d'application
         content: La compétence traitée est-elle dans les mains de l'institution destinataire du résultat ?
@@ -506,6 +523,7 @@ fr:
         content: L'information fournie est-elle représentative des avis de toute la société ?
         more: |
           Il est impossible de fournir ou d'emmagasiner toute l'information existante sur un sujet. C'est pourquoi l'information qui est fournie est filtrée et en conséquence colorée. Le principe à suivre pour être le plus objectif possible dans les moments d'informations est de donner accès à un spectre représentatif de tous les avis de la société. Cela pousse les participant·e·s à confronter leurs propres avis à la pluralité des opinions qui existent en dehors du panel. Iels peuvent alors changer ou préciser leurs opinions.
+        day: 7
       - slug: interactive
         title: Interactive
         content: L'information est-elle fournie d'une façon interactive qui permet aux participant·e·s de noter les contradictions entre les avis d'expert·e·s, de situer leur vécu dans un contexte plus généralisé et d'intégrer les infos dans leurs connaissances existantes ?
@@ -544,11 +562,13 @@ fr:
           - J'ai une objection. Je ne souhaite pas la mise en œuvre de cette proposition car elle va à l'encontre de l'intérêt commun.
           
           Nous avons fixé le seuil de rejet d'une proposition à 15% d'objection.
+        day: 10
       - slug: formulation
         title: Formulation
         content: Est-ce que tous·tes les participant·e·s étaient impliqué·e·s dans la formulation du résultat ?
         more: |
           Il se peut, et cela est assez fréquent, qu'une proposition soit le fruit du travail d'une minorité du groupe. En effet, les méthodes invitent à travailler en sous-groupes, pour pouvoir aller plus en profondeur dans certaines sous-thématiques. Il y a dans chaque sous-groupe la possibilité de donner son avis et de participer à l'écriture collective de la proposition. Après le test du consentement en sous-groupe, il y a la possibilité de pouvoir commenter le travail des autres sous-groupes et/ou de l'amender en plénière. Ces allers-retours impriment une dynamique au processus de délibération.
+        day: 9
       - slug: aggregation
         title: Information agrégée
         content: Est-ce que le résultat est basé sur des informations qui parviennent de sources diverses y compris le vécu des citoyen·ne·s ?

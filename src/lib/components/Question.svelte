@@ -61,6 +61,18 @@
 				<div>{@html micromark(question.more)}</div>
 			</div>
 		{/if}
+		{#if question.day}
+			<div style="margin-top:2rem; max-width: 600px">
+				<div>
+					> {data.pagesContent[$lang].general.moreDay}
+					<a href="/organiser/day">
+						"Do Agora Yourself" -
+						{data.pagesContent[$lang].general.chapter}
+						{question.day}
+					</a>
+				</div>
+			</div>
+		{/if}
 	</main>
 </article>
 

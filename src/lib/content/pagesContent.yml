@@ -20,6 +20,8 @@ nl:
     participantHint: Beantwoord de drie vragen van dit thema om je te helpen beslissen over je deelname.
     footer: Een tool van Agora.Brussels.
     reuse: Hergebruik
+    day: Do Agora yourself
+    moreDay: Lees er mee over in de tool
   home:
     pretitle: Uitgeloot? Twijfel je?
     title: Deelnemen aan een panel
@@ -91,12 +93,47 @@ nl:
       In de loop der jaren hebben we veel geleerd en getwijfeld. Soms zijn we gestruikeld over dingen die we anders hadden moeten aanpakken. Om organisaties met gelijkaardige doelstellingen als Agora.Brussels te ondersteunen, willen we onze werkwijze delen. Via dit instrument, dat bestaat uit een versie voor toekomstige deelnemers en een voor organisatoren, wil Agora.Brussels deze ervaringen delen en nuttig maken.
 
       Dit instrument bouwt voort op inzichten van honderden assemblisten. Dank voor jullie inzet! De tekst is van de hand van Ana Adzersen met eindredactie door Françoise Lepers, François-Xavier Lefebvre en Sixtine Bérard. Manuel Claeys Bouuaert verzorgde de digitale versie en Betül Sefika stond in voor de vormgeving en illustraties. Johannes Grillet heeft de ontwikkeling van dit project gecoördineerd.
+    day: |
+      Naast deze website ontwikkelde Agora nog een twee tool om haar ervaring te delen en haar verhaal te vertellen: ["Do Agora Yourself"](/organiser/day)
     reuse: |
       Deze tool is gepubliceerd onder een [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.nl) licentie. Het is dus toegestaan om dit materiaal te delen (kopiëren, verspreiden en door te geven op welke manier en in welk formaat dan ook) op voorwaarde van naamsvermelding en zonder afgeleide werken te maken. 
       
       [Download de vragenlijst hier](/pdf/Gids_voor_burgerassemblees.pdf) en print ze als boekje (booklet: op A4 papier en plooien naar A5 met twee nietjes in de rug). De [tweetalige versie](/pdf/Gids_voor_burgerassemblees_Guide_des_assemblées_citoyennes.pdf) (boekje van 68 pagina's) is beschikbaar in de politieke afdeling van Brusselse universiteiten en enkele openbare bibliotheken.
       
       De broncode van deze website is beschikbaar [op Github](https://github.com/agora-brussels/agora-questionnaire/). De gegevens voor de vragen zijn in gestructureerde vorm [hier](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content) toegankelijk.
+  organiserDay:
+    title: |
+      "Do Agora Yourself", een praktische gids om projecten in burgerparticipatie vooruit te helpen
+    content: |
+      Naast deze website ontwikkelde Agora nog een twee tool om haar ervaring te delen en haar verhaal te vertellen: "Do Agora Yourself" is een praktische om projecten in burgerparticipatie vooruit te helpen.
+
+      Vertrekkend van het hart van deze beweging, volg een groep burgers die campagne voerden, een verkozene bekwamen, een burgerassemblée georganiseerde et de resulterende voorstellen van Brusselaars verdedigde in het Brussels parlement. Doorloop zes jaar van dit zowel op menselijk als démocratisch vlak gewaagde avontuur. Met de kritische blik van vzw [Periferia](https://periferia.be/) et enkel Belgische academici. 
+      
+      Om van A tot Z te lezen, [download de gids in haar geheel](/day/DAY_NL.pdf).
+      
+      Om straight to the point te gaan, download het deel of de delen die u interesseren.
+      
+      - [Politieke Burgerbeweging](/day/DAY_NL_Politieke_burgerbeweging.pdf): geboorte van Agora en beschrijving van een organisatie zonder hiërarchie;
+      - Burgerassemblee: 12 pdfs voor 12 hoofdstukken, gaande van het format, de themakeuze, de samenstelling van de assemblee, de ontvangst, inclusie, logistiek, informatie, deliberatie, schrijven, beslissingen, evaluatie en communicatie;
+          - Hoofstuk 01: [Een burgerassemblee vormgeven](/day/DAY_NL_C01_Een_burgerassemblee_vormgeven.pdf)
+          - Hoofstuk 02: [De keuze van een thema begeleiden](/day/DAY_NL_C02_De_keuze_van_een_thema_begeleiden.pdf)
+          - Hoofstuk 03: [Een representatief panel samenstellen via loting](/day/DAY_NL_C03_Een_representatief_panel_samenstellen_via_loting.pdf)
+          - Hoofstuk 04: [Verwelkoming en introductie](/day/DAY_NL_C04_Verwelkoming_en_introductie.pdf)
+          - Hoofstuk 05: [Zorg voor inclusie](/day/DAY_NL_C05_Zorg_voor_inclusie.pdf)
+          - Hoofstuk 06: [Logistiek plannen](/day/DAY_NL_C06_Logistiek_plannen.pdf)
+          - Hoofstuk 07: [Informatie beheren](/day/DAY_NL_C07_Informatie_beheren.pdf)
+          - Hoofstuk 08: [De beraadslaging organiseren](/day/DAY_NL_C08_De_beraadslaging_organiseren.pdf)
+          - Hoofstuk 09: [Voorstellen schrijven](/day/DAY_NL_C09_Voorstellen_schrijven.pdf)
+          - Hoofstuk 10: [Besluitvorming door instemming](/day/DAY_NL_C10_Besluitvorming_door_instemming.pdf)
+          - Hoofstuk 11: [Evalueren](/day/DAY_NL_C11_Evalueren.pdf)
+          - Hoofstuk 12: [Communicatie beheren](/day/DAY_NL_C12_Communicatie_beheren.pdf)
+      - [Parlement](/day/DAY_NL_Parlement.pdf) : feedback en reflecties op pogingen om burgervoorstellen in een parlement te brengen en te verdedigen;
+      
+      > *"Het experiment dat Agora tussen 2019 en 2024 in Brussel voerde, schudde de wereld van de volksvertegenwoordiging in België doorheen als nooit tevoren."*, Anne-Emmanuelle Bourgaux, constitutionalist en hoogleraar aan de UMons.
+
+      Een onmisbare gids voor facilitatoren, politici, overheidsinstanties, onderzoekers, studenten en organisaties die met onze samenleving en haar burgers in gesprek willen gaan.
+    reuse: |
+      "Do Agora Yourself" is gepubliceerd onder een [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.nl) licentie. Het is dus toegestaan om dit materiaal te delen (kopiëren, verspreiden en door te geven op welke manier en in welk formaat dan ook) op voorwaarde van naamsvermelding en zonder afgeleide werken te maken. 
   organiserOverview:
     title: Antwoorden
     content: |
@@ -131,6 +168,8 @@ fr:
     participantHint: Réponds au trois questions de cette thématique pour t'aider à te positionner sur ta participation.
     footer: Un outil de Agora.Brussels.
     reuse: Réutilisation
+    day: Do Agora Yourself
+    moreDay: Lisez-en plus dans l'outil
   home:
     pretitle: Tiré·e au sort? Tu hésites?
     title: Participer à un panel
@@ -202,12 +241,47 @@ fr:
       Au fil des ans, nous avons beaucoup appris et douté et avons parfois trébuché sur des choses que nous aurions dû envisager différemment. Pour soutenir les organisations ayant des objectifs similaires à ceux d'Agora.Brussels, nous voulons partager notre méthode de travail. Via cet outil, avec sa partie pour futurs participant·e·s et pour futurs organisateur·rice·s, Agora.Brussels veut partager et rendre utile ces apprentissages. 
 
       Cet outil s'appuie sur les réflexions résultant de l'implication de centaines d'assemblistes. Merci pour vos efforts, assemblistes!, Ana Adzersen a écrit le texte qui a été relu par Françoise Lepers, François-Xavier Lefebvre et Sixtine Bérard. Manuel Claeys Bouuaert a élaboré la version numérique du questionnaire et Betül Sefika a soigné la mise en forme et les illustrations.  Johannes Grillet a coordonné le développement de ce projet.
+    day: |
+      En plus de ce questionnaire, Agora a créé un second outil pour partager son expérience et son histoire: [« Do Agora Yourself »](/organiser/day)
     reuse: |
       Cet outil est publié sous licence [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.fr). Vous êtes donc autorisé·e à partager ce matériel (le copier, distribuer et communiquer par tous moyens et sous tous formats) selon les conditions suivantes: attribution, pas de modifications.
       
       [Téléchargez le questionnaire ici](/pdf/Guide_des_assemblées_citoyennes.pdf) et imprimez-le sous forme de livret (booklet : sur papier A4 et plié en A5 avec deux agrafes au dos). [La version bilingue](/pdf/Gids_voor_burgerassemblees_Guide_des_assemblées_citoyennes.pdf) (livret de 68 pages) est disponible au département politique des universités bruxelloises et dans certaines bibliothèques.
       
       Le code source de ce site est accessible [sur GitHub](https://github.com/agora-brussels/agora-questionnaire/). Les données des questions sont accessibles sous forme structurée [ici](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content).
+  organiserDay:
+    title: |
+      « Do Agora Yourself », le guide pratique pour mettre en action vos projets démocratiques
+    content: |
+      En plus de ce questionnaire, Agora a créé un second outil pour partager son expérience et son histoire: « Do Agora Yourself » est un guide pratique pour mettre en action vos projets démocratiques.
+
+      En partant du cœur du mouvement, suivez ce groupe de bénévoles qui a mené une campagne, obtenu un élu, mis en place des assemblées citoyennes et défendu les recommandations des Bruxellois·se·s au sein du Parlement. Parcourez 6 ans de cette folle aventure humaine et démocratique, en bénéficiant du regard critique de l'AISBL [Periferia](https://periferia.be/) et de plusieurs académiques belges. 
+      
+      Pour lire de A à Z, [téléchargez le guide en entier](/day/DAY_FR.pdf).
+      
+      Pour aller straight to the point, téléchargez la/les parties du guide qui vous intéressent:
+      
+      - [Mouvement](/day/DAY_FR_Mouvement.pdf) : naissance d'Agora et description d'une organisation sans hiérarchie ;
+      - Assemblée: Assemblée : 12 pdfs pour 12 chapitres traitant de la conception du format, du choix du thème, de la composition du panel, de l'accueil, de l'inclusion, de la logistique, de l'information, de la délibération, de la rédaction, des décisions, de l'évaluation et de la communication ;
+          - Chapitre 01: [Concevoir le format](/day/DAY_FR_C01_Concevoir_le_format.pdf)
+          - Chapitre 02: [Encadrer le choix d'un thème](/day/DAY_FR_C02_Encadrer_le_choix_d_un_theme.pdf)
+          - Chapitre 03: [Composer un panel représentatif](/day/DAY_FR_C03_Composer_un_panel_representatif.pdf)
+          - Chapitre 04: [Prendre soin de l'accueil](/day/DAY_FR_C04_Prendre_soin_de_l_accueil.pdf)
+          - Chapitre 05: [Veiller à l'inclusion](/day/DAY_FR_C05_Veiller_a_l_inclusion.pdf)
+          - Chapitre 06: [Prévoir la logistique](/day/DAY_FR_C06_Prevoir_la_logistique.pdf)
+          - Chapitre 07: [Gérer l'information](/day/DAY_FR_C07_Gerer_l_information.pdf)
+          - Chapitre 08: [Organiser la délibération](/day/DAY_FR_C08_Organiser_la_deliberation.pdf)
+          - Chapitre 09: [Rédiger des propositions](/day/DAY_FR_C09_Rediger_des_propositions.pdf)
+          - Chapitre 10: [Décider ensemble](/day/DAY_FR_C10_Decider_ensemble.pdf)
+          - Chapitre 11: [Evaluer le processus](/day/DAY_FR_C11_Evaluer_le_processus.pdf)
+          - Chapitre 12: [Gérer la communication](/day/DAY_FR_C12_Gerer_la_communication.pdf)
+      - [Parlement](/day/DAY_FR_Parlement.pdf) : retour et réflexions sur les tentatives d'amener des propositions citoyennes dans un parlement d'élu.e.s ; 
+      
+      > *« L'expérience réalisée par Agora à Bruxelles entre 2019 et 2024 a secoué le cocotier représentatif belge comme jamais. »*, Anne-Emmanuelle Bourgaux, constitutionnaliste et professeure à l'UMons.
+      
+      Un guide indispensable pour les facilitateur·rice·s, politiques, pouvoirs publics, chercheur·se·s, étudiant·e·s, organisations voulant délibérer avec notre société et ses citoyen·ne·s.
+    reuse: |
+      Cet outil a également été publié sous licence [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.fr). Vous êtes donc autorisé·e à partager ce matériel (le copier, distribuer et communiquer par tous moyens et sous tous formats) selon les conditions suivantes: attribution, pas de modifications.
   organiserOverview:
     title: Réponses
     content: |
