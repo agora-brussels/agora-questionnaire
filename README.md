@@ -9,7 +9,7 @@ The questionnaire has two potential audiences:
 
 Between 2019 and 2024, Agora organised the [Brussels Citizen Assembly](https://www.assemblee.brussels/?lang=en), the first Brussels political institution made up entirely of citizens drawn by lot. The lessons learned during the preparation, living and evaluation of 4 assembly cycles, by Agora and the participants, form the content of this tool.
 
-This tool is accessible at [https://questionnaire.agora.brussels](https://questionnaire.agora.brussels/) from 2024 on (until the domain name expires) and will be accessible at [agora-brussel.github.io/agora-questionnaire](https://agora-brussels.github.io/agora-questionnaire) afterwards.
+This tool was accessible at [https://questionnaire.agora.brussels](https://questionnaire.agora.brussels/) from 2024 on (until the domain name expires) and will be accessible at [https://agora-brussels.github.io/agora-questionnaire](https://agora-brussels.github.io/agora-questionnaire) afterwards.
 
 ## Reuse and license
 
