@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { micromark } from 'micromark';
 
+	import { base } from '$app/paths';
 	import lang from '$lib/stores/lang.js';
 	import Options from '$lib/components/Options.svelte';
 
@@ -65,7 +66,7 @@
 			<div style="margin-top:2rem; max-width: 600px">
 				<div>
 					> {data.pagesContent[$lang].general.moreDay}
-					<a href="/organiser/day">
+					<a href="{base}/organiser/day">
 						"Do Agora Yourself" -
 						{data.pagesContent[$lang].general.chapter}
 						{question.day}
