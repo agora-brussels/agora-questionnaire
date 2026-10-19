@@ -83,7 +83,7 @@
 			: data.pagesContent[$lang].general.overview}
 		direction="right"
 		onClick={() => {
-			goto(nextThemeSlug ? base + '/participant/' + nextThemeSlug : '/participant/overview/');
+			goto(nextThemeSlug ? base + '/participant/' + nextThemeSlug : base + '/participant/overview');
 		}}
 	/>
 </nav>

@@ -105,7 +105,7 @@
 			goto(
 				nextQuestionSlug
 					? base + '/organiser/' + question.themeSlug + '/' + nextQuestionSlug
-					: '/organiser/overview/'
+					: base + '/organiser/overview/'
 			);
 		}}
 	/>
@@ -118,7 +118,7 @@
 			goto(
 				nextThemeSlug
 					? base + '/organiser/' + nextThemeSlug + '/' + nextThemeFirstQuestionSlug
-					: '/organiser/overview/'
+					: base + '/organiser/overview/'
 			);
 		}}
 	/>
