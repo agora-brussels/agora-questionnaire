@@ -47,7 +47,7 @@ nl:
     reuse: |
       Deze tool is gepubliceerd onder een [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.nl) licentie. Het is dus toegestaan om dit materiaal te delen (kopiëren, verspreiden en door te geven op welke manier en in welk formaat dan ook) op voorwaarde van naamsvermelding en zonder afgeleide werken te maken. 
       
-      De broncode van deze website is beschikbaar [op Github](https://github.com/agora-brussels/agora-questionnaire/). De gegevens voor de vragen zijn in gestructureerde vorm [hier](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content) toegankelijk. Voor wie zelf een burgerassemblee wil organiseren is er ook [een printbare versie van de vragenlijst](/organiser/about/#reuse).
+      De broncode van deze website is beschikbaar [op Github](https://github.com/agora-brussels/agora-questionnaire/). De gegevens voor de vragen zijn in gestructureerde vorm [hier](https://github.com/agora-brussels/agora-questionnaire/tree/main/src/lib/content) toegankelijk. Voor wie zelf een burgerassemblee wil organiseren is er ook [een printbare versie van de vragenlijst](https://agora-brussels.github.io/agora-questionnaire/organiser/about/#reuse).
   participantOverview:
     title: Een keuze maken op basis van je antwoorden
     content: |
@@ -242,7 +242,7 @@ fr:
 
       Cet outil s'appuie sur les réflexions résultant de l'implication de centaines d'assemblistes. Merci pour vos efforts, assemblistes!, Ana Adzersen a écrit le texte qui a été relu par Françoise Lepers, François-Xavier Lefebvre et Sixtine Bérard. Manuel Claeys Bouuaert a élaboré la version numérique du questionnaire et Betül Sefika a soigné la mise en forme et les illustrations.  Johannes Grillet a coordonné le développement de ce projet.
     day: |
-      En plus de ce questionnaire, Agora a créé un second outil pour partager son expérience et son histoire: [« Do Agora Yourself »](/organiser/day)
+      En plus de ce questionnaire, Agora a créé un second outil pour partager son expérience et son histoire: [« Do Agora Yourself »](https://agora-brussels.github.io/agora-questionnaire/organiser/day)
     reuse: |
       Cet outil est publié sous licence [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.fr). Vous êtes donc autorisé·e à partager ce matériel (le copier, distribuer et communiquer par tous moyens et sous tous formats) selon les conditions suivantes: attribution, pas de modifications.
       
